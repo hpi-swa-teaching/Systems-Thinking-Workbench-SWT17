@@ -1,4 +1,6 @@
 OrderedDictionary {
+	'\/BaselineOfSTWB.package' : #SquotCypressCodeSerializer,
 	'\/SystemsThinkingWorkbench-Core.package' : #SquotCypressCodeSerializer,
-	'\/SystemsThinkingWorkbench-Test.package' : #SquotCypressCodeSerializer
+	'SystemsThinkingWorkbench-Core.package' : #SquotCypressCodeSerializer,
+	'SystemsThinkingWorkbench-Test.package' : #SquotCypressCodeSerializer
 }

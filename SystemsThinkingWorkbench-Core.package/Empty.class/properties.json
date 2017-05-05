@@ -1,0 +1,14 @@
+{
+	"category" : "SystemsThinkingWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Empty",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
