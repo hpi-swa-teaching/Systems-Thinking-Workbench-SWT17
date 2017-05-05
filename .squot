@@ -1,0 +1,4 @@
+OrderedDictionary {
+	'\/SystemsThinkingWorkbench-Core.package' : #SquotCypressCodeSerializer,
+	'\/SystemsThinkingWorkbench-Test.package' : #SquotCypressCodeSerializer
+}
