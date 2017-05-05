@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSTWB",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSTWB",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
