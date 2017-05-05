@@ -10,5 +10,5 @@
 	"name" : "BaselineOfSTWB",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
