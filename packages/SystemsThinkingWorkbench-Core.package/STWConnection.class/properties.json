@@ -10,5 +10,5 @@
 	"name" : "STWConnection",
 	"pools" : [
 		 ],
-	"super" : "LineMorph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }

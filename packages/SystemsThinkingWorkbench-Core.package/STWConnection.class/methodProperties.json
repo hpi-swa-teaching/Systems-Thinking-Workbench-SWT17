@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "MS 5/15/2017 17:31" } }
+		"addArrowFrom:to:" : "MS 5/15/2017 20:28",
+		"drawFrom:to:" : "MS 5/15/2017 20:24",
+		"initialize" : "MS 5/15/2017 20:27" } }
