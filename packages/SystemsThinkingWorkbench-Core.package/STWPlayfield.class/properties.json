@@ -1,5 +1,5 @@
 {
-	"category" : "SystemsThinkingWorkbench-Test",
+	"category" : "SystemsThinkingWorkbench-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TestTest",
+	"name" : "STWPlayfield",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }
