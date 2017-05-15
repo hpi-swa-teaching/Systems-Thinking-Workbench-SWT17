@@ -1,0 +1,4 @@
+interaction
+handlesMouseDown: evt
+
+	 ^ true.
