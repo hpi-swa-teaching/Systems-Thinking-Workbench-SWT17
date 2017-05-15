@@ -3,4 +3,6 @@
 		 },
 	"instance" : {
 		"defaultColor" : "FP 5/15/2017 16:06",
-		"initialize" : "FP 5/15/2017 15:58" } }
+		"handlesMouseDown:" : "MS 5/15/2017 16:31",
+		"initialize" : "FP 5/15/2017 15:58",
+		"mouseDown:" : "MS 5/15/2017 16:36" } }
