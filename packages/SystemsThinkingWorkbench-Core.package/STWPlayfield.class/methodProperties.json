@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addNodeAt:" : "MS 5/15/2017 17:18",
 		"defaultColor" : "FP 5/15/2017 16:06",
 		"handlesMouseDown:" : "MS 5/15/2017 16:31",
 		"initialize" : "FP 5/15/2017 15:58",
-		"mouseDown:" : "MS 5/15/2017 16:36" } }
+		"mouseDown:" : "MS 5/15/2017 17:18" } }
