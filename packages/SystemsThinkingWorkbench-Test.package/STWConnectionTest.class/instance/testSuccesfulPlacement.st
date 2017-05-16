@@ -13,7 +13,7 @@ testSuccesfulPlacement
 	node2 := (STWNode new) center: 50@50.
 	
 	
-	"Check if the Conenction only goes from corner to corner"
+	"Check if the Connection only goes from corner to corner"
 	radius := node1 extent x / 2.
 	
 	connection addArrowFrom: node1 to: node2.
