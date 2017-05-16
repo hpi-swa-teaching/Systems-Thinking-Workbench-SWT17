@@ -14,7 +14,7 @@ testSuccesfulPlacement
 	
 	
 	"Check if the Connection only goes from corner to corner"
-	radius := node1 extent x / 2.
+	radius := node1 radius.
 	
 	connection addArrowFrom: node1 to: node2.
 	self assert: (connection vertices = {50@radius. 50@(50-radius)}).

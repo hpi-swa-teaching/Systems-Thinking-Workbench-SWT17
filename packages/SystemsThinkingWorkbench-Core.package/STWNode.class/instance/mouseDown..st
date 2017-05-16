@@ -4,6 +4,6 @@ mouseDown: evt
 	self owner firstClicked
 		ifNotNilDo: [:node | node = self
 				ifTrue: [self owner firstClicked: nil]
-				ifFalse: [self addArrowFrom: node to: self.
+				ifFalse: [self addArrowFrom: node.
 					self owner firstClicked: nil]]
 		ifNil: [self owner firstClicked: self]

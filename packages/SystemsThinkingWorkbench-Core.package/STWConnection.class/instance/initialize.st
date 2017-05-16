@@ -1,5 +1,5 @@
 initialization
 initialize 
-	"comment stating purpose of message"
+	"Initalizes the Connection"
 	
 	super initialize.
