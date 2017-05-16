@@ -1,6 +1,6 @@
 initialization
 initialize 
-	"comment stating purpose of message"
+	"Creates a node with a random color"
 	
 	super initialize.
 	
