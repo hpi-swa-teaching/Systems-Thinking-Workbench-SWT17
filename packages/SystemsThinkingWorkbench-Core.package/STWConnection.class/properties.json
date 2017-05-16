@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"firstClicked" ],
-	"name" : "STWPlayfield",
+		 ],
+	"name" : "STWConnection",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }

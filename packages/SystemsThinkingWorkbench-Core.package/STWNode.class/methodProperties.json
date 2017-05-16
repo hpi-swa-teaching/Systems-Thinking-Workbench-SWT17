@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "MS 5/15/2017 16:27" } }
+		"addArrowFrom:" : "MS 5/16/2017 11:47",
+		"handlesMouseDown:" : "MS 5/15/2017 17:33",
+		"initialize" : "FP 5/16/2017 11:31",
+		"mouseDown:" : "MS 5/16/2017 11:47",
+		"radius" : "MS 5/16/2017 11:41" } }
