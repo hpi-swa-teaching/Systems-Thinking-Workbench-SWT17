@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"level",
+		"name",
+		"levelDisplayMorph",
+		"nameDisplayMorph" ],
 	"name" : "STWNode",
 	"pools" : [
 		 ],
