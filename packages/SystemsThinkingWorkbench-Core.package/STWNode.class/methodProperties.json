@@ -3,16 +3,11 @@
 		 },
 	"instance" : {
 		"addArrowFrom:" : "MS 5/16/2017 11:47",
-		"doubleClick" : "WF 5/17/2017 20:03",
 		"handlesMouseDown:" : "MS 5/15/2017 17:33",
-		"initialize" : "WF 5/17/2017 20:17",
-		"level" : "WF 5/17/2017 18:26",
-		"level:" : "WF 5/17/2017 18:37",
-		"levelDisplayMorph" : "WF 5/17/2017 19:26",
-		"levelDisplayMorph:" : "WF 5/17/2017 19:26",
-		"mouseDown:" : "WF 5/17/2017 17:44",
-		"nameDisplayMorph" : "WF 5/17/2017 19:53",
-		"nameDisplayMorph:" : "WF 5/17/2017 19:53",
+		"initialize" : "PW 5/18/2017 18:50",
+		"levelMorph" : "PW 5/18/2017 18:08",
+		"levelMorph:" : "PW 5/18/2017 18:08",
+		"mouseDown:" : "PW 5/18/2017 18:03",
+		"nameMorph" : "PW 5/18/2017 18:08",
 		"radius" : "MS 5/16/2017 11:41",
-		"updateLevelMops" : "WF 5/17/2017 19:46",
-		"updateNameMops" : "WF 5/17/2017 20:00" } }
+		"wantsKeyboardFocusFor:" : "PW 5/18/2017 17:25" } }
