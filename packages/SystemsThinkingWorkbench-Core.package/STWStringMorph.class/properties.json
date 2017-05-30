@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"levelMorph",
-		"nameMorph" ],
-	"name" : "STWNode",
+		"offset" ],
+	"name" : "STWStringMorph",
 	"pools" : [
 		 ],
-	"super" : "CircleMorph",
+	"super" : "StringMorph",
 	"type" : "normal" }
