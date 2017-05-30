@@ -1,3 +1,4 @@
 accessing
-wantsKeyboardFocusFor: aSubmorph 
+wantsKeyboardFocusFor: aSubmorph
+
 	^ true
