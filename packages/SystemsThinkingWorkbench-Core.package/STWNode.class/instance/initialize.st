@@ -3,7 +3,7 @@ initialize
 	"Creates a node with a random color"
 	"Sets node's level to 42"
 	
-	| verticalOffset |
+	|verticalOffset|
 	
 	super initialize.
 	
@@ -11,7 +11,7 @@ initialize
 		extent: 80@80.
 		
 	verticalOffset := 0@(self height / 4).
-	nameMorph := (STWStringMorph new contents: '???') offset: 0 - verticalOffset.
+	nameMorph := (STWStringMorph new contents: '???') offset: 0-verticalOffset.
 		
 	self levelMorph: ((StringMorph new contents: 42 asString)
 						center: self center + verticalOffset);

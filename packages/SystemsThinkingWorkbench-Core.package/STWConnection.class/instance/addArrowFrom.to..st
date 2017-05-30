@@ -11,4 +11,4 @@ addArrowFrom: startingNode to: endNode
 	self drawFrom: startingPoint + (normVector * endNode radius) to: endPoint - (normVector * startingNode radius).
 	self makeForwardArrow.
 
-	^ self
+	^ self.

@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"addArrowFrom:" : "MS 5/16/2017 11:47",
-		"handlesMouseDown:" : "nn 5/30/2017 17:28",
-		"initialize" : "nn 5/30/2017 16:38",
-		"levelMorph" : "nn 5/30/2017 17:28",
-		"levelMorph:" : "nn 5/30/2017 17:49",
-		"mouseDown:" : "nn 5/30/2017 17:29",
-		"nameMorph" : "nn 5/30/2017 17:29",
-		"radius" : "nn 5/30/2017 17:29",
-		"wantsKeyboardFocusFor:" : "nn 5/30/2017 17:29" } }
+		"handlesMouseDown:" : "MS 5/15/2017 17:33",
+		"initialize" : "PW 5/18/2017 18:50",
+		"levelMorph" : "PW 5/18/2017 18:08",
+		"levelMorph:" : "PW 5/18/2017 18:08",
+		"mouseDown:" : "MS 5/19/2017 09:54",
+		"nameMorph" : "PW 5/18/2017 18:08",
+		"radius" : "MS 5/16/2017 11:41",
+		"wantsKeyboardFocusFor:" : "PW 5/18/2017 17:25" } }

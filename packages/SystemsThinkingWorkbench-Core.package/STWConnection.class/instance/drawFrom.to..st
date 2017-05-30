@@ -5,6 +5,6 @@ drawFrom: aPoint to: anotherPoint
 	
 	self setVertices: {aPoint. anotherPoint}.
 	
-	"only available in trunk"
+	"only avaiable in trunk"
 	"self setVerticesCount: 2."
-	^ self
+	^ self.

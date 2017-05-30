@@ -1,4 +1,3 @@
 accessing
 nameMorph
-
 	^ nameMorph
