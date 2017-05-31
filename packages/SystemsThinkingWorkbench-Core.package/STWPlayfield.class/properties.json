@@ -10,5 +10,5 @@
 	"name" : "STWPlayfield",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "Morph",
 	"type" : "normal" }
