@@ -1,12 +1,12 @@
 initialization
 initialize 
-	"Creates a node with a random color"
-	"Sets node's level to 42"
+	"Creates a node with a random color."
+	"Sets node's level to 42."
 	
 	|verticalOffset|
 	
 	super initialize.
-	
+	self connections: OrderedCollection new.
 	self color: Color random;
 		extent: 80@80.
 		

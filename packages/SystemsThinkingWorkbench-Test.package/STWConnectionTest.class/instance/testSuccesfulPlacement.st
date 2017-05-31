@@ -4,18 +4,15 @@ testSuccesfulPlacement
 	
 	| node1 node2 connection radius |
 	
-	"Check setting of vertices"
-	connection := STWConnection new.
-	connection drawFrom: 25@25  to: 50@50.
-	self assert: (connection vertices = {25@25. 50@50}).
-	
 	node1 := (STWNode new) center: 50@0.
 	node2 := (STWNode new) center: 50@50.
+	connection := STWConnection new.
 	
 	
 	"Check if the Connection only goes from corner to corner"
 	radius := node1 radius.
 	
-	connection addArrowFrom: node1 to: node2.
+	connection connect: node1 with: node2.
+	
 	self assert: (connection vertices = {50@radius. 50@(50-radius)}).
 	

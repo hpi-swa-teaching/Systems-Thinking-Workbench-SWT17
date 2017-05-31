@@ -1,3 +1,4 @@
 accessing
 levelMorph: anObject
-	levelMorph := anObject
+
+	levelMorph := anObject.

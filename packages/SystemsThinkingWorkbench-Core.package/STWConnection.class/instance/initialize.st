@@ -1,5 +1,4 @@
 initialization
-initialize 
-	"Initalizes the Connection"
+initialize
 	
 	super initialize.
