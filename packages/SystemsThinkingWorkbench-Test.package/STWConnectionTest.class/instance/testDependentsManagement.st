@@ -12,14 +12,14 @@ testDependentsManagement
 	connection1 connect: node1 with: node2.
 	connection2 connect: node2 with: node1.
 	
-	self assert: (node1 dependents contains: connection1).
-	self assert: (node1 dependents contains: connection2).
-	self assert: (node2 dependents contains: connection1).
-	self assert: (node2 dependents contains: connection2).
+	self assert: (node1 dependents includes: connection1).
+	self assert: (node1 dependents includes: connection2).
+	self assert: (node2 dependents includes: connection1).
+	self assert: (node2 dependents includes: connection2).
 	connection1 delete.
-	self assert: (node1 dependents contains: connection1) not.
-	self assert: (node2 dependents contains: connection1) not.
+	self assert: (node1 dependents includes: connection1) not.
+	self assert: (node2 dependents includes: connection1) not.
 	node2 delete.
-	self assert: (node1 dependents contains: connection2) not.
-	self assert: (node2 dependents contains: connection2) not.
+	self assert: (node1 dependents includes: connection2) not.
+	self assert: (node2 dependents includes: connection2) not.
 	
