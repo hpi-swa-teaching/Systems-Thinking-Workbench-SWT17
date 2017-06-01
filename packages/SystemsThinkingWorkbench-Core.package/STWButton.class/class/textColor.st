@@ -1,4 +1,0 @@
-colors
-textColor
-
-	^ Color black
