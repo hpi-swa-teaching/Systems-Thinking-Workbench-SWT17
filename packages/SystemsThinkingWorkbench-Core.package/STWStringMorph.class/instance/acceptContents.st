@@ -1,3 +1,4 @@
 editing
 acceptContents
+
 	self updatePositionFromCenter.

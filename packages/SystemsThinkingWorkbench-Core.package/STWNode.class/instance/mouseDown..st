@@ -7,4 +7,4 @@ mouseDown: evt
 				ifTrue: [self owner firstClicked: nil]
 				ifFalse: [self createConnectionFrom: node.
 					self owner firstClicked: nil]]
-		ifNil: [self owner firstClicked: self]
+		ifNil: [self owner firstClicked: self].

@@ -1,5 +1,6 @@
 testing
 testSuccessfulMoving
+	"Tests if a connection moves with a connected moving node."
 
 	| node1 node2 connection radius1 radius2 |
 	

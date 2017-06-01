@@ -1,6 +1,6 @@
 testing
 testSuccesfulPlacement
-	"tests if a Connection can be placed between two Nodes."
+	"Tests if a connection can be placed between two nodes."
 	
 	| node1 node2 connection radius |
 	
@@ -9,7 +9,7 @@ testSuccesfulPlacement
 	connection := STWConnection new.
 	
 	
-	"Check if the Connection only goes from corner to corner"
+	"Checks if the connection only goes from corner to corner"
 	radius := node1 radius.
 	
 	connection connect: node1 with: node2.

@@ -1,6 +1,6 @@
 testing
 testDivideByZero
-	"Checks if clicking the same node twice gets handled"
+	"Checks if clicking the same node twice gets handled."
 
 	| playfield node1 node2 |
 	playfield := STWPlayfield new.
