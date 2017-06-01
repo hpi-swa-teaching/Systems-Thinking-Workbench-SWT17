@@ -2,4 +2,4 @@ geometry
 position: aPosition
 
 	super position: aPosition.
-	self connections do: [ :connection | connection update.].
+	self connections do: [ :connection | connection updatePolygon.].

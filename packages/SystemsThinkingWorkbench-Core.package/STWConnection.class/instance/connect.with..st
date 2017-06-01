@@ -4,7 +4,7 @@ connect: startNode with: endNode
 	
 	self startNode: startNode.
 	self endNode: endNode.
-	startNode addConnection: self.
-	endNode addConnection: self.
+	startNode addDependent: self.
+	endNode addDependent: self.
 	
-	self update.
+	self updatePolygon.
