@@ -1,5 +1,5 @@
 simulation
 stopSimulation
 	
-	self simulationRunning: false.
+	self setSimulationRunning: false.
 	self playButton contents: 'Start'.

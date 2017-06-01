@@ -1,5 +1,5 @@
 simulation
 resetSimulation
 	
-	self simulationRunning: false.
+	self setSimulationRunning: false.
 	self simulationTime: 0.

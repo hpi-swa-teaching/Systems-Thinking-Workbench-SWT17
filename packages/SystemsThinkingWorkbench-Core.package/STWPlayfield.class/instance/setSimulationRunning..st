@@ -1,3 +1,4 @@
 accessing
-simulationRunning: anObject
+setSimulationRunning: anObject
+
 	simulationRunning := anObject

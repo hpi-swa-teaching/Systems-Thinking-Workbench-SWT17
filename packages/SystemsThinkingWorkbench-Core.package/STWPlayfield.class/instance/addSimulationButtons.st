@@ -1,15 +1,15 @@
 initialization
 addSimulationButtons
 	
-	self playButton: STWButton new.
-	self playButton contents: 'Start'.
-	self playButton clickHandler: [ self toggleSimulation. ].
+	self playButton: (STWButton new
+		contents: 'Start';
+		clickHandler: [ self toggleSimulation. ]).
 	self addMorph: self playButton.
 	self playButton position: self position.
 	
-	self stopButton: STWButton new.
-	self stopButton contents: 'Reset'.
-	self addMorph: self stopButton.
-	self stopButton clickHandler: [self resetSimulation. ].
-	self stopButton position: self position + ((self playButton extent x + 10)@ 0).
+	self resetButton: (STWButton new
+		contents: 'Reset';
+		clickHandler: [ self resetSimulation. ]).
+	self addMorph: self resetButton.
+	self resetButton position: self position + ((self playButton extent x + 10)@ 0).
 	

@@ -8,9 +8,9 @@
 	"instvars" : [
 		"firstClicked",
 		"playButton",
-		"stopButton",
 		"simulationRunning",
-		"simulationTime" ],
+		"simulationTime",
+		"resetButton" ],
 	"name" : "STWPlayfield",
 	"pools" : [
 		 ],
