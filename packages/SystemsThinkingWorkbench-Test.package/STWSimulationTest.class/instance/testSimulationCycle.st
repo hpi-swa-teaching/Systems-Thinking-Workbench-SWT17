@@ -2,7 +2,7 @@ testing
 testSimulationCycle
 	
 	| playfield |
-	playfield := STWPlayfield new.
+	playfield := STWSimulation new.
 	self assert: playfield simulationTime = 0.
 	self assert: playfield isSimulationRunning not.
 	playfield startSimulation.
@@ -13,6 +13,11 @@ testSimulationCycle
 	self assert: playfield simulationTime = 1.
 	self assert: playfield isSimulationRunning not.
 	playfield startSimulation.
+	playfield resetSimulation.
+	self assert: playfield simulationTime = 0.
+	self assert: playfield isSimulationRunning not.
+	playfield stepSimulation.
+	self assert: playfield simulationTime = 1.
 	playfield resetSimulation.
 	self assert: playfield simulationTime = 0.
 	self assert: playfield isSimulationRunning not.
