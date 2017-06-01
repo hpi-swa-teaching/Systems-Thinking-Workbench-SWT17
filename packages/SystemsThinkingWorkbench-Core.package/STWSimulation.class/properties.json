@@ -11,7 +11,7 @@
 		"simulationRunning",
 		"simulationTime",
 		"resetButton" ],
-	"name" : "STWPlayfield",
+	"name" : "STWSimulation",
 	"pools" : [
 		 ],
 	"super" : "Morph",

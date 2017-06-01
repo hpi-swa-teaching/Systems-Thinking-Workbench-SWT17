@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"addNodeAt:" : "nn 6/1/2017 10:13",
-		"addSimulationButtons" : "FP 6/1/2017 11:43",
+		"addSimulationButtons" : "PW 6/1/2017 14:32",
 		"defaultColor" : "nn 6/1/2017 10:13",
 		"firstClicked" : "nn 6/1/2017 10:13",
 		"firstClicked:" : "nn 6/1/2017 10:13",
@@ -15,7 +15,7 @@
 		"playButton:" : "FP 6/1/2017 09:44",
 		"resetButton" : "FP 6/1/2017 09:44",
 		"resetButton:" : "FP 6/1/2017 09:44",
-		"resetSimulation" : "FP 6/1/2017 09:30",
+		"resetSimulation" : "PW 6/1/2017 13:57",
 		"setSimulationRunning:" : "FP 6/1/2017 09:44",
 		"simulationTime" : "FP 6/1/2017 09:44",
 		"simulationTime:" : "FP 6/1/2017 09:44",

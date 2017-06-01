@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptContents" : "nn 6/1/2017 10:15",
+		"acceptContents" : "PW 6/1/2017 14:24",
 		"offset" : "nn 6/1/2017 10:15",
 		"offset:" : "nn 6/1/2017 10:15",
-		"updatePositionFromCenter" : "nn 6/1/2017 10:15" } }
+		"updatePositionFromOwnerCenter" : "PW 6/1/2017 14:16" } }
