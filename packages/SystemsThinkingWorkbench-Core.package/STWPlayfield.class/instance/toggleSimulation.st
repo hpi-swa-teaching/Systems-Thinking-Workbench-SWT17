@@ -1,6 +1,6 @@
 simulation
 toggleSimulation
 
-	self simulationRunning
+	self isSimulationRunning
 		ifTrue: [self stopSimulation]
 		ifFalse: [self startSimulation].
