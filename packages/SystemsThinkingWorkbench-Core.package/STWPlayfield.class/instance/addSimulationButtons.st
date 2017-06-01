@@ -3,13 +3,13 @@ addSimulationButtons
 	
 	self playButton: (STWButton new
 		contents: 'Start';
-		clickHandler: [ self toggleSimulation. ]).
+		clickHandler: [ self toggleSimulation. ];
+		position: self position).
 	self addMorph: self playButton.
-	self playButton position: self position.
 	
 	self resetButton: (STWButton new
 		contents: 'Reset';
-		clickHandler: [ self resetSimulation. ]).
+		clickHandler: [ self resetSimulation. ];
+		position: self position + ((self playButton extent x + 10)@ 0)).
 	self addMorph: self resetButton.
-	self resetButton position: self position + ((self playButton extent x + 10)@ 0).
 	
