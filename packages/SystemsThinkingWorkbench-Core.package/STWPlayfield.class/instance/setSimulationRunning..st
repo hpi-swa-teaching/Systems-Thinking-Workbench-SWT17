@@ -1,4 +1,4 @@
 accessing
 setSimulationRunning: anObject
 
-	simulationRunning := anObject
+	simulationRunning := anObject.

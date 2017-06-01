@@ -1,3 +1,4 @@
 accessing
 playButton: anObject
-	playButton := anObject
+
+	playButton := anObject.

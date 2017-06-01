@@ -1,3 +1,4 @@
 accessing
 resetButton: anObject
-	resetButton := anObject
+
+	resetButton := anObject.

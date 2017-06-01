@@ -1,3 +1,4 @@
 accessing
 simulationTime: anObject
-	simulationTime := anObject
+
+	simulationTime := anObject.
