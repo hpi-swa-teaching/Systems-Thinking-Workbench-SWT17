@@ -4,5 +4,5 @@ testSuccesfulNodeLifecycle
 
 	| playfield |
 	
-	playfield := STWPlayfield new.
+	playfield := STWSimulation new.
 	self assert: [(playfield addNodeAt: 100@100) center = (100@100)].

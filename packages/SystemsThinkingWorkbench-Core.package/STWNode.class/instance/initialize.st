@@ -18,4 +18,4 @@ initialize
 		addMorph: self levelMorph;
 		addMorph: self nameMorph.
 		
-	nameMorph updatePositionFromCenter.
+	nameMorph updatePositionFromOwnerCenter.
