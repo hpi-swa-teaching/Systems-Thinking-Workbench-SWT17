@@ -1,0 +1,4 @@
+accessing
+simulationTime
+
+	^ simulationTime

@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"firstClicked",
-		"playButton",
-		"simulationRunning",
-		"simulationTime",
-		"resetButton" ],
-	"name" : "STWPlayfield",
+		"clickHandler" ],
+	"name" : "STWButton",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "StringMorph",
 	"type" : "normal" }
