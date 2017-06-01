@@ -1,3 +1,4 @@
 accessing
 clickHandler: anObject
-	clickHandler := anObject
+
+	clickHandler := anObject.
