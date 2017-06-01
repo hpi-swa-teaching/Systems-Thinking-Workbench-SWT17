@@ -1,4 +1,4 @@
 accessing
 clickHandler: anObject
 
-	clickHandler := anObject.
+	self actionBlock: anObject.

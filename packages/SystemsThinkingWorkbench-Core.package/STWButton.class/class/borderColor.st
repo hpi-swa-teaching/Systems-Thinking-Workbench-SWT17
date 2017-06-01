@@ -1,0 +1,4 @@
+colors
+borderColor
+
+	^ Color black

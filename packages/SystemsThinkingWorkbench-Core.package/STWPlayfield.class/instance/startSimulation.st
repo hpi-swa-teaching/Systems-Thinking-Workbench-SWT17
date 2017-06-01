@@ -2,4 +2,4 @@ simulation
 startSimulation
 	
 	self setSimulationRunning: true.
-	self playButton contents: 'Stop'.
+	self playButton label: 'Stop'.
