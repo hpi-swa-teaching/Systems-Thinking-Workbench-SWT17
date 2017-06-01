@@ -1,0 +1,3 @@
+updating
+performSimulationStep
+	self subclassResponsibility 

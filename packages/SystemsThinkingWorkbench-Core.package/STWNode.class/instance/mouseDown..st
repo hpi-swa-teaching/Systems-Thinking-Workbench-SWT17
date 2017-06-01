@@ -5,6 +5,6 @@ mouseDown: evt
 	self owner firstClicked
 		ifNotNilDo: [:node | node = self
 				ifTrue: [self owner firstClicked: nil]
-				ifFalse: [self createConnectionFrom: node.
+				ifFalse: [self createTransferConnectionFrom: node.
 					self owner firstClicked: nil]]
 		ifNil: [self owner firstClicked: self].
