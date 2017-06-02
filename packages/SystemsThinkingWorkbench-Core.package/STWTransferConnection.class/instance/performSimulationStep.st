@@ -1,4 +1,4 @@
-simulation
+updating
 performSimulationStep
 	
 	self startNode level: self startNode level - self input.
