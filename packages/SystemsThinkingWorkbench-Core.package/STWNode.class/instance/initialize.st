@@ -16,5 +16,5 @@ initialize
 	self addMorph: self levelMorph;
 		addMorph: self nameMorph.
 		
-	nameMorph updatePositionFromOwnerCenter.
-	levelMorph updatePositionFromOwnerCenter.
+	nameMorph updatePositionFromCenter.
+	levelMorph updatePositionFromCenter.

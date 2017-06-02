@@ -1,4 +1,4 @@
 editing
-updatePositionFromOwnerCenter
+updatePositionFromCenter
 
 	self center: self owner center + self offset.
