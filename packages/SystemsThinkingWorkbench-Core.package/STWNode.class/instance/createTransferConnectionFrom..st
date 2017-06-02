@@ -3,8 +3,5 @@ createTransferConnectionFrom: startingNode
 
 	| connection |
 	
-	connection := (STWTransferConnection new)
-					connect: startingNode with: self;
-					input: 1;
-					output: 1.
+	connection := (STWTransferConnection new) connect: startingNode with: self.
 	self owner addMorph: connection.

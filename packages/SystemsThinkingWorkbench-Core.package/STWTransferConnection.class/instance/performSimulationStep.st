@@ -1,4 +1,4 @@
-as yet unclassified
+simulation
 performSimulationStep
 	
 	self startNode level: self startNode level - self input.

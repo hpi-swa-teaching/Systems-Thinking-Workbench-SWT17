@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"from:to:color:width:" : "PW 6/1/2017 17:06",
-		"new" : "MS 5/15/2017 20:33" },
+		"new" : "PW 6/2/2017 13:44",
+		"vertices:color:borderWidth:borderColor:" : "PW 6/2/2017 13:50" },
 	"instance" : {
 		"connect:with:" : "nn 5/30/2017 23:08",
 		"endNode" : "nn 5/30/2017 21:45",
 		"endNode:" : "nn 5/30/2017 21:45",
-		"initialize" : "nn 5/30/2017 23:00",
 		"performSimulationStep" : "PW 6/1/2017 16:49",
 		"startNode" : "nn 5/30/2017 21:45",
 		"startNode:" : "nn 5/30/2017 21:45",
