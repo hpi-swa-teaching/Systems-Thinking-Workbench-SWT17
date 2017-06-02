@@ -1,4 +1,4 @@
 editing
 acceptContents
 
-	self updatePositionFromCenter.
+	self updatePositionFromOwnerCenter.
