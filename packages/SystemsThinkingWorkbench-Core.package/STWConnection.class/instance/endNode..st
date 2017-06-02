@@ -1,7 +1,7 @@
 accessing
 endNode: anObject
-	"Sets the end node of this connection and updates the respective nodes dependents accordingly."
+	"Sets the end node of this connection and updates the respective node's dependents accordingly."
 
-	self endNode ifNotNilDo: [ :me | self endNode removeDependent: self].
+	self endNode ifNotNil: [ self endNode removeDependent: self].
 	endNode := anObject.
-	self endNode ifNotNilDo: [ :me | self endNode addDependent: self].
+	self endNode ifNotNil: [ self endNode addDependent: self].
