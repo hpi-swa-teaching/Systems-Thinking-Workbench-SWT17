@@ -1,5 +1,4 @@
 accessing
 level: aNumber
 
-	self levelMorph contents: aNumber asString;
-				     updatePositionFromCenter.
+	self levelMorph contents: aNumber asString; updatePositionFromCenter.

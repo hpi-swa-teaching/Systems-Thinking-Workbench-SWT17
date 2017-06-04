@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 
-	self input: 1.
+	self intake: 1.
 	self output: 1.

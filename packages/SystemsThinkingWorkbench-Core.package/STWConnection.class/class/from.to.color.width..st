@@ -1,5 +1,5 @@
 instance creation
-from: startPoint to: endPoint color: lineColor width: lineWidth 
+from: startPoint to: endPoint color: lineColor width: lineWidth
 
 	^ self
 		vertices: {startPoint. endPoint}
