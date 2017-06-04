@@ -2,16 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addConnection:" : "nn 5/30/2017 22:36",
-		"connections" : "nn 5/30/2017 22:24",
-		"connections:" : "nn 5/30/2017 22:25",
 		"createConnectionFrom:" : "nn 5/30/2017 23:08",
+		"delete" : "FP 6/1/2017 17:18",
 		"handlesMouseDown:" : "nn 6/1/2017 10:11",
-		"initialize" : "PW 6/1/2017 14:16",
+		"initialize" : "FP 6/1/2017 17:26",
 		"levelMorph" : "nn 5/30/2017 22:52",
 		"levelMorph:" : "nn 5/30/2017 22:52",
 		"mouseDown:" : "nn 6/1/2017 10:12",
 		"nameMorph" : "nn 5/30/2017 22:52",
-		"position:" : "nn 5/30/2017 22:55",
+		"position:" : "FP 6/1/2017 17:06",
 		"radius" : "nn 6/1/2017 10:19",
 		"wantsKeyboardFocusFor:" : "nn 5/30/2017 22:55" } }

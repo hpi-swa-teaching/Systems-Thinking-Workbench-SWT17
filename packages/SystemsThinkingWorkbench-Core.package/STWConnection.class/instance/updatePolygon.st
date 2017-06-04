@@ -1,5 +1,5 @@
 updating
-update
+updatePolygon
 	"Updates vertices of the connection and redrawing them."
 	
 	| startPoint endPoint normVector |

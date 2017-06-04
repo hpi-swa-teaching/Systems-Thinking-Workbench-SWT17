@@ -6,7 +6,6 @@ initialize
 	|verticalOffset|
 	
 	super initialize.
-	self connections: OrderedCollection new.
 	self color: Color random;
 		extent: 80@80.
 		
