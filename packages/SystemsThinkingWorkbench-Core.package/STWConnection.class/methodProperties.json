@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"from:to:color:width:" : "PW 6/5/2017 12:22",
-		"new" : "PW 6/2/2017 13:44" },
+		"from:to:color:width:" : "PW 6/4/2017 14:07",
+		"new" : "PW 6/2/2017 13:44",
+		"vertices:color:borderWidth:borderColor:" : "PW 6/2/2017 13:50" },
 	"instance" : {
 		"connect:with:" : "FP 6/1/2017 17:13",
 		"delete" : "FP 6/1/2017 17:09",

@@ -1,7 +1,10 @@
 interaction
-createConnectionFrom: startingNode ofType: anSTWConnectionClass
+createConnectionFrom: startingNode ofType: aSymbol
 
-	| connection |
+	| connection classType |
 	
-	connection := (anSTWConnectionClass new) connect: startingNode with: self.
-	self owner addMorph: connection.
+	(aSymbol == #transfer) ifTrue: [classType := STWTransferConnection].
+	
+	classType ifNotNil: [
+				connection := (classType new) connect: startingNode with: self.
+				self owner addMorph: connection].
