@@ -4,6 +4,6 @@ testMorphBehaviour
 	
 	| playfield |
 	
-	playfield := STWPlayfield new.
+	playfield := STWSimulation new.
 	playfield openInWorld.
 	playfield delete.
