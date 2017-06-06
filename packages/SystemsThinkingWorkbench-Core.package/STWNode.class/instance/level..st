@@ -1,4 +1,6 @@
 accessing
-level: aNumber
+level: aNumber 
 
-	self levelMorph contents: aNumber asString; updatePositionFromOwnerCenter.
+	aNumber isNumber
+		ifTrue: [self levelMorph contents: aNumber asString;
+				 updatePositionFromOwnerCenter].
