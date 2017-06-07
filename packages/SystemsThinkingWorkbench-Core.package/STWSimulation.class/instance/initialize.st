@@ -6,6 +6,4 @@ initialize
 	self extent: self currentWorld extent / 2.
 	self addSimulationButtons.
 	self resetState: Array new.
-	
-	self simulationTime: 0.
-	self stopSimulation.
+	self resetSimulation.
