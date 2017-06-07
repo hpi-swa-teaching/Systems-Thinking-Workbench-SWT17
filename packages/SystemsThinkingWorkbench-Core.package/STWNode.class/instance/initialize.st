@@ -6,16 +6,14 @@ initialize
 	|verticalOffset|
 	
 	super initialize.
-	self connections: OrderedCollection new.
 	self color: Color random;
 		extent: 80@80.
 		
 	verticalOffset := 0@(self height / 4).
 	nameMorph := (STWStringMorph new contents: '???') offset: 0-verticalOffset.
-		
-	self levelMorph: ((StringMorph new contents: 42 asString)
-						center: self center + verticalOffset);
-		addMorph: self levelMorph;
+	levelMorph := (STWStringMorph new contents: 42 asString) offset: verticalOffset.
+	self addMorph: self levelMorph;
 		addMorph: self nameMorph.
-		
+    
 	nameMorph updatePositionFromOwnerCenter.
+	levelMorph updatePositionFromOwnerCenter.

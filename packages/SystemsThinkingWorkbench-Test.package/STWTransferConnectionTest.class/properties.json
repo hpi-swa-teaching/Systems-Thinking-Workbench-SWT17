@@ -1,15 +1,14 @@
 {
-	"category" : "SystemsThinkingWorkbench-Core",
+	"category" : "SystemsThinkingWorkbench-Test",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"levelMorph",
-		"nameMorph" ],
-	"name" : "STWNode",
+		 ],
+	"name" : "STWTransferConnectionTest",
 	"pools" : [
 		 ],
-	"super" : "CircleMorph",
+	"super" : "TestCase",
 	"type" : "normal" }

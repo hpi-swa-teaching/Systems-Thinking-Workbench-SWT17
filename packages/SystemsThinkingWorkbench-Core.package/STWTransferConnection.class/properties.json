@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"levelMorph",
-		"nameMorph" ],
-	"name" : "STWNode",
+		"output",
+		"intake" ],
+	"name" : "STWTransferConnection",
 	"pools" : [
 		 ],
-	"super" : "CircleMorph",
+	"super" : "STWConnection",
 	"type" : "normal" }
