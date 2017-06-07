@@ -1,0 +1,4 @@
+accessing
+acceptanceCriterium
+
+	^ acceptanceCriterium
