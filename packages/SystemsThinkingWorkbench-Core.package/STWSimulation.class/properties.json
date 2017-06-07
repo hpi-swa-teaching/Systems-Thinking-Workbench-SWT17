@@ -11,7 +11,9 @@
 		"simulationRunning",
 		"simulationTime",
 		"resetButton",
-		"resetState" ],
+		"resetState",
+		"nodes",
+		"connections" ],
 	"name" : "STWSimulation",
 	"pools" : [
 		 ],

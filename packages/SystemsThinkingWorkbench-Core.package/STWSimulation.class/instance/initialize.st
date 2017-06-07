@@ -6,4 +6,6 @@ initialize
 	self extent: self currentWorld extent / 2.
 	self addSimulationButtons.
 	self resetState: Array new.
+	self nodes: OrderedCollection new.
+	self connections: OrderedCollection new.
 	self resetSimulation.
