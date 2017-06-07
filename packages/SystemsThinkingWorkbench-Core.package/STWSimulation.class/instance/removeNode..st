@@ -1,4 +1,4 @@
 accessing
 removeNode: aNode
 	
-	nodes remove: aNode.
+	self nodes remove: aNode.
