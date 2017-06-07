@@ -10,7 +10,8 @@
 		"playButton",
 		"simulationRunning",
 		"simulationTime",
-		"resetButton" ],
+		"resetButton",
+		"resetState" ],
 	"name" : "STWSimulation",
 	"pools" : [
 		 ],
