@@ -7,6 +7,6 @@ mouseDown: evt
 			node = self
 				ifTrue: [ self owner firstClicked: nil ]
 				ifFalse: [ 
-					self createConnectionFrom: node ofType: #transfer.
+					self createConnectionFrom: node ofType: STWTransferConnection.
 					self owner firstClicked: nil ] ]
 		ifNil: [ self owner firstClicked: self ]
