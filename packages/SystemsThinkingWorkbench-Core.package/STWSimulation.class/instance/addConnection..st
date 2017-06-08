@@ -1,4 +1,4 @@
 accessing
 addConnection: aConnection
 	
-	connections add: aConnection.
+	self connections add: aConnection.

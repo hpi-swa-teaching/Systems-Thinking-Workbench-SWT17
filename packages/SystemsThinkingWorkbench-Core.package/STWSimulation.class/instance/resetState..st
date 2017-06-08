@@ -1,3 +1,4 @@
 accessing
 resetState: anObject
-	resetState := anObject
+
+	resetState := anObject.
