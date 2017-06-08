@@ -15,8 +15,7 @@ initialize
 				
 	levelMorph := ((STWStringMorph new contents: 42 asString)
 				offset: verticalOffset)
-				acceptanceCriterium: [:aValue | 
-					[[:aString | aString asNumber] value: aValue. true]
+				acceptanceCriterium: [[:aValue | aValue asNumber. true]
 						on: Error do: [false]].
 				
 	self addMorph: self levelMorph;
