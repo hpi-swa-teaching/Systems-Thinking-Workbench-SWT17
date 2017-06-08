@@ -10,12 +10,10 @@ initialize
 	
 	verticalOffset := 0 @ (self height / 4).
 	nameMorph := ((STWStringMorph new contents: '???')
-				offset: 0 - verticalOffset)
-				acceptanceCriterium: [:aValue | aValue ~= ''].
+				offset: 0 - verticalOffset).
 				
-	levelMorph := ((STWStringMorph new contents: 42 asString)
-				offset: verticalOffset)
-				acceptanceCriterium: [:aValue | aValue isAllDigits and: aValue ~= ''].
+	levelMorph := ((STWNumberMorph new contents: 42 asString)
+				offset: verticalOffset).
 				
 	self addMorph: self levelMorph;
 		 addMorph: self nameMorph.
