@@ -1,4 +1,4 @@
-editing
+accessing
 offset: anOffset
 
 	offset := anOffset.
