@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testDependentsManagement" : "KuSpa 6/7/2017 16:18",
 		"testSuccesfulPlacement" : "nn 6/1/2017 10:16",
+		"testSuccessfulDeletion" : "KuSpa 6/7/2017 16:27",
 		"testSuccessfulMoving" : "nn 6/1/2017 10:17" } }

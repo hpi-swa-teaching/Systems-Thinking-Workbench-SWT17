@@ -1,0 +1,14 @@
+{
+	"category" : "SystemsThinkingWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "STWNumberMorph",
+	"pools" : [
+		 ],
+	"super" : "STWStringMorph",
+	"type" : "normal" }
