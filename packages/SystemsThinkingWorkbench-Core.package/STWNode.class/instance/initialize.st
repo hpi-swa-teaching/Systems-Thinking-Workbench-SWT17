@@ -14,6 +14,7 @@ initialize
 				
 	levelMorph := ((STWNumberMorph new contents: 42 asString)
 				offset: verticalOffset).
+	self backupLevel: 42.
 				
 	self addMorph: self levelMorph;
 		 addMorph: self nameMorph.

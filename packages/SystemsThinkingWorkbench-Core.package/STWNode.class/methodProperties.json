@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"backupLevel" : "MS 6/13/2017 15:12",
+		"backupLevel:" : "MS 6/13/2017 15:49",
 		"createConnectionFrom:ofType:" : "PW 6/8/2017 16:10",
 		"delete" : "KuSpa 6/7/2017 16:59",
 		"handlesMouseDown:" : "nn 6/1/2017 10:11",
-		"initialize" : "PW 6/8/2017 16:46",
+		"initialize" : "MS 6/13/2017 15:29",
 		"level" : "PW 6/1/2017 16:31",
 		"level:" : "PW 6/6/2017 11:49",
 		"levelMorph" : "nn 5/30/2017 22:52",
@@ -16,4 +18,5 @@
 		"nameMorph" : "nn 5/30/2017 22:52",
 		"position:" : "FP 6/1/2017 17:06",
 		"radius" : "nn 6/1/2017 10:19",
+		"reset" : "MS 6/13/2017 15:39",
 		"wantsKeyboardFocusFor:" : "nn 5/30/2017 22:55" } }
