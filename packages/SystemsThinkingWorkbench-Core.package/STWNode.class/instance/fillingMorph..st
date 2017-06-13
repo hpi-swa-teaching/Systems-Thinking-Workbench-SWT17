@@ -1,3 +1,4 @@
 accessing
 fillingMorph: anObject
-	fillingMorph := anObject
+
+	fillingMorph := anObject.
