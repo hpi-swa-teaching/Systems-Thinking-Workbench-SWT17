@@ -1,6 +1,5 @@
 testing
 testCreateField
-	"comment stating purpose of message"
 
 	|simulation node1 node2 node3 connection1|
 	
@@ -18,8 +17,6 @@ testCreateField
 	self assert: (simulation resetState contains: [:element | element = node1]).
 	self assert: (simulation resetState contains: [:element | element = node2]).
 	self assert: (simulation resetState contains: [:element | element = connection1]).
-	
-	simulation stepSimulation.
 	
 	node3 := simulation addNodeAt: 50@50.
 	

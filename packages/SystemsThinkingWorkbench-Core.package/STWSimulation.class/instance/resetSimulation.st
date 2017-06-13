@@ -9,4 +9,5 @@ resetSimulation
 								
 	self redraw.
 	self stopSimulation.
+	self stopStepping.
 	self simulationTime: 0.

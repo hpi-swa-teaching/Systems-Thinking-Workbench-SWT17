@@ -18,8 +18,6 @@ testSimpleReset
 	self assert: (simulation resetState contains: [:element | element = node2]).
 	self assert: (simulation resetState contains: [:element | element = connection1]).
 	
-	simulation stepSimulation.
-	
 	node3 := simulation addNodeAt: 50@50.
 	
 	simulation resetSimulation.
