@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"fillingFunctionMiddle" : "PW 6/13/2017 14:49",
+		"fillingFunctionSteepness" : "PW 6/13/2017 14:50" },
 	"instance" : {
 		"createConnectionFrom:ofType:" : "PW 6/8/2017 16:10",
 		"delete" : "KuSpa 6/7/2017 16:59",
@@ -18,5 +19,5 @@
 		"nameMorph" : "nn 5/30/2017 22:52",
 		"position:" : "FP 6/1/2017 17:06",
 		"radius" : "nn 6/1/2017 10:19",
-		"updateFilling" : "PW 6/13/2017 14:23",
+		"updateFilling" : "PW 6/13/2017 14:50",
 		"wantsKeyboardFocusFor:" : "nn 5/30/2017 22:55" } }
