@@ -1,10 +1,11 @@
 geometry
 updateFilling
 	
-	|zeroOffset steepness diameter|	
+	|zeroOffset steepness level diameter|	
 
 	steepness := 0.15.
-	zeroOffset := 30.
-	diameter := (1 / (1 + (steepness negated * (self level - zeroOffset)) exp)) * self width.
+	zeroOffset := 35.
+	self level < 0 ifTrue: [level := 0] ifFalse: [level := self level].
+	diameter := (1 / (1 + (steepness negated * (level - zeroOffset)) exp)) sqrt * (self width - 1).
 	self fillingMorph extent: diameter@diameter.
 	self fillingMorph center: self center.
