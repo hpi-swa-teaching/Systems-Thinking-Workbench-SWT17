@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"levelMorph",
-		"nameMorph" ],
+		"nameMorph",
+		"backupLevel",
+		"fillingMorph" ],
 	"name" : "STWNode",
 	"pools" : [
 		 ],
