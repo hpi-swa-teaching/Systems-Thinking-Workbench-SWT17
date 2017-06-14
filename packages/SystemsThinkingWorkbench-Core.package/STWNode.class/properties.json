@@ -8,6 +8,7 @@
 	"instvars" : [
 		"levelMorph",
 		"nameMorph",
+		"backupLevel",
 		"fillingMorph" ],
 	"name" : "STWNode",
 	"pools" : [

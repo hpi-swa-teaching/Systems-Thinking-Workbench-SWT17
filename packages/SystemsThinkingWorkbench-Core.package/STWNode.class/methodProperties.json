@@ -3,12 +3,14 @@
 		"fillingFunctionMiddle" : "PW 6/13/2017 14:49",
 		"fillingFunctionSteepness" : "PW 6/13/2017 14:50" },
 	"instance" : {
+		"backupLevel" : "MS 6/13/2017 15:12",
+		"backupLevel:" : "MS 6/13/2017 15:49",
 		"createConnectionFrom:ofType:" : "PW 6/8/2017 16:10",
 		"delete" : "KuSpa 6/7/2017 16:59",
 		"fillingMorph" : "PW 6/13/2017 14:15",
 		"fillingMorph:" : "PW 6/13/2017 14:15",
 		"handlesMouseDown:" : "nn 6/1/2017 10:11",
-		"initialize" : "PW 6/13/2017 11:56",
+		"initialize" : "MS 6/13/2017 15:29",
 		"level" : "PW 6/1/2017 16:31",
 		"level:" : "PW 6/13/2017 14:20",
 		"levelMorph" : "nn 5/30/2017 22:52",
@@ -19,5 +21,6 @@
 		"nameMorph" : "nn 5/30/2017 22:52",
 		"position:" : "FP 6/1/2017 17:06",
 		"radius" : "nn 6/1/2017 10:19",
+		"resetLevel" : "MS 6/14/2017 09:16",
 		"updateFilling" : "PW 6/13/2017 16:17",
 		"wantsKeyboardFocusFor:" : "nn 5/30/2017 22:55" } }
