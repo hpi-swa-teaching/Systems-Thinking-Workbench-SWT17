@@ -5,7 +5,7 @@
 		"addConnection:" : "KuSpa 6/8/2017 11:11",
 		"addNode:" : "KuSpa 6/7/2017 15:13",
 		"addNodeAt:" : "KuSpa 6/7/2017 15:27",
-		"addSimulationButtons" : "PW 6/1/2017 14:32",
+		"addSimulationButtons" : "FP 6/14/2017 17:04",
 		"connections" : "PW 6/8/2017 16:14",
 		"connections:" : "KuSpa 6/8/2017 11:09",
 		"defaultColor" : "nn 6/1/2017 10:13",
@@ -29,6 +29,6 @@
 		"simulationTime:" : "FP 6/1/2017 09:44",
 		"startSimulation" : "FP 6/14/2017 15:00",
 		"stepSimulation" : "FP 5/31/2017 18:26",
-		"stopSimulation" : "FP 6/14/2017 15:01",
+		"stopSimulation" : "FP 6/14/2017 17:05",
 		"toggleSimulation" : "FP 6/1/2017 09:50",
 		"toggleSimulationRunning" : "FP 6/1/2017 09:29" } }
