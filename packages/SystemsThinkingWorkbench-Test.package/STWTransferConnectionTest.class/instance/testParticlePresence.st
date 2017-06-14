@@ -18,6 +18,7 @@ testParticlePresence
 	numSteps timesRepeat: [connection performSimulationStep].
 	
 	self assert: connection particles size == numSteps.
+	self assert: (connection particles allSatisfy: [ :p | p color == connection startNode fillingMorph color]).
 	
 	connection stepAt: connection lastStepTime + 1000.
 	
