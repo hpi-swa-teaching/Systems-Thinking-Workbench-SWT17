@@ -3,3 +3,4 @@ stopSimulation
 	
 	self setSimulationRunning: false.
 	self playButton label: 'Resume'.
+	self stopStepping.
