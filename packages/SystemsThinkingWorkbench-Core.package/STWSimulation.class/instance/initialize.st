@@ -2,7 +2,6 @@ initialization
 initialize
 	
 	super initialize.
-	self setSimulationRunning: false.
 	self borderColor: Color black.
 	self extent: self currentWorld extent / 2.
 	self addSimulationButtons.
