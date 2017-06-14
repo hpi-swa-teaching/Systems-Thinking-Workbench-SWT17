@@ -5,4 +5,5 @@ resetSimulation
 	self nodes do: [:aNode | aNode resetLevel]. 
 
 	self stopSimulation.
+	self playButton label: 'Start'.
 	self simulationTime: 0.
