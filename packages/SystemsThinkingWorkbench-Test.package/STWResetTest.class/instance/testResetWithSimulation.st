@@ -1,13 +1,13 @@
 testing
 testResetWithSimulation
 
-	|simulation node1 node2 connection1|
+	| simulation node1 node2 connection1 |
 	
 	simulation := STWSimulation new.
 	node1 := simulation addNodeAt: 0@0.
 	node2 := simulation addNodeAt: 50@0.
 	
-	"Set it to default Values again just to make sure"
+	"Set it to default values again just to make sure"
 	node1 level: 42.
 	node1 backupLevel: 42.
 	

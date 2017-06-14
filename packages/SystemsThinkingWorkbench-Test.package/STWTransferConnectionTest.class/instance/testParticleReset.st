@@ -2,7 +2,7 @@ testing
 testParticleReset
 	"Tests if a TransferConnection destroys particle morphs when the simulation is reset."
 
-	| node1 node2 connection   numSteps |
+	| node1 node2 connection numSteps |
 	
 	numSteps := 3.
 	

@@ -6,5 +6,5 @@ stepAt: aTime
 	self lastStepTime ifNotNil: [
 		delta := (aTime - self lastStepTime) / 1000.
 		self lastStepTime: aTime.
-		self performAnimationStep: delta].
+		self performAnimationStep: delta.].
 	

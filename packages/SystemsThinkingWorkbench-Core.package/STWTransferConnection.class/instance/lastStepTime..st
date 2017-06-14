@@ -1,4 +1,4 @@
 accessing
 lastStepTime: anObject
 
-	lastStepTime := anObject
+	lastStepTime := anObject.
