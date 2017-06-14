@@ -17,9 +17,7 @@ testResetWithSimulation
 	
 	simulation startSimulation.
 	
-	"Not yet implemented"
-	"simulation stepSimulation."
-	connection1 performSimulationStep.
+	simulation stepSimulation.
 	self assert: [node1 level ~= node1 backupLevel].
 	
 	simulation resetSimulation.
