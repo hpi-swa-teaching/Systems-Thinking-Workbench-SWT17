@@ -1,4 +1,4 @@
 interaction
-reset
+resetLevel
 
 	self level: self backupLevel.

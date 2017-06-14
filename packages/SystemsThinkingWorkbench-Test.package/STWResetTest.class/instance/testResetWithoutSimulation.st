@@ -17,6 +17,6 @@ testResetWithoutSimulation
 	connection performSimulationStep.
 	self assert: [node1 level ~= node1 backupLevel].
 	
-	node1 reset.
+	node1 resetLevel.
 	
 	self assert: [node1 level = 42].
