@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"output",
-		"intake",
-		"particles",
-		"lastStepTime" ],
-	"name" : "STWTransferConnection",
+		"progress",
+		"velocity" ],
+	"name" : "STWParticle",
 	"pools" : [
 		 ],
-	"super" : "STWConnection",
+	"super" : "Morph",
 	"type" : "normal" }
