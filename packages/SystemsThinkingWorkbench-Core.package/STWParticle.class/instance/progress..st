@@ -1,4 +1,4 @@
 accessing
 progress: anObject
 
-	progress := anObject
+	progress := anObject.

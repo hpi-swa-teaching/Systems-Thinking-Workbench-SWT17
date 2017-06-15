@@ -9,4 +9,4 @@ performSimulationStep
 	self addMorph: particle.
 	self lastStepTime ifNil: [
 		self startStepping.
-		self lastStepTime: DateAndTime millisecondClockValue.]
+		self lastStepTime: DateAndTime millisecondClockValue.].

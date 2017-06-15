@@ -1,4 +1,4 @@
 accessing
 velocity: anObject
 
-	velocity := anObject
+	velocity := anObject.

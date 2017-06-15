@@ -1,6 +1,6 @@
 testing
 test: aConnection steps: steps
-	"Tests if a TransferConnection takes 1 from Node1 and transfers 1 to Node2."
+	"Tests if a TransferConnection takes 1 from one node and transfers 1 to another node."
 	
 	| level1 level2 |
 	

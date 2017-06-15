@@ -1,4 +1,4 @@
 accessing
 particles: anObject
 
-	particles := anObject
+	particles := anObject.

@@ -12,6 +12,6 @@ addSimulationButtons
 						label: 'Reset';
 						target: self;
 						actionSelector: #resetSimulation;
-						position: self position + ((self playButton extent x + 10)@ 0)).
+						position: self position + ((self playButton extent x + 40)@ 0)).
 	self addMorph: self resetButton.
 	

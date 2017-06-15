@@ -1,6 +1,6 @@
 updating
 updatePolygon
-	"Updates vertices of the connection and redrawing them."
+	"Updates vertices of the connection and redraws them."
 	
 	| startPoint endPoint normVector |
 	
