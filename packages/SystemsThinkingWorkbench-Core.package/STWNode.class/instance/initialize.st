@@ -9,7 +9,7 @@ initialize
 	self color: Color white; extent: 80 @ 80.
 	
 	verticalOffset := 0 @ (self height / 4).
-	nameMorph := ((STWStringMorph new contents: '???') 	offset: 0 - verticalOffset).
+	nameMorph := ((STWStringMorph new contents: '???') offset: 0 - verticalOffset).
 	levelMorph := ((STWNumberMorph new contents: 42 asString) offset: verticalOffset).
 	self backupLevel: 42.
 	fillingMorph := (((CircleMorph new) color: Color random) center: self center) borderWidth: 0.
