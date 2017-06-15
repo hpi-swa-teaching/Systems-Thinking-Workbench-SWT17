@@ -1,0 +1,15 @@
+{
+	"category" : "SystemsThinkingWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"progress",
+		"velocity" ],
+	"name" : "STWParticle",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

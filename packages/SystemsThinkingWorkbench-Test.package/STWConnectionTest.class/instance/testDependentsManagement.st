@@ -2,7 +2,7 @@ testing
 testDependentsManagement
 	"Tests if a connection is adde."
 
-	| node1 node2 connection1 connection2 simulation|
+	| node1 node2 connection1 connection2 simulation |
 	
 	simulation := STWSimulation new.
 	node1 := simulation addNodeAt: 50@0.
@@ -31,6 +31,6 @@ testDependentsManagement
 	self assert: (node1 dependents includes: connection2) not.
 	self assert: (node2 dependents includes: connection2) not.
 	
-	self assert:(simulation connections contains: [:x | x =connection2]) not.
-	self assert:(simulation connections contains: [:x | x =connection1]) not.
+	self assert: (simulation connections contains: [:x | x =connection2]) not.
+	self assert: (simulation connections contains: [:x | x =connection1]) not.
 	

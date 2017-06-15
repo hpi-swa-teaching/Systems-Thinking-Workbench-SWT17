@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCreateField" : "KuSpa 6/8/2017 11:52",
-		"testSimpleReset" : "KuSpa 6/8/2017 11:51" } }
+		"testResetWithSimulation" : "nn 6/14/2017 23:26",
+		"testResetWithoutSimulation" : "nn 6/14/2017 23:27" } }

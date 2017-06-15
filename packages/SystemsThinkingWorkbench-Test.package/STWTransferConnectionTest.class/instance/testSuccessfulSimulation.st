@@ -1,6 +1,6 @@
 testing
 testSuccessfulSimulation
-	"Tests if a TransferConnection takes X from Node1 and transfers Y to Node2."
+	"Tests if a TransferConnection takes x from one node and transfers y to another node."
 
 	| node1 node2 connection startlevel1 startlevel2 |
 	
