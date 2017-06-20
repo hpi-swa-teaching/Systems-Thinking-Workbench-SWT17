@@ -7,7 +7,8 @@ updateFilling
 	| diameter |	
 
 	self level <= 0 ifTrue: [self fillingMorph hide]
-					ifFalse: [diameter := (1 / (1 + (STWNode fillingFunctionSteepness negated * (self level - STWNode fillingFunctionMiddle)) exp)) sqrt * (self width - 1).
+					ifFalse: ["diameter := (1 / (1 + (self fillingFunctionSteepness negated * (self level - self fillingFunctionMiddle)) exp)) sqrt * (self width - 1)."
+						(self level > (self width)) ifTrue: [diameter := self width] ifFalse: [diameter := (self level * self width) sqrt].
 					self fillingMorph extent: diameter@diameter;
 									show;
 									center: self center].
