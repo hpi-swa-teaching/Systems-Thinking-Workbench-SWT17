@@ -1,0 +1,4 @@
+accessing
+inverseNodeSize
+
+	^100
