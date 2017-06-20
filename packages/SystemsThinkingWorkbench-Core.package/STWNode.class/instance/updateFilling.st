@@ -1,8 +1,7 @@
 geometry
 updateFilling
-	"Calculates the size of the circle representing filling state by using a
-	logistic function.
-	If the level is below 0, the circle is hidden.
+	"Calculates the size of the circle representing filling state using a quadratic function.
+	If the level falls below 0, the circle is hidden. If it rises to more than its width, the its set to its width.
 	The size is set and the circle is centered in the node afterwards."
 	
 	| diameter |
