@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"acceptDroppingMorph:event:" : "nn 6/20/2017 21:18",
 		"addConnection:" : "KuSpa 6/8/2017 11:11",
 		"addNode:" : "KuSpa 6/7/2017 15:13",
 		"addNodeAt:" : "KuSpa 6/7/2017 15:27",

@@ -2,6 +2,8 @@ interaction
 firstClickTimedOut: evt
 	"Start the Drag with the hand grabbing a temporary arrow"
 	
-	"evt hand grabMorph: (self createConnectionFrom: node ofType: STWTransferConnection)."
+	| arrow |
+	
 	self owner draggedNode: self.	
-	evt hand grabMorph: (self drawArrowTo: evt cursorPoint).
+	arrow := self drawArrowTo: evt cursorPoint.
+	evt hand grabMorph: arrow.
