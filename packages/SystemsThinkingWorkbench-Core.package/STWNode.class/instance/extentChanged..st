@@ -1,10 +1,11 @@
 initialization
 extentChanged: aPoint
+	"Updates all important labels of the node when extent is changed."
 
 	| verticalOffset |
 
-	self fillingMorph ifNotNil: [self updateFilling].
 	verticalOffset := 0 @ (self height / 4).
+	self fillingMorph ifNotNil: [self updateFilling].
 	self levelMorph ifNotNil: [self levelMorph offset: verticalOffset; updatePositionFromOwnerCenter].
 	self nameMorph ifNotNil: [self nameMorph offset: 0 - verticalOffset; updatePositionFromOwnerCenter].
 	self changed: #position.

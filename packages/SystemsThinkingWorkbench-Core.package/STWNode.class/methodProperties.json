@@ -1,15 +1,12 @@
 {
 	"class" : {
-		"fillingFunctionMiddle" : "PW 6/13/2017 14:49",
-		"fillingFunctionSteepness" : "PW 6/13/2017 14:50" },
+		 },
 	"instance" : {
 		"backupLevel" : "MS 6/13/2017 15:12",
 		"backupLevel:" : "MS 6/13/2017 15:49",
 		"createConnectionFrom:ofType:" : "PW 6/15/2017 09:19",
 		"delete" : "KuSpa 6/7/2017 16:59",
-		"extentChanged:" : "PW 6/20/2017 11:48",
-		"fillingFunctionMiddle" : "PW 6/20/2017 11:02",
-		"fillingFunctionSteepness" : "PW 6/20/2017 11:01",
+		"extentChanged:" : "PW 6/20/2017 11:53",
 		"fillingMorph" : "PW 6/13/2017 14:15",
 		"fillingMorph:" : "PW 6/13/2017 14:15",
 		"handlesMouseDown:" : "nn 6/1/2017 10:11",
@@ -25,5 +22,5 @@
 		"position:" : "FP 6/1/2017 17:06",
 		"radius" : "PW 6/20/2017 11:48",
 		"resetLevel" : "MS 6/14/2017 09:16",
-		"updateFilling" : "PW 6/20/2017 11:43",
+		"updateFilling" : "PW 6/20/2017 11:52",
 		"wantsKeyboardFocusFor:" : "nn 5/30/2017 22:55" } }
