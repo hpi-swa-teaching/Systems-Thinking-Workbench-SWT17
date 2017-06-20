@@ -1,4 +1,4 @@
-initialization
+updating
 extentChanged: aPoint
 	"Updates all important labels of the node when extent is changed."
 
