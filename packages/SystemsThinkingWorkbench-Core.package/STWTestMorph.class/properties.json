@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"startNode",
-		"endNode" ],
-	"name" : "STWConnection",
+		 ],
+	"name" : "STWTestMorph",
 	"pools" : [
 		 ],
-	"super" : "CurveMorph",
+	"super" : "HaloMorph",
 	"type" : "normal" }
