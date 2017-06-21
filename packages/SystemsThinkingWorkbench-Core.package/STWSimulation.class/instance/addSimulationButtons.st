@@ -14,4 +14,3 @@ addSimulationButtons
 						actionSelector: #resetSimulation;
 						position: self position + ((self playButton extent x + 40)@ 0)).
 	self addMorph: self resetButton.
-	
