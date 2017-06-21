@@ -1,8 +1,4 @@
 instance creation
-from: startPoint to: endPoint color: lineColor width: lineWidth
+from: startNode to: endNode color: lineColor width: lineWidth
 
-	^ self
-		vertices: {startPoint. endPoint}
-		color: Color black
-		borderWidth: lineWidth
-		borderColor: lineColor
+	^ self new lineColor: lineColor; lineWidth: lineWidth; connect: startNode with: endNode.

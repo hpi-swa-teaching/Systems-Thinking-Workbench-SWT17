@@ -4,7 +4,7 @@ performAnimationStep: delta
 
 	self particles do: [:particle |
 		particle stepAnimation: delta.
-		particle center: self vertices first + ((self vertices second - self vertices first) * particle progress).
+		particle center: (self position + (self segment valueAt: particle progress)).
 		particle progress >= 1 ifTrue: [
 			self endNode level: self endNode level + self output.
 			self removeMorph: particle.].].
