@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"arrowPointAt:length:" : "FP 6/21/2017 11:08",
+		"computeBounds" : "FP 6/21/2017 11:07",
+		"drawOn:" : "FP 6/21/2017 11:06",
+		"from:to:" : "FP 6/21/2017 11:07",
+		"from:to:via:" : "FP 6/21/2017 11:07",
+		"initialize" : "FP 6/21/2017 11:06" } }
