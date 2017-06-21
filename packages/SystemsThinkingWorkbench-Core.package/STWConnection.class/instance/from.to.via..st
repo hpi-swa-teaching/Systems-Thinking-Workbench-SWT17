@@ -9,4 +9,3 @@ from: start to: end via: via
 	self segment from: (start translateBy: offset) to: (end translateBy: offset) via: (via translateBy: offset).
 	self extent: bounds extent.
 	self position: start - (start translateBy: offset).
-	

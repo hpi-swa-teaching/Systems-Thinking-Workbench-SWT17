@@ -15,4 +15,3 @@ testSuccesfulPlacement
 	connection connect: node1 with: node2.
 	
 	"TODO: Test bezier, but how?"
-	

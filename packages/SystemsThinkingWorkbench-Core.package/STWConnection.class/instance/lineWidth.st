@@ -1,3 +1,4 @@
 accessing
 lineWidth
+
 	^ lineWidth
