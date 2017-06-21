@@ -1,6 +1,5 @@
 interaction
 mouseDown: evt
-	"Creates a new node at the position of mouseDown."
+	"Wait for further click events"
 	
-	self addNodeAt: evt cursorPoint.
-	self firstClicked: nil.
+	evt hand waitForClicksOrDrag: self event: evt.

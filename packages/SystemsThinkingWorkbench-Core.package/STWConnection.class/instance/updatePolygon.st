@@ -13,3 +13,4 @@ updatePolygon
 	endPoint := self lineFrom: endPoint to: via onCircle: endPoint radius: self startNode radius.
 	
 	self from: startPoint to: endPoint.
+

@@ -1,13 +1,14 @@
-geometry
+updating
 updateFilling
-	"Calculates the size of the circle representing filling state by using a logistic function.
-	If the level is below 0, the circle is hidden.
+	"Calculates the size of the circle representing filling state using a quadratic function.
+	The width is clamped to 0 and node width.
 	The size is set and the circle is centered in the node afterwards."
 	
-	| diameter |	
-
-	self level <= 0 ifTrue: [self fillingMorph hide]
-					ifFalse: [diameter := (1 / (1 + (STWNode fillingFunctionSteepness negated * (self level - STWNode fillingFunctionMiddle)) exp)) sqrt * (self width - 1).
-					self fillingMorph extent: diameter@diameter;
-									show;
-									center: self center].
+	| levelDiameter |
+	
+	self level > 0
+		ifTrue: [levelDiameter := (self inverseNodeSize * 2 * self level / Float pi) sqrt clampHigh: self width - 2.
+			self fillingMorph extent: levelDiameter @ levelDiameter;
+				 show;
+				 center: self center]
+		ifFalse: [self fillingMorph hide].
