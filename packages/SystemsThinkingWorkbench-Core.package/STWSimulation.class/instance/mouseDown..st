@@ -1,9 +1,5 @@
 interaction
 mouseDown: evt
-	"Creates a new node at the position of mouseDown."
+	"Wait for further click events"
 	
-	evt hand
-		waitForClicksOrDrag: self
-		event: evt
-		selectors: {#click:. #doubleClick:. #firstClickTimedOut:. nil}
-		threshold: 5.
+	evt hand waitForClicksOrDrag: self event: evt.
