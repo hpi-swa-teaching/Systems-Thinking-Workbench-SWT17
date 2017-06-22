@@ -1,5 +1,5 @@
 interaction
 wantsDroppedMorph: aMorph event: evt 
 	
-	^ true
+	^ (aMorph class = STWPreviousConnection)
 	

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "nn 6/20/2017 21:18",
+		"acceptDroppingMorph:event:" : "nn 6/22/2017 12:15",
 		"addConnection:" : "KuSpa 6/8/2017 11:11",
 		"addNode:" : "KuSpa 6/7/2017 15:13",
 		"addNodeAt:" : "KuSpa 6/7/2017 15:27",
@@ -20,6 +20,7 @@
 		"initialize" : "MS 6/14/2017 10:43",
 		"isSimulationRunning" : "FP 6/1/2017 09:28",
 		"mouseDown:" : "nn 6/1/2017 10:19",
+		"mouseMove:" : "nn 6/22/2017 10:45",
 		"nodes" : "PW 6/8/2017 16:14",
 		"nodes:" : "KuSpa 6/7/2017 15:25",
 		"playButton" : "FP 6/1/2017 09:44",

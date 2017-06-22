@@ -1,9 +1,10 @@
 interaction
 firstClickTimedOut: evt
-	"Start the Drag with the hand grabbing a temporary arrow"
+	"Start the Drag with the hand grabbing a previous connection."
 	
-	| arrow |
+	self owner draggedNode: self.
+	self previousConnection: (STWPreviousConnection new).
+	self previousConnection connect: self with: evt cursorPoint.
+	self owner addMorph: self previousConnection.
+	evt hand grabMorph: self previousConnection.
 	
-	self owner draggedNode: self.	
-	arrow := self drawArrowTo: evt cursorPoint.
-	evt hand grabMorph: arrow.
