@@ -7,9 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"startNode",
-		"endNode" ],
+		"endNode",
+		"segment",
+		"lineWidth",
+		"lineColor" ],
 	"name" : "STWConnection",
 	"pools" : [
 		 ],
-	"super" : "PolygonMorph",
+	"super" : "Morph",
 	"type" : "normal" }

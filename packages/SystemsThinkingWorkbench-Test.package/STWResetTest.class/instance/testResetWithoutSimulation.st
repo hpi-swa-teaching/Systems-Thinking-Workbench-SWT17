@@ -11,8 +11,7 @@ testResetWithoutSimulation
 	node1 backupLevel: 42.
 	
 	connection := STWTransferConnection new.
-	connection startNode: node1.
-	connection endNode: node2.
+	connection connect: node1 with: node2.
 	
 	connection performSimulationStep.
 	self assert: [node1 level ~= node1 backupLevel].

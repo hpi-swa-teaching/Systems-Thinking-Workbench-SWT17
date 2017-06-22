@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"testDependentsManagement" : "nn 6/14/2017 23:24",
-		"testSuccesfulPlacement" : "nn 6/1/2017 10:16",
+		"testDuplicatePrevention" : "FP 6/22/2017 09:31",
+		"testSuccesfulPlacement" : "FP 6/21/2017 16:07",
 		"testSuccessfulDeletion" : "nn 6/14/2017 23:25",
-		"testSuccessfulMoving" : "nn 6/1/2017 10:17" } }
+		"testSuccessfulMoving" : "FP 6/21/2017 15:26" } }
