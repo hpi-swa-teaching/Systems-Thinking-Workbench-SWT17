@@ -4,8 +4,7 @@ drawArrowOn: aCanvas
 
 	| endPoint |
 
-	aCanvas
-		translateBy: self position during: [:c |
+	aCanvas translateBy: self position during: [:c |
 			endPoint := self segment end.
 			"This draws the final segment of the bezier curve, as lineSegments:do: fails to encompass that part."
 			c line: (self segment valueAt: 1.0 - (1.0 / (self segment length / self pixelsPerSegment))) rounded to: endPoint rounded
