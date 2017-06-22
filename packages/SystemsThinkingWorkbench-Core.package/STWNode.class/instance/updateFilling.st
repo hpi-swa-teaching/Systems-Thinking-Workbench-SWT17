@@ -7,7 +7,7 @@ updateFilling
 	| levelDiameter |
 	
 	self level > 0
-		ifTrue: [levelDiameter := (self inverseNodeSize * 2 * self level / Float pi) sqrt clampHigh: self width - 2.
+		ifTrue: [levelDiameter := (self density * 2 * self level / Float pi) sqrt clampHigh: self width - 2.
 			self fillingMorph extent: levelDiameter @ levelDiameter;
 				 show;
 				 center: self center]
