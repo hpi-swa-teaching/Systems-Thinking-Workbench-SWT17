@@ -8,5 +8,5 @@ extentChanged: aPoint
 	self fillingMorph ifNotNil: [self updateFilling].
 	self levelMorph ifNotNil: [self levelMorph offset: verticalOffset; updatePositionFromOwnerCenter].
 	self nameMorph ifNotNil: [self nameMorph offset: 0 - verticalOffset; updatePositionFromOwnerCenter].
-	self changed: #position.
+	self changed: #bounds.
 	super extentChanged: aPoint.

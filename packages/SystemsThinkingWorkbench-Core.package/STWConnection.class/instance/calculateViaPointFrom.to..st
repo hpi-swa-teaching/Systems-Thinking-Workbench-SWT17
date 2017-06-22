@@ -1,10 +1,7 @@
 geometry
 calculateViaPointFrom: start to: end
 
-	| normVector |
+	| vector |
 	
-	"Prevent zero divide"
-	end = start ifTrue: [^ start].
-	
-	normVector := (end - start) normalized.
-	^ (start interpolateTo: end at: 0.5) + ((normVector rotateBy: 90 degreesToRadians about: 0@0) * (end - start) r / 5)
+	vector := (end - start).
+	^ (start interpolateTo: end at: 0.5) + ((vector rotateBy: 90 degreesToRadians about: 0@0) / 5)
