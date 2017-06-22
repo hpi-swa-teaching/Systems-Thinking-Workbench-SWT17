@@ -16,3 +16,4 @@ mouseDown: evt
 		event: evt
 		selectors: {#click:. #doubleClick:. #firstClickTimedOut:. nil}
 		threshold: 5.
+

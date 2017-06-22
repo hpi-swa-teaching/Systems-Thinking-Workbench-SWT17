@@ -9,7 +9,9 @@
 		"addSimulationButtons" : "FP 6/14/2017 17:04",
 		"connections" : "PW 6/8/2017 16:14",
 		"connections:" : "KuSpa 6/8/2017 11:09",
+		"containsConnectionFrom:to:" : "FP 6/22/2017 09:20",
 		"defaultColor" : "nn 6/1/2017 10:13",
+		"doubleClick:" : "PW 6/21/2017 11:21",
 		"draggedNode" : "nn 6/20/2017 19:59",
 		"draggedNode:" : "nn 6/20/2017 19:59",
 		"firstClicked" : "KuSpa 6/8/2017 11:09",
@@ -31,8 +33,8 @@
 		"simulationTime" : "FP 6/1/2017 09:44",
 		"simulationTime:" : "FP 6/1/2017 09:44",
 		"startSimulation" : "FP 6/14/2017 15:00",
-		"step" : "nn 6/14/2017 18:31",
-		"stepSimulation" : "nn 6/14/2017 23:19",
+		"step" : "PW 6/21/2017 11:22",
+		"stepSimulation" : "PW 6/21/2017 11:22",
 		"stopSimulation" : "nn 6/13/2017 19:19",
-		"toggleSimulation" : "nn 6/13/2017 22:21",
-		"toggleSimulationRunning" : "FP 6/1/2017 09:29" } }
+		"toggleSimulation" : "PW 6/21/2017 11:22",
+		"toggleSimulationRunning" : "PW 6/21/2017 11:22" } }
