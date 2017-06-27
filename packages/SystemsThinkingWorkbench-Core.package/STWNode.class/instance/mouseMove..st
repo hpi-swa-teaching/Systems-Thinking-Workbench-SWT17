@@ -1,6 +1,4 @@
 interaction
 mouseMove: evt
 
-	self previousConnection from: self center to: evt cursorPoint.
-
-	
+	self updateDraggedConnection: evt cursorPoint.

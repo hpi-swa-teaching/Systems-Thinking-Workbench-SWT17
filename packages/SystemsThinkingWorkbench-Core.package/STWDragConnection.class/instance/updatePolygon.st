@@ -1,4 +1,3 @@
 updating
 updatePolygon
-	
-
+	"Do nothing"

@@ -1,5 +1,0 @@
-accessing
-previousConnection
-
-	^ previousConnection
-	

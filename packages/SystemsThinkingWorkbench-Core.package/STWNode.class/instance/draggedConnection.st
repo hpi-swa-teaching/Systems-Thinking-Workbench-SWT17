@@ -1,0 +1,5 @@
+accessing
+draggedConnection
+
+	^ draggedConnection
+	

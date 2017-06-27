@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "STWPreviousConnection",
+	"name" : "SystemsThinkingWorkbenchCoreServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "STWConnection",
+	"super" : "ServiceProvider",
 	"type" : "normal" }
