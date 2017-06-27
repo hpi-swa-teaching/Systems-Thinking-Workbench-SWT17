@@ -1,6 +1,8 @@
-as yet unclassified
+updating
 updateDraggedConnection: aPosition 
-| startPoint endPoint via connection|
+	"Douplicated Code from STWConnection. However, the cursor is no Node so the method does not work without adjustment"
+
+	| startPoint endPoint via connection|
 	
 	startPoint := self center.
 	endPoint := aPosition.

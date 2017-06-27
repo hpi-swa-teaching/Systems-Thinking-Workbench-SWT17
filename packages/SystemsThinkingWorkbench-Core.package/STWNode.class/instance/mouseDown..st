@@ -1,11 +1,9 @@
 interaction
 mouseDown: evt
-	"Draws an arrow from first clicked node to the second clicked node."
-	self flag: #ToDo. "Wollen wir das mit dem Drag-Selector von waitForClicksOrDrags (4tes Element) machen? Nicht verzagen, Potti fragen."
+	"Waits for Drag-Event, ignores all other click Events."
 
 	 evt hand
 		waitForClicksOrDrag: self
 		event: evt
-		selectors: {#click:. #doubleClick:. nil. #startDrag:.}
+		selectors: {nil. nil. nil. #startDrag:.}
 		threshold: 5.
-

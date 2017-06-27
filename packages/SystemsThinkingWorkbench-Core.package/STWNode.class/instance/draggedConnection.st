@@ -2,4 +2,3 @@ accessing
 draggedConnection
 
 	^ draggedConnection
-	
