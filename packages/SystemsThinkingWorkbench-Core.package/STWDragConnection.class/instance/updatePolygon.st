@@ -1,3 +1,3 @@
 updating
 updatePolygon
-	"Do nothing"
+	"Does nothing"
