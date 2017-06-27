@@ -9,10 +9,4 @@ testDivideByZero
 	node1 := playfield addNodeAt: 0@0.
 	node2 := playfield addNodeAt: 100@100.
 	
-	node1 mouseDown: Set new. 
-	
-	self assert: [playfield firstClicked = node1].
-	
-	node1 mouseDown: Set new. 
-	
-	self assert: [playfield firstClicked = nil].
+	node2 createConnectionFrom: node2 ofType: STWConnection.
