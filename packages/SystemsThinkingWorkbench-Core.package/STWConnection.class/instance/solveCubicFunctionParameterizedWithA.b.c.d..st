@@ -16,6 +16,4 @@ solveCubicFunctionParameterizedWithA: a b: b c: c d: d
 		ifFalse: [
 			x2 >= 0 ifTrue: [x2 <= 1 ifTrue: [^x2]]
 				ifFalse: [
-					x3 >= 0 ifTrue: [x3 <= 1 ifTrue: [^x3]]
-					]].
-	^nil
+					x3 >= 0 ifTrue: [x3 <= 1 ifTrue: [^x3]]]].

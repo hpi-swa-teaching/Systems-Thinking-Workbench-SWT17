@@ -21,4 +21,3 @@ distanceFromBezier: aPoint
 	
 	point := (self segment valueAt: result).
 	^point dist: M.
-	
