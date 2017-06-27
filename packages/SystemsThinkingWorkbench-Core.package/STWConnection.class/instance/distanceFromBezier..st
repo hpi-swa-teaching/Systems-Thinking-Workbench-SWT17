@@ -1,4 +1,4 @@
-updating
+mathematical functions
 distanceFromBezier: aPoint
 	
 	| M P0 P1 P2 A B a b c d M2 result point |

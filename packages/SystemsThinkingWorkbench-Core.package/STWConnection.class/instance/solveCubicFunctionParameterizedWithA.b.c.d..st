@@ -1,4 +1,4 @@
-updating
+mathematical functions
 solveCubicFunctionParameterizedWithA: a b: b c: c d: d
 
 	| p q r x1 x2 x3 s |
