@@ -1,5 +1,5 @@
 accessing
-inverseNodeSize
+density
 	"Returns the factor by which the maximum capacity of a Node is scaled down"
 
 	^100

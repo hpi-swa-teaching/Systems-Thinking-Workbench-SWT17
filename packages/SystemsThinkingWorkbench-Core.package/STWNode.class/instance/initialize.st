@@ -6,7 +6,8 @@ initialize
 	| verticalOffset |
 	
 	super initialize.
-	self color: Color white; extent: 80 @ 80.
+	self color: Color transparent; 
+		extent: 80 @ 80.
 	
 	verticalOffset := 0 @ (self height / 4).
 	nameMorph := ((STWStringMorph new contents: '???') offset: 0 - verticalOffset).

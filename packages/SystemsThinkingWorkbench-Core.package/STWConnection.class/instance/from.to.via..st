@@ -1,8 +1,10 @@
 geometry
 from: start to: end via: via
+	"TODO: comment this"
 
 	| bounds offset |
 
+	self flag: #todo.
 	self segment: (Bezier2Segment from: start to: end via: via).
 	bounds := self computeBounds.
 	offset := bounds origin negated.
