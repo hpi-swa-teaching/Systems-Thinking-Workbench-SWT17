@@ -12,8 +12,6 @@ solveCubicFunctionParameterizedWithA: a b: b c: c d: d
 	x2 := ((q + s) nthRoot: 3) + ((q + s) nthRoot: 3) + p.
 	x3 := ((q - s) nthRoot: 3) + ((q - s) nthRoot: 3) + p.
 			
-	x1 >= 0 ifTrue: [x1 <= 1 ifTrue: [^x1]]
-		ifFalse: [
-			x2 >= 0 ifTrue: [x2 <= 1 ifTrue: [^x2]]
-				ifFalse: [
-					x3 >= 0 ifTrue: [x3 <= 1 ifTrue: [^x3]]]].
+	(x1 between: 0 and: 1) ifTrue: [^x1].
+	(x2 between: 0 and: 1) ifTrue: [^x2].
+	(x3 between: 0 and: 1) ifTrue: [^x3].
