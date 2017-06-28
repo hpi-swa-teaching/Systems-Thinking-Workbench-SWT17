@@ -1,11 +1,7 @@
 interaction
 mouseDown: evt
-	"Draws an arrow from first clicked node to the second clicked node."
+	"Waits for Drag-Event, ignores all other click Events."
 
-	self owner firstClicked
-		ifNotNilDo: [ :node | 
-			node = self 
-				ifTrue: [self owner firstClicked: nil]
-				ifFalse: [self createConnectionFrom: node ofType: STWTransferConnection.
-						self owner firstClicked: nil.]]
-		ifNil: [self owner firstClicked: self].
+	 evt hand
+		waitForClicksOrDrag: self
+		event: evt.
