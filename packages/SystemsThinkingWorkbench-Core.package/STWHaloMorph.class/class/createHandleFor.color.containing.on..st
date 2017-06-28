@@ -1,5 +1,5 @@
 construction
-createHandleFor: aBlock color: aColor containing: aMorph
+createHandleFor: aBlock color: aColor containing: aMorph on: aTarget
 	"helper function for creating a new STWHaloMorphButton "
 	
 	|handler|
@@ -7,7 +7,8 @@ createHandleFor: aBlock color: aColor containing: aMorph
 	handler action: aBlock;
 			color: aColor;
 			borderColor: Color black;
-			target: self target.
+			target: aTarget;
+			addMorph: (aMorph center:handler center).
 			
 	^handler.
 	

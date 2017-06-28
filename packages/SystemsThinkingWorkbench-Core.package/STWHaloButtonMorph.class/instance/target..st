@@ -1,3 +1,4 @@
 accessing
-target: anObject
-	target := anObject
+target: aTarget
+
+	target:= aTarget.

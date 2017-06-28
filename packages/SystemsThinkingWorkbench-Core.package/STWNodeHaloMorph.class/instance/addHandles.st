@@ -2,15 +2,15 @@ construction
 addHandles
 	"This is an example for handles."
 	
-	self addMorphFront: (STWHaloButtonMorph  new
-		color: Color black muchLighter;
-		borderColor: Color red;
-		target: self target;
-		action: [:target | target perform: #delete];	
-		height: (self height / 3);
-		topLeft: self bottomRight;
-		yourself);
+	self addMorphFront: ((STWHaloMorph createHandleFor:  [:target | target perform: #delete]
+										 color:  Color red
+										containing: (MenuIcons smallDeleteIconContents asMorph)
+										on: self target )
+										
+									topLeft: self worldBoundsForHalo bottomRight) .
 		
+		
+		"
 		addMorphFront: (IconicButton new
 		color: Color green muchDarker;
 		borderColor: Color green;
@@ -19,4 +19,4 @@ addHandles
 		actionSelector: #startSimulation;
 		bottomLeft: self topRight;
 		yourself).
-		
+		"
