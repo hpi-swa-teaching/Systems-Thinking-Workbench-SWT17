@@ -1,4 +1,4 @@
 construction
 destruction
 
-	^ [:target | target perform: #delete]
+	^ [:target :event | target perform: #delete]
