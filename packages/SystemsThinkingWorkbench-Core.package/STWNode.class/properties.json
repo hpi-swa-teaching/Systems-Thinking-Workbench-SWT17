@@ -9,7 +9,8 @@
 		"levelMorph",
 		"nameMorph",
 		"backupLevel",
-		"fillingMorph" ],
+		"fillingMorph",
+		"draggedConnection" ],
 	"name" : "STWNode",
 	"pools" : [
 		 ],

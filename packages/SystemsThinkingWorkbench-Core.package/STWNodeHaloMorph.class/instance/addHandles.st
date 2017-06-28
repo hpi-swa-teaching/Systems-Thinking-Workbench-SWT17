@@ -5,12 +5,10 @@ addHandles
 	self addMorphFront: (STWHaloButtonMorph  new
 		color: Color black muchLighter;
 		borderColor: Color red;
-		"labelGraphic: MenuIcons smallCancelIcon;"
 		target: self target;
-		"actionSelector: #delete;"		
+		action: [:target | target perform: #delete];	
 		height: (self height / 3);
 		topLeft: self bottomRight;
-		addMorphFront: ((ImageMorph new)image: MenuIcons smallDoItIcon);
 		yourself);
 		
 		addMorphFront: (IconicButton new
@@ -21,3 +19,4 @@ addHandles
 		actionSelector: #startSimulation;
 		bottomLeft: self topRight;
 		yourself).
+		
