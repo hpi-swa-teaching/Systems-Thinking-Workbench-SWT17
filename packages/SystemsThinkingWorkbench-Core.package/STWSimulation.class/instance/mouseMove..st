@@ -8,6 +8,6 @@ mouseMove: evt
 		do: [:c | c lineWidth: 2. c lineColor: Color black.
 				(c containsPoint: evt cursorPoint)
 				ifTrue: [done
-						ifFalse: [((c distanceFromBezier: evt cursorPoint - c position) < 15)
-								ifTrue: [c lineWidth: 5. c lineColor: Color green darker. done := true]
+						ifFalse: [((c distanceFromBezier: evt cursorPoint - c position) < self selectionDistance)
+								ifTrue: [c lineWidth: STWConnection hoverThickness. c lineColor: Color green darker. done := true]
 								]]]
