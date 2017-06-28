@@ -1,0 +1,4 @@
+accessing
+prohibitNegative
+
+	negativeAllowed := false.
