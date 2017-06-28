@@ -1,4 +1,4 @@
 construction
 moving
 
-	^[:target :event| self perform: #startDragTarget: with: event ]
+	^[:target :event| self startDragTarget: event ]
