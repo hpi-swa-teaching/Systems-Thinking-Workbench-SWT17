@@ -1,0 +1,14 @@
+{
+	"category" : "SystemsThinkingWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "STWHaloMorph",
+	"pools" : [
+		 ],
+	"super" : "HaloMorph",
+	"type" : "normal" }
