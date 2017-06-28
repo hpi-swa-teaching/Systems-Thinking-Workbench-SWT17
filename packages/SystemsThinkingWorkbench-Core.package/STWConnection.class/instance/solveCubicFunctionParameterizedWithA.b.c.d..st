@@ -15,3 +15,5 @@ solveCubicFunctionParameterizedWithA: a b: b c: c d: d
 	(x1 between: 0 and: 1) ifTrue: [^x1].
 	(x2 between: 0 and: 1) ifTrue: [^x2].
 	(x3 between: 0 and: 1) ifTrue: [^x3].
+
+	^nil

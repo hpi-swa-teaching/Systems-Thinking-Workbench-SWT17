@@ -18,6 +18,6 @@ distanceFromBezier: aPoint
 	d := M2 dotProduct: A.
 	
 	result := self solveCubicFunctionParameterizedWithA: a b: b c: c d: d.
-	
+	result ifNil: [ ^0 ].
 	point := (self segment valueAt: result).
 	^point dist: M.
