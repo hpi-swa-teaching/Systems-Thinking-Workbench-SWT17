@@ -5,7 +5,7 @@ mouseMove: evt
 	
 	done := false.
 	(self nodes copy fusionWith: self connections)
-		do: [:n | n lineWidth: 2.
+		do: [:n | n lineWidth: STWSimulation normalThickness.
 				(n containsPoint: evt cursorPoint)
 				ifTrue: [done
-						ifFalse: [n lineWidth: STWConnection hoverThickness. done := true]]].
+						ifFalse: [n lineWidth: STWSimulation hoverThickness. done := true]]].

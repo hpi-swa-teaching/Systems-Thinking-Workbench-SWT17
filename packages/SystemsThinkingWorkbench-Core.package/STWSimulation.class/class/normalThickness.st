@@ -1,0 +1,4 @@
+constants
+normalThickness
+
+	^ 2

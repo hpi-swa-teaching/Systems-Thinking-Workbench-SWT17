@@ -1,4 +1,0 @@
-interaction
-selectionDistance
-	
-	^15

@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"hoverThickness" : "FP 6/29/2017 13:53",
+		"normalThickness" : "FP 6/29/2017 13:53" },
 	"instance" : {
 		"addConnection:" : "PW 6/21/2017 11:20",
 		"addNode:" : "PW 6/21/2017 11:20",
@@ -19,7 +20,7 @@
 		"initialize" : "PW 6/21/2017 11:21",
 		"isSimulationRunning" : "PW 6/21/2017 11:21",
 		"mouseDown:" : "PW 6/21/2017 11:29",
-		"mouseMove:" : "FP 6/29/2017 13:43",
+		"mouseMove:" : "FP 6/29/2017 13:55",
 		"nodes" : "PW 6/21/2017 11:21",
 		"nodes:" : "PW 6/21/2017 11:21",
 		"playButton" : "PW 6/21/2017 11:21",
@@ -29,7 +30,6 @@
 		"resetButton" : "PW 6/21/2017 11:22",
 		"resetButton:" : "PW 6/21/2017 11:22",
 		"resetSimulation" : "PW 6/21/2017 11:22",
-		"selectionDistance" : "PW 6/28/2017 11:45",
 		"setSimulationRunning:" : "PW 6/21/2017 11:22",
 		"simulationTime" : "PW 6/21/2017 11:22",
 		"simulationTime:" : "PW 6/21/2017 11:22",
