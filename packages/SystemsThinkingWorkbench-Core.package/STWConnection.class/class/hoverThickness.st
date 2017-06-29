@@ -1,4 +1,4 @@
 instance creation
 hoverThickness
 
-	^5
+	^4
