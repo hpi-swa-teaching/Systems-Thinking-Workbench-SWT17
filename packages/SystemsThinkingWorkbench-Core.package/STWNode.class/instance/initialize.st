@@ -25,3 +25,5 @@ initialize
 	nameMorph updatePositionFromOwnerCenter.
 	levelMorph updatePositionFromOwnerCenter.
 	self updateFilling. 
+	
+	self capacity: nil.
