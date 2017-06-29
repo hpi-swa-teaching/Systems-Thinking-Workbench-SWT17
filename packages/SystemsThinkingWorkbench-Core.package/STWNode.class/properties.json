@@ -10,8 +10,8 @@
 		"nameMorph",
 		"backupLevel",
 		"fillingMorph",
-		"draggedConnection",
-		"density" ],
+		"density",
+		"previewConnection" ],
 	"name" : "STWNode",
 	"pools" : [
 		 ],

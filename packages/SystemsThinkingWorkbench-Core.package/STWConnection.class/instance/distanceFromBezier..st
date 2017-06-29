@@ -1,23 +1,23 @@
 mathematical functions
-distanceFromBezier: aPoint
+distanceFromBezier: clickPoint
 	
-	| M P0 P1 P2 A B a b c d M2 result point |
+	| startPoint viaPoint endPoint startTangent relativeEndTangent a b c d relativeClickPoint result point |
 	
-	M := aPoint.
-	P0 := self segment start.
-	P1 := self segment via.
-	P2 := self segment end.
+	startPoint := self segment start.
+	viaPoint := self segment via.
+	endPoint := self segment end.
 	
-	A := P1 - P0.
-	B := (P2 - P1) - A.
-	M2 := P0 - M.
+	startTangent := viaPoint - startPoint.
+	relativeEndTangent := (endPoint - viaPoint) - startTangent.
+	relativeClickPoint := startPoint - clickPoint.
 	
-	a := B dotProduct: B.
-	b := 3 * (A dotProduct: B).
-	c := (2 * (A dotProduct: A)) + (M2 dotProduct: B).
-	d := M2 dotProduct: A.
+	"f(x) = ax^3 + bx^2 + cx + d"
+	a := relativeEndTangent dotProduct: relativeEndTangent.
+	b := 3 * (startTangent dotProduct: relativeEndTangent).
+	c := (2 * (startTangent dotProduct: startTangent)) + (relativeClickPoint dotProduct: relativeEndTangent).
+	d := relativeClickPoint dotProduct: startTangent.
 	
 	result := self solveCubicFunctionParameterizedWithA: a b: b c: c d: d.
 	result ifNil: [ ^0 ].
 	point := (self segment valueAt: result).
-	^point dist: M.
+	^point dist: clickPoint.
