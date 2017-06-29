@@ -1,0 +1,4 @@
+interaction
+selectionDistance
+
+	^ 10
