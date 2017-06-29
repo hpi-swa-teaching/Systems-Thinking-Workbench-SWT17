@@ -1,3 +1,3 @@
 updating
 updatePolygon
-	"Does nothing"
+	"Does nothing because this connection is temporary and without any logic."
