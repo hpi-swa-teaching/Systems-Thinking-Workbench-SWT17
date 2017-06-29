@@ -1,12 +1,11 @@
 editing
 interimContents: aString
 	
-	| isNumber |
+	| isNumber number |
 
 	isNumber := true.
-	
-	[aString asNumber] on: Error do: [isNumber := false].
-	(isNumber and: aString ~= '' and: (self maximum ifNil: [true] ifNotNil: [aString asNumber <= self maximum]))
-		ifTrue: [((self minimum ifNil: [true] ifNotNil: [aString asNumber < self minimum]))
-			ifFalse: [super interimContents: aString asNumber asString.
-				self owner ifNotNilDo: [:a | a backupLevel: aString]]]
+
+	[number := aString asNumber] on: Error do: [isNumber := false].
+	(isNumber and: aString ~= '' and: [self canHold: number])
+			ifTrue: [super interimContents: number asString.
+				self owner ifNotNilDo: [:a | a backupLevel: aString]]

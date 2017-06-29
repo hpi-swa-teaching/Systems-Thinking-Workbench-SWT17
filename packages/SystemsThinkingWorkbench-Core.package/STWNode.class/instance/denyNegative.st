@@ -1,5 +1,5 @@
 accessing
-prohibitNegative
+denyNegative
 
 	negativeAllowed := false.
 	self levelMorph minimum: 0.

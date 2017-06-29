@@ -27,4 +27,4 @@ initialize
 	self updateFilling.
 
 	self extent: 80@80.
-	self allowNegative.
+	self permitNegative.

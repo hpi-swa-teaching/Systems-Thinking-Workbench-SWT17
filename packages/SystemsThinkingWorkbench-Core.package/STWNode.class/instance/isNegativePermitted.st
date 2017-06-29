@@ -1,4 +1,4 @@
 accessing
-isNegativeAllowed
+isNegativePermitted
 
 	^ negativeAllowed
