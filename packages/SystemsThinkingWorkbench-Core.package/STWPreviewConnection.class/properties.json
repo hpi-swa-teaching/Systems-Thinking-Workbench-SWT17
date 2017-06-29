@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "STWDragConnection",
+	"name" : "STWPreviewConnection",
 	"pools" : [
 		 ],
 	"super" : "STWConnection",

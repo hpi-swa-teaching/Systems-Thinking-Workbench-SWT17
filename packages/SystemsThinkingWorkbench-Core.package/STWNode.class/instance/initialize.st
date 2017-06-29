@@ -7,14 +7,14 @@ initialize
 	
 	super initialize.
 	self color: Color transparent; 
-	extent: 80 @ 80;
-	lineWidth: STWSimulation normalLineWidth.
+		extent: 80 @ 80;
+		lineWidth: STWSimulation normalLineWidth.
 	
-  self density: 100.
+  	self density: 100.
   
 	verticalOffset := 0 @ (self height / 4).
 	nameMorph := ((STWStringMorph new contents: '???') offset: 0 - verticalOffset).
-	levelMorph := ((STWNumberMorph new contents: 42 asString) offset: verticalOffset).
+	levelMorph := ((STWLevelMorph new contents: 42 asString) offset: verticalOffset).
 	fillingMorph := (((CircleMorph new) color: Color random) center: self center) borderWidth: 0.
 	
 	self backupLevel: self level.

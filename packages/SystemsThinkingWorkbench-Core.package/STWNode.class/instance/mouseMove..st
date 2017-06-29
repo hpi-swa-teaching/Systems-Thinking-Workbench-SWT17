@@ -1,4 +1,4 @@
 interaction
 mouseMove: evt
 
-	self updateDraggedConnection: evt cursorPoint.
+	self updatePreviewConnection: evt cursorPoint.
