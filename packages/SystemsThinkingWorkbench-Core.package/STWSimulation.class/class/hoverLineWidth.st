@@ -1,0 +1,4 @@
+constants
+hoverLineWidth
+
+	^ 4

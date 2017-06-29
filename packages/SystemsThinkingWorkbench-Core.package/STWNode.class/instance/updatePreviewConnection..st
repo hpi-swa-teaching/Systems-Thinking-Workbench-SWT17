@@ -1,12 +1,12 @@
 updating
-updateDraggedConnection: aPosition 
+updatePreviewConnection: aPosition 
 	"Douplicated Code from STWConnection. However, the cursor is no Node so the method does not work without adjustment"
 
 	| startPoint endPoint via connection|
 	
 	startPoint := self center.
 	endPoint := aPosition.
-	connection := self draggedConnection.
+	connection := self previewConnection.
 	
 	via := connection calculateViaPointFrom: startPoint to: endPoint.
 	

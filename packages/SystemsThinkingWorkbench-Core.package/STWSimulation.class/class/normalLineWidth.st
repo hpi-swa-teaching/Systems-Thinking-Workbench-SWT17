@@ -1,0 +1,4 @@
+constants
+normalLineWidth
+
+	^ 2

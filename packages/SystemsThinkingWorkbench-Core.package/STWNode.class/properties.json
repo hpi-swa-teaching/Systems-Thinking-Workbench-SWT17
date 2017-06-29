@@ -11,9 +11,9 @@
 		"backupLevel",
 		"negativeAllowed",
 		"fillingMorph",
-		"draggedConnection",
+		"capacity",
 		"density",
-		"capacity" ],
+		"previewConnection" ],
 	"name" : "STWNode",
 	"pools" : [
 		 ],

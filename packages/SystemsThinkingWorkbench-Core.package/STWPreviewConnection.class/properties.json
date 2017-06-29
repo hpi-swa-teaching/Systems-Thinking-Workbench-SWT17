@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"maximum",
-		"minimum" ],
-	"name" : "STWNumberMorph",
+		 ],
+	"name" : "STWPreviewConnection",
 	"pools" : [
 		 ],
-	"super" : "STWStringMorph",
+	"super" : "STWConnection",
 	"type" : "normal" }

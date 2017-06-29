@@ -1,0 +1,20 @@
+{
+	"category" : "SystemsThinkingWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+<<<<<<< HEAD:packages/SystemsThinkingWorkbench-Core.package/STWNumberMorph.class/properties.json
+		"maximum",
+		"minimum" ],
+	"name" : "STWNumberMorph",
+=======
+		 ],
+	"name" : "STWLevelMorph",
+>>>>>>> develop:packages/SystemsThinkingWorkbench-Core.package/STWLevelMorph.class/properties.json
+	"pools" : [
+		 ],
+	"super" : "STWStringMorph",
+	"type" : "normal" }
