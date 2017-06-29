@@ -4,7 +4,8 @@ extentChanged: aPoint
 
 	| verticalOffset |
 
-	verticalOffset := 0 @ (self height / 4).
+	verticalOffset := 0 @ (aPoint x / 4).
+	self capacity ifNotNil:  [self density: aPoint x squared * Float pi / (2 * self capacity).].
 	self fillingMorph ifNotNil: [self updateFilling].
 	self levelMorph ifNotNil: [self levelMorph offset: verticalOffset; updatePositionFromOwnerCenter].
 	self nameMorph ifNotNil: [self nameMorph offset: 0 - verticalOffset; updatePositionFromOwnerCenter].
