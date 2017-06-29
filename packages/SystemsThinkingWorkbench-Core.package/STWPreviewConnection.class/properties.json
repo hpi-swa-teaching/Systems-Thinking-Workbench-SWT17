@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"levelMorph",
-		"nameMorph",
-		"backupLevel",
-		"fillingMorph",
-		"density",
-		"previewConnection" ],
-	"name" : "STWNode",
+		 ],
+	"name" : "STWPreviewConnection",
 	"pools" : [
 		 ],
-	"super" : "CircleMorph",
+	"super" : "STWConnection",
 	"type" : "normal" }
