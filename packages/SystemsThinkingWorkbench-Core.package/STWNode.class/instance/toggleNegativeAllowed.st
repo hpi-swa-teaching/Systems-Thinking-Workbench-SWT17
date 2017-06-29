@@ -1,4 +1,4 @@
 accessing
 toggleNegativeAllowed
 
-	negativeAllowed ifTrue: [negativeAllowed := false] ifFalse: [negativeAllowed := true].
+	negativeAllowed ifTrue: [self allowNegative] ifFalse: [self prohibitNegative].
