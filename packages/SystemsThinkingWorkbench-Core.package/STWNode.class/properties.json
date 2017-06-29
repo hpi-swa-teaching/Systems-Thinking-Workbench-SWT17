@@ -9,6 +9,7 @@
 		"levelMorph",
 		"nameMorph",
 		"backupLevel",
+		"negativeAllowed",
 		"fillingMorph",
 		"draggedConnection",
 		"density",

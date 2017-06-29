@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+<<<<<<< HEAD
 		"maximum" ],
+=======
+		"minimum" ],
+>>>>>>> feature/node-allow-negative
 	"name" : "STWNumberMorph",
 	"pools" : [
 		 ],
