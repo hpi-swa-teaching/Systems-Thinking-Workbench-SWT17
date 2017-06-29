@@ -13,7 +13,7 @@ initialize
 	levelMorph := ((STWNumberMorph new contents: 42 asString) offset: verticalOffset).
 	fillingMorph := (((CircleMorph new) color: Color random) center: self center) borderWidth: 0.
 	
-	self density: 100.
+	self density: 1 / 100.
 	self capacity: nil.	
 		
 	self backupLevel: self level.
