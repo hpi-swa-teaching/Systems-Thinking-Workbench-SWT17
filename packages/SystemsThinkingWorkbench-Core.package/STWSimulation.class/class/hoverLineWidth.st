@@ -1,4 +1,4 @@
 constants
-hoverThickness
+hoverLineWidth
 
 	^ 4
