@@ -1,4 +1,4 @@
 accessing
 maximum: anObject
 
-	maximum := anObject asNumber.
+	maximum := anObject.
