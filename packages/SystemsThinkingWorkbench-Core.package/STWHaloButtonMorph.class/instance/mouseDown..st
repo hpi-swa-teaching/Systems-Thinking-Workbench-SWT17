@@ -2,5 +2,4 @@ interaction
 mouseDown: evt
 	"do the specified action"
 	
-	 self action value: self target value: evt.
-	
+	 self action cull: self target cull: evt.

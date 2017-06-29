@@ -4,7 +4,7 @@ addHandles
 	
 	
 	"Deletion"
-	self addMorphFront: ((STWHaloMorph createHandleFor:  self destruction 
+	self addMorphFront: ((self createHandleFor:  self destruction 
 								color:  Color red
 								containing: (MenuIcons smallDeleteIconContents asMorph)
 								on: self target )
@@ -12,7 +12,7 @@ addHandles
 								topLeft: self worldBoundsForHalo bottomRight) .
 		
 	"Movement"
-	self addMorphFront: ((STWHaloMorph createHandleFor:  self moving
+	self addMorphFront: ((self createHandleFor:  self moving
 								color:  Color red
 								containing: (MenuIcons smallRemoteOpenIcon asMorph)
 								on: self target )
@@ -21,7 +21,7 @@ addHandles
 		
 	
 	"Sticky"
-	self addMorphFront: ((STWHaloMorph createHandleFor:  self destruction 
+	self addMorphFront: ((self createHandleFor:  self destruction 
 								color:  Color red
 								containing: (MenuIcons smallDeleteIconContents asMorph)
 								on: self target )
@@ -29,7 +29,7 @@ addHandles
 								"topLeft: self worldBoundsForHalo bottomRight") .
 		
 	"Negative"
-	self addMorphFront: ((STWHaloMorph createHandleFor:  self destruction 
+	self addMorphFront: ((self createHandleFor:  self destruction 
 								color:  Color red
 								containing: (MenuIcons smallDeleteIconContents asMorph)
 								on: self target )
@@ -37,7 +37,7 @@ addHandles
 								"topLeft: self worldBoundsForHalo bottomRight") .
 		
 	"Maximum Capacity"
-	self addMorphFront: ((STWHaloMorph createHandleFor:  self destruction 
+	self addMorphFront: ((self createHandleFor:  self destruction 
 								color:  Color red
 								containing: (MenuIcons smallDeleteIconContents asMorph)
 								on: self target )
@@ -45,7 +45,7 @@ addHandles
 								"topLeft: self worldBoundsForHalo bottomRight") .
 		
 	"density"
-	self addMorphFront: ((STWHaloMorph createHandleFor:  self destruction 
+	self addMorphFront: ((self createHandleFor:  self destruction 
 								color:  Color red
 								containing: (MenuIcons smallDeleteIconContents asMorph)
 								on: self target )

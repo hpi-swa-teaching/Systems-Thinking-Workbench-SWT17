@@ -11,4 +11,3 @@ createHandleFor: aBlock color: aColor containing: aMorph on: aTarget
 			addMorph: (aMorph center:handler center).
 			
 	^handler.
-	
