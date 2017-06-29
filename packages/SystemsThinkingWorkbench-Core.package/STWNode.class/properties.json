@@ -9,9 +9,9 @@
 		"levelMorph",
 		"nameMorph",
 		"backupLevel",
-		"maximumCapacity",
 		"fillingMorph",
-		"draggedConnection" ],
+		"draggedConnection",
+		"capacity" ],
 	"name" : "STWNode",
 	"pools" : [
 		 ],

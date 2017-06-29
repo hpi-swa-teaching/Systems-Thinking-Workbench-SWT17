@@ -9,7 +9,7 @@ initialize
 	self color: Color transparent; 
 		extent: 80 @ 80.
 	
-	maximumCapacity := 100.
+	capacity := nil.
 	
 	verticalOffset := 0 @ (self height / 4).
 	nameMorph := ((STWStringMorph new contents: '???') offset: 0 - verticalOffset).
