@@ -23,3 +23,5 @@ initialize
 	nameMorph updatePositionFromOwnerCenter.
 	levelMorph updatePositionFromOwnerCenter.
 	self updateFilling. 
+	
+	self allowNegative.
