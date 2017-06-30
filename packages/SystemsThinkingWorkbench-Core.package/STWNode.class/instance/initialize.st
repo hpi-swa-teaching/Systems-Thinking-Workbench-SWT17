@@ -7,8 +7,7 @@ initialize
 	
 	super initialize.
 	self color: Color transparent; 
-		extent: 80 @ 80;
-		lineWidth: STWSimulation normalLineWidth.
+		extent: 80 @ 80.
 	
   	self density: 100.
   
@@ -18,6 +17,8 @@ initialize
 	fillingMorph := (((CircleMorph new) color: Color random) center: self center) borderWidth: 0.
 	
 	self backupLevel: self level.
+	
+	self lineWidth: STWSimulation normalLineWidth.
 
 	self addMorph: self fillingMorph;
 		addMorph: self levelMorph;
