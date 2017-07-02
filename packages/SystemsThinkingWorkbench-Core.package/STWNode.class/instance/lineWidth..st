@@ -4,7 +4,6 @@ lineWidth: aNumber
 	aNumber == STWSimulation hoverLineWidth
 		ifTrue: [
 		((self width - self fillingMorph width < (STWSimulation hoverLineWidth * 2)) and: (self borderWidth ~= STWSimulation hoverLineWidth))
-			ifTrue: [self fillingMorph extent: (self width - (STWSimulation hoverLineWidth * 2))@(self width - (STWSimulation hoverLineWidth * 2)).
-				self fillingMorph center: self center].]
-		ifFalse: [self updateFilling].
+			ifTrue: [self fillingMorph borderWidth: STWSimulation hoverLineWidth].]
+		ifFalse: [self fillingMorph borderWidth: 0].
 	self borderWidth: aNumber
