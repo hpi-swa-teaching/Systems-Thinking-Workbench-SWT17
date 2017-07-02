@@ -1,7 +1,7 @@
 stepping and presenter
 performAnimationStep: delta
 	"Moves every particle currently on the connection along itself."
-	
+
 	self particles do: [:particle |
 		particle stepAnimation: delta.
 		particle center: (self position + (self segment valueAt: particle progress)).
