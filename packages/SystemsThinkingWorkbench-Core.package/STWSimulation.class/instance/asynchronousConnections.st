@@ -1,3 +1,0 @@
-accessing
-asynchronousConnections
-	^ asynchronousConnections

@@ -13,8 +13,8 @@
 		"resetButton",
 		"nodes",
 		"draggedNode",
-		"synchronousConnections",
-		"asynchronousConnections" ],
+		"connections",
+		"lastStepTime" ],
 	"name" : "STWSimulation",
 	"pools" : [
 		 ],

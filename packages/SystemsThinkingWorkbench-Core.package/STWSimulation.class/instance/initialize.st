@@ -6,6 +6,5 @@ initialize
 	self extent: self currentWorld extent / 2.
 	self addSimulationButtons.
 	self nodes: OrderedCollection new.
-	self synchronousConnections: OrderedCollection new.
-	self asynchronousConnections: OrderedCollection new.
+	self connections: OrderedCollection new.
 	self resetSimulation.

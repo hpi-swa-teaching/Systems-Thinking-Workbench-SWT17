@@ -1,4 +1,4 @@
-stepping and presenter
+updating
 performAnimationStep: delta
 	"Moves every particle currently on the connection along itself."
 
@@ -9,6 +9,3 @@ performAnimationStep: delta
 			self endNode onParticleArrive: particle.
 			self removeMorph: particle.].].
 	self particles removeAllSuchThat: [:e | e progress >= 1].
-	self particles isEmpty ifTrue: [
-		self stopStepping.
-		self lastStepTime: nil.].
