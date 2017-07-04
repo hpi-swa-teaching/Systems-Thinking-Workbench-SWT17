@@ -3,7 +3,7 @@ resetSimulation
 	"Signals all nodes to reset their level"
 	
 	self nodes do: [:aNode | aNode resetLevel].
-	self synchronousConnections do: [:aConnection | aConnection resetSimulation].
+	self asynchronousConnections do: [:aConnection | aConnection resetSimulation].
 
 	self stopSimulation.
 	self playButton label: 'Start'.

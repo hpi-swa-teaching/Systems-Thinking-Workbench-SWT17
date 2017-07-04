@@ -7,4 +7,5 @@ initialize
 	self addSimulationButtons.
 	self nodes: OrderedCollection new.
 	self synchronousConnections: OrderedCollection new.
+	self asynchronousConnections: OrderedCollection new.
 	self resetSimulation.

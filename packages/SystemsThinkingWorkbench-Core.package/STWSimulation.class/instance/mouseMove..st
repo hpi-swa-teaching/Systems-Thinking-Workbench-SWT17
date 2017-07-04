@@ -4,7 +4,7 @@ mouseMove: evt
 	| done |
 	
 	done := false.
-	(self nodes copy fusionWith: self synchronousConnections)
+	(self nodes copy fusionWith: self asynchronousConnections)
 		do: [:n | n lineWidth: STWSimulation normalLineWidth.
 				(n containsPoint: evt cursorPoint)
 				ifTrue: [done

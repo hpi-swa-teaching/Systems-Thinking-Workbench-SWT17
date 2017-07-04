@@ -6,7 +6,7 @@ performAnimationStep: delta
 		particle stepAnimation: delta.
 		particle center: (self position + (self segment valueAt: particle progress)).
 		particle progress >= 1 ifTrue: [
-			self endNode level: self endNode level + self output.
+			self endNode onParticleArrive: particle.
 			self removeMorph: particle.].].
 	self particles removeAllSuchThat: [:e | e progress >= 1].
 	self particles isEmpty ifTrue: [

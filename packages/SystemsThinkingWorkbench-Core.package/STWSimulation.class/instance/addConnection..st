@@ -1,4 +1,4 @@
 accessing
 addConnection: aConnection
 	
-	self synchronousConnections add: aConnection.
+	self asynchronousConnections add: aConnection.
