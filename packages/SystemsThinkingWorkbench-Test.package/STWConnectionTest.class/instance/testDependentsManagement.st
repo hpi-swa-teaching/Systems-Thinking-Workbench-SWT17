@@ -31,6 +31,6 @@ testDependentsManagement
 	self assert: (node1 dependents includes: connection2) not.
 	self assert: (node2 dependents includes: connection2) not.
 	
-	self assert: (simulation asynchronousConnections contains: [:x | x =connection2]) not.
-	self assert: (simulation asynchronousConnections contains: [:x | x =connection1]) not.
+	self assert: (simulation connections contains: [:x | x =connection2]) not.
+	self assert: (simulation connections contains: [:x | x =connection1]) not.
 	
