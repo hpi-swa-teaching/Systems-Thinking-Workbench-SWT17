@@ -1,6 +1,6 @@
 simulation
 stepSimulation
 
-	self connections
+	self synchronousConnections
 		do: [:connection | connection performSimulationStep].
 	self simulationTime: self simulationTime + 1.

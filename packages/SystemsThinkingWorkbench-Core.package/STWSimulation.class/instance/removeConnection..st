@@ -1,4 +1,4 @@
 accessing
 removeConnection: aConnection
 	
-	self connections remove: aConnection.
+	self synchronousConnections remove: aConnection.
