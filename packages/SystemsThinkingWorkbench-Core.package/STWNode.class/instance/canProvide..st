@@ -1,4 +1,4 @@
 accessing
-canHoldWithout: aNumber
+canProvide: aNumber
 
 	^ self levelMorph canHold: self level - aNumber.

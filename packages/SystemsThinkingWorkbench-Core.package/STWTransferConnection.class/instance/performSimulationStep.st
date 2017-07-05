@@ -3,8 +3,8 @@ performSimulationStep
 
 	| particle |
 	
-	((self startNode canHoldWithout: self intake)
-			and: (self endNode canHoldWith: self output))
+	((self startNode canProvide: self intake)
+			and: (self endNode canReceive: self output))
 		ifTrue: [self startNode level: self startNode level - self intake.
 			particle := STWParticle new center: self position + self segment start;
 						 color: self startNode fillingMorph color.

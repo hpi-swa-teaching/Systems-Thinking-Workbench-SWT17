@@ -1,4 +1,4 @@
 accessing
-canHoldWith: aNumber
+canReceive: aNumber
 
 	^ self levelMorph canHold: self level + aNumber.
