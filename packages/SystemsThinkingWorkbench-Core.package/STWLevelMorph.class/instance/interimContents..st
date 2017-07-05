@@ -1,6 +1,11 @@
 editing
 interimContents: aString
+	
+	| isNumber number |
 
-	(aString isAllDigits and: aString ~= '')
-		ifTrue: [super interimContents: aString.
-			self owner ifNotNilDo: [:a | a backupLevel: aString]]
+	isNumber := true.
+
+	[number := aString asNumber] on: Error do: [isNumber := false].
+	(isNumber and: aString ~= '' and: [self canHold: number])
+			ifTrue: [super interimContents: number asString.
+				self owner ifNotNilDo: [:a | a backupLevel: aString]]
