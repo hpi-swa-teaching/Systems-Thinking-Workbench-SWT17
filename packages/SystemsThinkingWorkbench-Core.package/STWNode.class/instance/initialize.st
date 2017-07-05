@@ -6,17 +6,17 @@ initialize
 	| verticalOffset |
 	
 	super initialize.
-	self color: Color transparent; 
-		extent: 80 @ 80;
+	self color: Color transparent;
 		lineWidth: STWSimulation normalLineWidth.
-	
-  	self density: 100.
-  
+
 	verticalOffset := 0 @ (self height / 4).
 	nameMorph := ((STWStringMorph new contents: '???') offset: 0 - verticalOffset).
 	levelMorph := ((STWLevelMorph new contents: 42 asString) offset: verticalOffset).
 	fillingMorph := (((CircleMorph new) color: Color random) center: self center) borderWidth: 0.
 	
+	self density: 1 / 100.
+	self capacity: nil.	
+		
 	self backupLevel: self level.
 
 	self addMorph: self fillingMorph;
@@ -25,4 +25,7 @@ initialize
 		
 	nameMorph updatePositionFromOwnerCenter.
 	levelMorph updatePositionFromOwnerCenter.
-	self updateFilling. 
+	self updateFilling.
+
+	self extent: 80@80.
+	self permitNegative.
