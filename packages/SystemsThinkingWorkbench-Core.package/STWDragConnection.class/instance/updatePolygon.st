@@ -1,3 +1,0 @@
-updating
-updatePolygon
-	"Does nothing"

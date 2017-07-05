@@ -1,4 +1,4 @@
 interaction
 selectionDistance
-	
-	^15
+
+	^ 10
