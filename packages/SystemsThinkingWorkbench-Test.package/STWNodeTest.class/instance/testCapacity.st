@@ -29,6 +29,3 @@ testCapacity
 	self assert: (node canProvide: level).
 	self assert: (node canProvide: level + 1).
 	self deny: (node canReceive: (capacity  - level + 1)).
-
-	
-	
