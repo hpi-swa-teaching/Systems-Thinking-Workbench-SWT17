@@ -5,7 +5,7 @@ updateFilling
 	The size is set and the circle is centered in the node afterwards."
 	
 	| levelDiameter |
-	levelDiameter := (((self density * 2 * self level / Float pi) sqrt clampHigh: self width - 2) / 2) rounded * 2.
+	levelDiameter := (((2 * self level / (self density * Float pi)) sqrt clampHigh: self width - 2) / 2) rounded * 2.
 	levelDiameter > 0
 		ifTrue: [.
 			self fillingMorph extent: levelDiameter @ levelDiameter;
