@@ -9,15 +9,15 @@ addHandlesTo: aHalo box: aBox
 	handleRadius := 20.
 	
 	
-	fulcrum := (Point r: self radius + handleRadius +2  degrees: handleOffset) + self center.
+	fulcrum := self center + (Point r: self radius + handleRadius +2  degrees: handleOffset).
 	self addDeletionHandlerTo: aHalo on: fulcrum withRadius: handleRadius. 								
 													
-	fulcrum := Point r: self radius +handleRadius +2 degrees: 2 * handleOffset.
+	fulcrum := self center + (Point r: self radius +handleRadius +2 degrees: 2 * handleOffset).
 	self addMoveHandlerTo: aHalo on: fulcrum withRadius: handleRadius.
 									
 									
-	fulcrum := Point r: self radius +handleRadius +2 degrees: 3 * handleOffset.
+	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: 3 * handleOffset).
 	self addNegativeHandlerTo: aHalo on: fulcrum  withRadius: handleRadius.
 	
-	fulcrum := Point r: self radius +handleRadius +2 degrees: 4 * handleOffset.
+	fulcrum := self center +(Point r: self radius +handleRadius +2 degrees: 4 * handleOffset).
 	self addMaxCapacityHandlerTo:  aHalo on: fulcrum  withRadius: handleRadius.

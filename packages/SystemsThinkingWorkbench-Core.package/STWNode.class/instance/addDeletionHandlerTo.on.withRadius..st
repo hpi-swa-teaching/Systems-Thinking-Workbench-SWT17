@@ -10,11 +10,11 @@ addDeletionHandlerTo: myHalo on: aPoint withRadius: aRadius
 									
 	myHalo addMorph: handle.
 	
-	handle 	on: #mouseUp send: #endInteraction to: self;
+	handle 	on: #mouseUp send: #delete to: myHalo;
 			on: #mouseDown send: #delete  to: self;
 			addMorph: (MenuIcons smallDeleteIconContents asMorph center: handle center).
 	
-
+	"legacy:"
 	"myHalo addMorphFront: ((myHalo createHandleFor:  [:target | target perform: #delete]
 										color:  Color yellow
 										containing: (MenuIcons smallDeleteIconContents asMorph)

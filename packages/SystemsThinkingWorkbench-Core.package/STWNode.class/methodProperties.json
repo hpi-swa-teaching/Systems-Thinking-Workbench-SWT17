@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addDeletionHandlerTo:on:withRadius:" : "W.F. 7/11/2017 23:18",
-		"addHandlesTo:box:" : "W.F. 7/11/2017 23:15",
-		"addMaxCapacityHandlerTo:on:withRadius:" : "W.F. 7/11/2017 22:22",
-		"addMoveHandlerTo:on:withRadius:" : "W.F. 7/11/2017 23:03",
-		"addNegativeHandlerTo:on:withRadius:" : "W.F. 7/11/2017 21:47",
+		"addDeletionHandlerTo:on:withRadius:" : "W.F. 7/11/2017 23:25",
+		"addHandlesTo:box:" : "W.F. 7/11/2017 23:40",
+		"addMaxCapacityHandlerTo:on:withRadius:" : "W.F. 7/11/2017 23:41",
+		"addMoveHandlerTo:on:withRadius:" : "W.F. 7/11/2017 23:26",
+		"addNegativeHandlerTo:on:withRadius:" : "W.F. 7/11/2017 23:38",
 		"backupLevel" : "PW 6/21/2017 11:19",
 		"backupLevel:" : "PW 6/21/2017 11:19",
 		"canHold:" : "MS 7/4/2017 09:33",
