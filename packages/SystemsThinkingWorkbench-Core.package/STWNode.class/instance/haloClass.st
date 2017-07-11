@@ -1,4 +1,4 @@
-as yet unclassified
+halos and balloon help
 haloClass
 	"comment stating purpose of message"
 
