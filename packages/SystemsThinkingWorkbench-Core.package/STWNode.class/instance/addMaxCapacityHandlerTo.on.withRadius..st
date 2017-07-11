@@ -3,7 +3,7 @@ addMaxCapacityHandlerTo: myHalo on: aPoint withRadius: aRadius
 
 	|handle inputMorph|
 	
-	inputMorph := STWLevelMorph new.
+	inputMorph := self capacity asString asMorph.
 	
 	
 	handle := (CircleMorph new) height: aRadius *2;
@@ -13,9 +13,9 @@ addMaxCapacityHandlerTo: myHalo on: aPoint withRadius: aRadius
 									
 	myHalo addMorph: handle.
 	
-	handle 	on: #mouseUp send: #delete to: myHalo;
-			on: #mouseDown send: #toggleNegativePermission to: self;
-			addMorph: (MenuIcons objectCatalogIcon asMorph center: handle center).
+	handle  addMorph: (MenuIcons objectCatalogIcon asMorph center: handle center);			
+			addMorph: (inputMorph bottomLeft: handle bottomRight) ;
+			on: #mouseDown send: #launchMiniEditor: to: (handle submorphs at: 1).
 
 	"myHalo addMorphFront: ((myHalo createHandleFor:  [ :target :event | myHalo startDragTarget: event]
 										color:  Color brown
