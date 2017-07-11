@@ -12,7 +12,7 @@ testCapacity
 	self assert: (node canProvide: level + 1).
 	self assert: (node canReceive: (capacity  - level + 1)).
 	
-	node denyNegative.
+	node toggleNegativePermission.
 	
 	self assert: (node canProvide: level).
 	self deny: (node canProvide: level + 1).
@@ -24,7 +24,7 @@ testCapacity
 	self deny: (node canProvide: level + 1).
 	self deny: (node canReceive: (capacity  - level + 1)).
 	
-	node permitNegative.
+	node toggleNegativePermission. 
 	
 	self assert: (node canProvide: level).
 	self assert: (node canProvide: level + 1).

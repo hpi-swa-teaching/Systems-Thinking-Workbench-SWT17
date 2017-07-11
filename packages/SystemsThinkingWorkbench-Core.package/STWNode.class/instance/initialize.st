@@ -29,4 +29,5 @@ initialize
 	self updateFilling.
 
 	self extent: 80@80.
-	self permitNegative.
+	negativeAllowed := true.
+	self levelMorph minimum: nil.
