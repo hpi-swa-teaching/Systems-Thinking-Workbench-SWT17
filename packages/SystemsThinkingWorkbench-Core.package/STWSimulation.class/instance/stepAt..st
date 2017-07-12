@@ -1,6 +1,6 @@
 simulation
 stepAt: aTime
-	"Step only if the simulation is running."
+	"If the simulation is running, we step the simulation, thus moving particles and adding new synchronous particles every second."
 	
 	self isSimulationRunning 
 		ifTrue: [
