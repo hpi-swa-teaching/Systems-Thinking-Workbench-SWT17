@@ -5,5 +5,5 @@ acceptContents
 		
 	
 	halo := self owner owner.
-	halo target capacity: self contents.
+	halo target perform: action with:self contents.
 	halo perform: #delete.

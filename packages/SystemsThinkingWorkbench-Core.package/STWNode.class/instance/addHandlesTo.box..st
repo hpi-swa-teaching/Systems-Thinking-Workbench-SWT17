@@ -9,18 +9,26 @@ addHandlesTo: aHalo box: aBox
 	|handleOffset fulcrum handleRadius|
 	
 	handleOffset := 360 / self haloItemNumber.
-	handleRadius := 20.
+	handleRadius := 15.
 	
-		fulcrum := self center +(Point r: self radius +handleRadius +2 degrees: handleOffset).
-	self addMaxCapacityHandlerTo:  aHalo on: fulcrum  withRadius: handleRadius.
+	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: handleOffset).
+	self addResizeHandlerTo: aHalo on: fulcrum  withRadius: handleRadius.
 	
 	fulcrum := self center + (Point r: self radius + handleRadius +2  degrees: 2*handleOffset).
 	self addDeletionHandlerTo: aHalo on: fulcrum withRadius: handleRadius. 								
 													
 	fulcrum := self center + (Point r: self radius +handleRadius +2 degrees: 3* handleOffset).
 	self addMoveHandlerTo: aHalo on: fulcrum withRadius: handleRadius.
-									
-									
+															
 	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: 4 * handleOffset).
 	self addNegativeHandlerTo: aHalo on: fulcrum  withRadius: handleRadius.
 	
+	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: 6 * handleOffset).
+	self addDensityHandlerTo: aHalo on: fulcrum  withRadius: handleRadius.
+
+	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: 5 * handleOffset).
+	self addInspectHandlerTo: aHalo on: fulcrum  withRadius: handleRadius.
+	
+	fulcrum := self center +(Point r: self radius +handleRadius +2 degrees: 7* handleOffset).
+	self addMaxCapacityHandlerTo:  aHalo on: fulcrum  withRadius: handleRadius.
+

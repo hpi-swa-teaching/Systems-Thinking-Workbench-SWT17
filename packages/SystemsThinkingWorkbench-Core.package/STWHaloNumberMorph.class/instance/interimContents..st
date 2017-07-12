@@ -9,3 +9,4 @@ interimContents: aString
 
 	(isNumber and: aString ~= '' and: [self canHold: number])
 			ifTrue: [super interimContents: number asString.]
+
