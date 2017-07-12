@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"target",
 		"action" ],
-	"name" : "STWHaloButtonMorph",
+	"name" : "STWHaloNumberMorph",
 	"pools" : [
 		 ],
-	"super" : "CircleMorph",
+	"super" : "STWStringMorph",
 	"type" : "normal" }
