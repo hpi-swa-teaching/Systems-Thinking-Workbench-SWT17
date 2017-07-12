@@ -1,5 +1,9 @@
 as yet unclassified
 acceptContents 
 
-	self owner owner target capacity: self contents.
-	self owner perform: #delete.
+	|halo|
+		
+	
+	halo := self owner owner.
+	halo target capacity: self contents.
+	halo perform: #delete.

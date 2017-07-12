@@ -3,7 +3,7 @@ addMaxCapacityHandlerTo: myHalo on: aPoint withRadius: aRadius
 
 	|handle inputMorph|
 	
-	inputMorph := STWHaloNumberMorph new contents: self capacity.
+	inputMorph := STWHaloNumberMorph new contents:(self capacity ifNil: ['Nil'] ifNotNil: [self capacity]).
 	
 	handle := (CircleMorph new) height: aRadius *2;
 									center: aPoint;
