@@ -1,4 +1,8 @@
 accessing
 toggleNegativePermission
 
-	negativeAllowed ifTrue: [self permitNegative] ifFalse: [self denyNegative].
+	negativeAllowed ifTrue: [	negativeAllowed := false.
+								self levelMorph minimum: 0.
+								self level < 0 ifTrue: [self level: 0].]
+					 ifFalse: [	negativeAllowed := true.
+								self levelMorph minimum: nil.].

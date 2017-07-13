@@ -1,5 +1,5 @@
 accessing
 density: anObject
 
-	density := anObject.
+	density := anObject asNumber.
 	self updateFilling.

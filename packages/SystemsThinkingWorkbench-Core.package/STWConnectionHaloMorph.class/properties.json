@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"offset",
-		"editable" ],
-	"name" : "STWStringMorph",
+		"start",
+		"middle",
+		"end" ],
+	"name" : "STWConnectionHaloMorph",
 	"pools" : [
 		 ],
-	"super" : "StringMorph",
+	"super" : "STWHaloMorph",
 	"type" : "normal" }

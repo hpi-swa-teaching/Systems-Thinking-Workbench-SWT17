@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"offset",
-		"editable" ],
-	"name" : "STWStringMorph",
+		"action" ],
+	"name" : "STWHaloNumberMorph",
 	"pools" : [
 		 ],
-	"super" : "StringMorph",
+	"super" : "STWStringMorph",
 	"type" : "normal" }

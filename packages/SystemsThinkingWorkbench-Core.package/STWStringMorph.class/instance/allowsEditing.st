@@ -1,0 +1,4 @@
+accessing
+allowsEditing
+
+	^ editable
