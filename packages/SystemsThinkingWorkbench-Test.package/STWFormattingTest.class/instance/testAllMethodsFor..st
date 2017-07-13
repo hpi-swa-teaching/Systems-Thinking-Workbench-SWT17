@@ -5,8 +5,13 @@ testAllMethodsFor: aCondition
 		select: [:class |
 			class category = 'SystemsThinkingWorkbench-Core'])
 		do: [:class |
+			class class organization allMethodSelectors
+				do: [:method |
+					| source |
+					source := (class class compiledMethodAt: method) getSource.
+					self assert: (aCondition value: source string).].
 			class organization allMethodSelectors
 				do: [:method |
 					| source |
 					source := (class compiledMethodAt: method) getSource.
-					self assert: (aCondition value: source).]]
+					self assert: (aCondition value: source string).].]
