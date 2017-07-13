@@ -4,14 +4,13 @@ addHandles
 
 	| box |
 	
-
-	self removeAllMorphs.
-	self bounds: target renderedMorph worldBoundsForHalo.  "update my size"
-	box := Rectangle center: self center extent: (self height)@(self width) .
-
+	box := Rectangle center: self center extent: (self height)@(self width).
+	
+	self 
+		removeAllMorphs;
+		bounds: target renderedMorph worldBoundsForHalo;  "update my size"
+		layoutChanged;
+		changed.
+	
 	target addHandlesTo: self box: box.
-
-	self addName.
 	growingOrRotating := false.
-	self layoutChanged.
-	self changed.
