@@ -3,8 +3,7 @@ addStartHandleFor: aBlock color: aColor containing: aMorph
 	| handle |
 	handle := self
 		createHandleFor: aBlock
-		to: aColor
-		color: aMorph
-		containing: nil.
+		color: aColor
+		containing: aMorph.
 	self start add: handle.
 	^ handle

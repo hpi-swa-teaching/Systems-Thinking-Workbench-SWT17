@@ -1,5 +1,5 @@
 drawing
-createHandleFor: aBlock to: aColor color: aMorph containing: anObject
+createHandleFor: aBlock color: aColor containing: aMorph
 	
 	| handle |
 	handle := CircleMorph new.
