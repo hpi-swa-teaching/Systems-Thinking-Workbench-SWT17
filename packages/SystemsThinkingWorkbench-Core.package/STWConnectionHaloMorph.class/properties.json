@@ -1,0 +1,16 @@
+{
+	"category" : "SystemsThinkingWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"start",
+		"middle",
+		"end" ],
+	"name" : "STWConnectionHaloMorph",
+	"pools" : [
+		 ],
+	"super" : "STWHaloMorph",
+	"type" : "normal" }

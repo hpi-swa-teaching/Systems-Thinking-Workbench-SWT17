@@ -11,5 +11,5 @@
 	"name" : "STWParticle",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }
