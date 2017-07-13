@@ -13,4 +13,3 @@ test: aConnection steps: steps in: aSimulation
 	aSimulation ifNotNil:[(steps + 1) timesRepeat: [aSimulation stepAt: time + 1001. time := time + 1001]].
 	self assert: aConnection startNode level = (level1 - ((1 + steps) * aConnection intake)).
 	self assert: aConnection endNode level = (level2 + (steps * aConnection output)).
-	
