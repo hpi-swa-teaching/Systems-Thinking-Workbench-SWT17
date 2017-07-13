@@ -1,15 +1,10 @@
 halos and balloon help
 addDeletionHandlerTo: myHalo on: aPoint withRadius: aRadius
-
-	|handle|
-	
-	handle := (CircleMorph new) height: aRadius *2;
-									center: aPoint;
-									balloonText: 'Delete me.';
-									color: Color bubblegum.
-									
-	myHalo addMorph: handle.
-	
-	handle 	on: #mouseUp send: #delete to: myHalo;
-			on: #mouseDown send: #delete  to: self;
-			addMorph: (MenuIcons smallDeleteIconContents asMorph center: handle center).
+	| handle |
+	handle := myHalo
+		createHandleFor: [ self perform: #delete ]
+		to: Color bubblegum
+		color: MenuIcons smallDeleteIconContents asMorph
+		containing: nil.
+	handle center: aPoint.
+	myHalo addMorph: handle

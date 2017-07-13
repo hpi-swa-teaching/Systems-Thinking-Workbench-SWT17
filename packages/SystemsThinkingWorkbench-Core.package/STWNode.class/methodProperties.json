@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addDeletionHandlerTo:on:withRadius:" : "W.F. 7/12/2017 21:27",
+		"addDeletionHandlerTo:on:withRadius:" : "W.F. 7/13/2017 10:44",
 		"addDensityHandlerTo:on:withRadius:" : "W.F. 7/12/2017 22:00",
-		"addHandlesTo:box:" : "W.F. 7/12/2017 21:34",
+		"addHandlesTo:box:" : "W.F. 7/13/2017 11:18",
 		"addInspectHandlerTo:on:withRadius:" : "W.F. 7/12/2017 21:13",
 		"addMaxCapacityHandlerTo:on:withRadius:" : "W.F. 7/12/2017 22:00",
 		"addMoveHandlerTo:on:withRadius:" : "W.F. 7/12/2017 21:28",
