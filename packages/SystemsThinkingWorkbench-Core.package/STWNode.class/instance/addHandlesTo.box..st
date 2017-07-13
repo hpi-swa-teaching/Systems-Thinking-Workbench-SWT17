@@ -6,48 +6,44 @@ addHandlesTo: myHalo box: aBox
 	The Box is only sent, to overwrite the function.
 	
 	A Handle is a simple Morph, who gets added onto the Halo and triggers events"
-	|handle handleOffset  aHalo fulcrum handleRadius|
+	
+	| handle handleOffset  aHalo handlePoint handleRadius |
+	
 	aHalo := myHalo.
 	handleOffset := 360 / self haloItemNumber.
 	handleRadius := 15.
 	
-	
 	"RESIZE"
-	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: handleOffset).
+	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: handleOffset).
 	handle := self addResizeHandlerTo: myHalo.
-	handle center: fulcrum.
+	handle center: handlePoint.
 
-	
-	
 	"DELETION"
-	fulcrum := self center + (Point r: self radius +handleRadius +2 degrees: 2 * handleOffset).
+	handlePoint := self center + (Point r: self radius +handleRadius +2 degrees: 2 * handleOffset).
 	handle := self addDeletionHandlerTo: myHalo.
-	handle center: fulcrum.
+	handle center: handlePoint.
 
-
-	
 	"MOVING"
-	fulcrum := self center + (Point r: self radius +handleRadius +2 degrees: 3 * handleOffset).
+	handlePoint := self center + (Point r: self radius +handleRadius +2 degrees: 3 * handleOffset).
 		handle := self addMoveHandlerTo: myHalo.
-	handle center: fulcrum.
+	handle center: handlePoint.
 		
 	"INSPECTION"
-	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: 4 * handleOffset).
+	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: 4 * handleOffset).
 	handle := self addInspectionHandlerTo: myHalo.
-	handle center: fulcrum.
+	handle center: handlePoint.
 	
 	"NEGATIVE"
-	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: 5 * handleOffset).
+	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: 5 * handleOffset).
 	handle := self addNegativeHandlerTo: myHalo.
-	handle center: fulcrum.		
+	handle center: handlePoint.	
 					
 	"DENSITY"	
-	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: 6 * handleOffset).
+	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: 6 * handleOffset).
 	handle := self addDensityHandlerTo: myHalo.
-	handle center: fulcrum.				
-
+	handle center: handlePoint.	
 
 	"CAPACITY"	
-	fulcrum :=self center + (Point r: self radius +handleRadius +2 degrees: 7 * handleOffset).
+	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: 7 * handleOffset).
 	handle := self addCapacityHandlerTo: myHalo.
-	handle center: fulcrum.
+	handle center: handlePoint.
