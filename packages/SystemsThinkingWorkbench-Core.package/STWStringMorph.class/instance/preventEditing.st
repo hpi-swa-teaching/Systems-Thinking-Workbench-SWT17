@@ -1,0 +1,4 @@
+accessing
+preventEditing
+
+	editable := false.
