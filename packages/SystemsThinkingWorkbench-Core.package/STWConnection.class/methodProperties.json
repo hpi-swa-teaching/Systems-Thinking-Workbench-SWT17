@@ -2,7 +2,7 @@
 	"class" : {
 		"from:to:color:width:" : "PW 6/28/2017 12:11" },
 	"instance" : {
-		"addHandlesTo:box:" : "FP 7/13/2017 01:38",
+		"addHandlesTo:box:" : "PW 7/13/2017 18:40",
 		"addParticle" : "PW 7/13/2017 17:51",
 		"arrowAngle" : "FP 6/21/2017 16:07",
 		"arrowLength" : "FP 6/21/2017 16:07",
@@ -32,7 +32,7 @@
 		"lineWidth:" : "FP 6/21/2017 16:09",
 		"particles" : "PW 7/13/2017 17:54",
 		"particles:" : "PW 7/13/2017 17:54",
-		"performAnimationStep:" : "PW 7/13/2017 17:58",
+		"performAnimationStep:" : "PW 7/13/2017 18:31",
 		"performSimulationStep" : "nn 6/27/2017 15:50",
 		"pixelsPerSegment" : "FP 6/21/2017 16:09",
 		"resetSimulation" : "nn 6/27/2017 15:50",
