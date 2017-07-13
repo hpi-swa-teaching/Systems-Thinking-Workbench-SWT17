@@ -9,9 +9,11 @@ testAllMethodsFor: aCondition
 				do: [:method |
 					| source |
 					source := (class class compiledMethodAt: method) getSource.
-					self assert: (aCondition value: source string).].
+					(aCondition value: source string)
+						ifFalse: [ self signalFailure: class name , ' class>>' , method asString ]].
 			class organization allMethodSelectors
 				do: [:method |
 					| source |
 					source := (class compiledMethodAt: method) getSource.
-					self assert: (aCondition value: source string).].]
+					(aCondition value: source string)
+						ifFalse: [ self signalFailure: class name , '>>' , method asString ].].].
