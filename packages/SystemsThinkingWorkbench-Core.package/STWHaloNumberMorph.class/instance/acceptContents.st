@@ -1,9 +1,13 @@
 as yet unclassified
 acceptContents 
 
-	|halo|
+	| halo isNumber number |
 		
 	
 	halo := self owner owner.
-	halo target perform: action with:self contents.
-	halo perform: #delete.
+	isNumber := true.
+
+	[number := self contents asNumber] on: Error do: [isNumber := false].
+	isNumber
+		ifTrue: [halo target perform: action with:self contents.
+				halo perform: #delete.]
