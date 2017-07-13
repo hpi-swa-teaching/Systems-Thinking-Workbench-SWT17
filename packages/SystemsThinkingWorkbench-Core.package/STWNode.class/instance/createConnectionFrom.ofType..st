@@ -9,3 +9,5 @@ createConnectionFrom: startingNode ofType: anSTWConnectionClass
 	connection := (anSTWConnectionClass new) connect: startingNode with: self.
 	self owner addMorphBack: connection;
 		addConnection: connection.
+		
+	^ connection

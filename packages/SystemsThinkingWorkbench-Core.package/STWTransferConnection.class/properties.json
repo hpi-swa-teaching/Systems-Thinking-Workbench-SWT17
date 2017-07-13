@@ -8,8 +8,7 @@
 	"instvars" : [
 		"output",
 		"intake",
-		"particles",
-		"lastStepTime" ],
+		"synchronous" ],
 	"name" : "STWTransferConnection",
 	"pools" : [
 		 ],

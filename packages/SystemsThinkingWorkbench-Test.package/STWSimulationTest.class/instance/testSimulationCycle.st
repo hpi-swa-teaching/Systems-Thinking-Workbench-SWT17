@@ -1,25 +1,24 @@
 testing
 testSimulationCycle
 	
-	| playfield |
+	| playfield time |
 	playfield := STWSimulation new.
+	time := DateAndTime millisecondClockValue + 50.
 	self assert: playfield simulationTime = 0.
-	self assert: playfield isSimulationRunning not.
-	playfield startSimulation.
-	self assert: playfield isSimulationRunning.
-	playfield stepSimulation.
-	self assert: playfield simulationTime = 1.
-	playfield stopSimulation.
-	self assert: playfield simulationTime = 1.
-	self assert: playfield isSimulationRunning not.
-	playfield startSimulation.
-	playfield resetSimulation.
-	self assert: playfield simulationTime = 0.
-	self assert: playfield isSimulationRunning not.
-	playfield stepSimulation.
-	self assert: playfield simulationTime = 1.
-	playfield resetSimulation.
-	self assert: playfield simulationTime = 0.
-	self assert: playfield isSimulationRunning not.
-	
-			
+ 	self assert: playfield isSimulationRunning not.
+ 	playfield startSimulation.
+ 	self assert: playfield isSimulationRunning.
+ 	playfield stepAt: time.
+ 	self assert: playfield simulationTime > 0.
+ 	playfield stopSimulation.
+ 	self assert: playfield simulationTime > 0.
+ 	self assert: playfield isSimulationRunning not.
+ 	playfield startSimulation.
+ 	playfield resetSimulation.
+ 	self assert: playfield simulationTime = 0.
+ 	self assert: playfield isSimulationRunning not.
+ 	playfield stepAt: time.
+ 	self assert: playfield simulationTime = 0.
+ 	playfield resetSimulation.
+ 	self assert: playfield simulationTime = 0.
+ 	self assert: playfield isSimulationRunning not.
