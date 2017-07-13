@@ -7,6 +7,5 @@ interimContents: aString
 
 	[number := aString asNumber] on: Error do: [isNumber := false].
 
-	(isNumber and: aString ~= '' and: [self canHold: number])
-			ifTrue: [super interimContents: number asString.]
-
+		(isNumber and: aString ~= '' and: [self canHold: number])
+			ifTrue: [super interimContents: number asString.].
