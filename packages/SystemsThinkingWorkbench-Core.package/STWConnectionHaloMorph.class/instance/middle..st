@@ -1,3 +1,4 @@
 accessing
 middle: anObject
-	middle := anObject
+
+	middle := anObject.

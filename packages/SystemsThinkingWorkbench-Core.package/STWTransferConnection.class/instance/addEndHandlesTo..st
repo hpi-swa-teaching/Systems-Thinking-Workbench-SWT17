@@ -4,7 +4,8 @@ addEndHandlesTo: aHalo
 	| levelDisplay |
 	
 	levelDisplay := STWStringMorph new.
-	levelDisplay contents: self output asString.
+	levelDisplay contents: self output asString;
+		preventEditing.
 	
 	aHalo addEndHandleFor: [ self output: self output + 1. levelDisplay contents: self output asString.] 
 		color: Color green muchLighter
@@ -15,4 +16,3 @@ addEndHandlesTo: aHalo
 	aHalo addEndHandleFor: [ self output: self output - 1. levelDisplay contents: self output asString.] 
 		color: Color red muchLighter
 		containing: '-' asMorph.
-	

@@ -1,3 +1,4 @@
 accessing
 start: anObject
-	start := anObject
+
+	start := anObject.

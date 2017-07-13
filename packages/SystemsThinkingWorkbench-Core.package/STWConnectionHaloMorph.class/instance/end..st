@@ -1,3 +1,4 @@
 accessing
 end: anObject
-	end := anObject
+
+	end := anObject.

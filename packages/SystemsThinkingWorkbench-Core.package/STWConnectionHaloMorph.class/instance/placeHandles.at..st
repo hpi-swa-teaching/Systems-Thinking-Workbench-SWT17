@@ -1,5 +1,7 @@
 private
 placeHandles: aCollection at: aProgress
+	"Places all given handles along a line perpendicular to the curve of this target connection.
+	The line will be centered on the curve."
 
 	| initialOffset offset origin tangent spaces |
 	
