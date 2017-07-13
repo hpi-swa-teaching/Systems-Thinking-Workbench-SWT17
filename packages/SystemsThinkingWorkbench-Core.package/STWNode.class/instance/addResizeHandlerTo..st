@@ -4,8 +4,8 @@ addResizeHandlerTo: myHalo
 	|handle|
 	handle := myHalo createHandleFor: #resizeMorph:  
 						to: self
-						color: Color random 
+						color: Color orchid  lighter 
 						containing: (MenuIcons smallFontsIcon asMorph).
-						
+	handle balloonText: 'Click me to resize me.'.
 	myHalo addMorph: handle.
 	^handle
