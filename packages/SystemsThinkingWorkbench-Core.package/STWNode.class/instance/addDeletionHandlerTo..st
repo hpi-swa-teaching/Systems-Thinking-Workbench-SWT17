@@ -8,6 +8,6 @@ addDeletionHandlerTo: myHalo
 						color: Color bubblegum 
 						containing: (MenuIcons smallDeleteIcon asMorph).
 	
-	handle balloonText: 'Click me to delete me :('.
+	handle balloonText: 'Click me to delete the Node.'.
 	myHalo addMorph: handle.
 	^handle

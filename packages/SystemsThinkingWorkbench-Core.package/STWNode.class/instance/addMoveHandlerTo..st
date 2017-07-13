@@ -7,6 +7,6 @@ addMoveHandlerTo: myHalo
 						to: myHalo
 						color: Color blueberry 
 						containing: (MenuIcons smallChangesIcon asMorph).
-	handle balloonText: 'Click me to move me around.'.
+	handle balloonText: 'Click me to move the Node around.'.
 	myHalo addMorph: handle.
 	^handle

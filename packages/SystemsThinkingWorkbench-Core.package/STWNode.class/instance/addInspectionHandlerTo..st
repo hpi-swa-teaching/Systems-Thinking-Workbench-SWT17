@@ -7,6 +7,6 @@ addInspectionHandlerTo: myHalo
 						to: self 
 						color: Color gray  
 						containing: (MenuIcons smallFullscreenOnIcon asMorph).
-	handle balloonText: 'Click me to inspect me.'.
+	handle balloonText: 'Click me to inspect the Node.'.
 	myHalo addMorph: handle.
 	^handle
