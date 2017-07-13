@@ -5,6 +5,8 @@ testNodeShape
 	
 	node := STWNode new.
 	
+	self signalFailure: node fillingMorph extent asString.
+	
 	self assert: node fillingMorph extent = (52@52).
 	
 	node level: 200.
