@@ -1,4 +1,4 @@
 accessing
 connections: anObject
 
-	connections := anObject.
+	connections := anObject

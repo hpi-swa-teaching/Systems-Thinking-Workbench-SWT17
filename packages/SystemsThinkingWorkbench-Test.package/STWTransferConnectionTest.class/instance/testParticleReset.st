@@ -2,7 +2,7 @@ testing
 testParticleReset
 	"Tests if a TransferConnection destroys particle morphs when the simulation is reset."
 
-	| node1 node2 connection numSteps |
+	| node1 node2 connection numSteps time |
 	
 	numSteps := 3.
 	
@@ -12,7 +12,7 @@ testParticleReset
 	connection connect: node1 with: node2.
 	
 	self assert: connection particles size == 0.
-	
+	time := DateAndTime millisecondClockValue.
 	numSteps timesRepeat: [connection performSimulationStep].
 	
 	self assert: connection particles size == numSteps.
@@ -20,5 +20,3 @@ testParticleReset
 	connection resetSimulation.
 	
 	self assert: connection particles size == 0.
-	
-	

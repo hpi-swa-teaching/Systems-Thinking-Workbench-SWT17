@@ -12,8 +12,9 @@
 		"simulationTime",
 		"resetButton",
 		"nodes",
+		"draggedNode",
 		"connections",
-		"draggedNode" ],
+		"lastStepTime" ],
 	"name" : "STWSimulation",
 	"pools" : [
 		 ],

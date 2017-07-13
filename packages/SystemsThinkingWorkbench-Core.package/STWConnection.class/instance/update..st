@@ -1,5 +1,5 @@
 updating
-update: anAspect
-	
+update: anAspect 
+
 	anAspect == #bounds ifTrue: [self updatePolygon].
 	anAspect == #deleted ifTrue: [self delete].

@@ -8,20 +8,14 @@ testParticlePresence
 	startlevel2 := 30.
 	numSteps := 3.
 	
-	node1 := (STWNode new) center: 50@0; level: startlevel1.
-	node2 := (STWNode new) center: 50@50; level: startlevel2.
+	node1 := (STWNode new) center: 150@50; level: startlevel1.
+	node2 := (STWNode new) center: 500@150; level: startlevel2.
 	connection := STWTransferConnection new.
 	connection connect: node1 with: node2.
 	
-	self assert: connection particles size == 0.
+	self assert: connection particles size = 0.
 	
 	numSteps timesRepeat: [connection performSimulationStep].
 	
 	self assert: connection particles size == numSteps.
-	self assert: (connection particles allSatisfy: [ :p | p color == connection startNode fillingMorph color]).
-	
-	connection stepAt: connection lastStepTime + 1000.
-	
-	self assert: connection particles size == 0.
-	
-	
+	self assert: (connection particles allSatisfy: [ :p | p color = connection startNode fillingMorph color]).
