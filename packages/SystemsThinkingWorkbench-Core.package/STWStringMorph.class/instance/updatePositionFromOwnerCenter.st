@@ -1,4 +1,6 @@
 editing
 updatePositionFromOwnerCenter
 
-	self center: self owner center + self offset.
+	self offset
+		ifNil: [self center: self owner center]
+		ifNotNil: [self center: self owner center + self offset].
