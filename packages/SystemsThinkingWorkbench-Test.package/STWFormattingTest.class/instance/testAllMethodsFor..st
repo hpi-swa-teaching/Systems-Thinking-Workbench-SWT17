@@ -1,0 +1,19 @@
+as yet unclassified
+testAllMethodsFor: aCondition
+
+	(Smalltalk allClasses
+		select: [:class |
+			class category = 'SystemsThinkingWorkbench-Core'])
+		do: [:class |
+			class class organization allMethodSelectors
+				do: [:method |
+					| source |
+					source := (class class compiledMethodAt: method) getSource.
+					(aCondition value: source string)
+						ifFalse: [ self signalFailure: class name , ' class>>' , method asString ]].
+			class organization allMethodSelectors
+				do: [:method |
+					| source |
+					source := (class compiledMethodAt: method) getSource.
+					(aCondition value: source string)
+						ifFalse: [ self signalFailure: class name , '>>' , method asString ].].].
