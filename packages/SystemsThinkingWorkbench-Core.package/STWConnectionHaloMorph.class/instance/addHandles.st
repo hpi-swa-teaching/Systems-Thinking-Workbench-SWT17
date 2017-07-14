@@ -9,5 +9,5 @@ addHandles
 		addCircleHandles;
 		
 		placeHandles: self start at: 0;
-		placeHandles: self middle at: (1/2);
+		placeHandles: self middle at: (1 / 2);
 		placeHandles: self end at: 1.

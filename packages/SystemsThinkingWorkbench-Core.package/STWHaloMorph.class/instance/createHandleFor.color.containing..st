@@ -7,7 +7,7 @@ createHandleFor: aBlock color: aColor containing: aMorph
 		color: aColor;
 		on: #mouseDown send: #value to: aBlock.
 	
-	aMorph ifNotNil: [ handle addMorph: aMorph.
+	aMorph ifNotNil: [handle addMorph: aMorph.
 		aMorph center: handle center.].
 			
 	 ^ handle
