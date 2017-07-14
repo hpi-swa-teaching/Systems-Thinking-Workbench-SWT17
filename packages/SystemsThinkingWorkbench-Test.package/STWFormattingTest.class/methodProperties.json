@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAllMethodsFor:" : "FP 7/13/2017 18:02",
-		"testCarriageReturn" : "FP 7/13/2017 18:00" } }
+		"testAllMethodsFor:" : "PW 7/14/2017 11:56",
+		"testBrackets" : "PW 7/14/2017 12:04",
+		"testCarriageReturn" : "FP 7/13/2017 18:00",
+		"testParentheses" : "PW 7/14/2017 12:08" } }

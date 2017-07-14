@@ -8,12 +8,12 @@ testAllMethodsFor: aCondition
 			class class organization allMethodSelectors
 				do: [:method |
 					| source |
-					source := (class class compiledMethodAt: method) getSource.
-					(aCondition value: source string)
+					source := (class class compiledMethodAt: method) getSource string.
+					(aCondition value: source)
 						ifFalse: [ self signalFailure: class name , ' class>>' , method asString ]].
 			class organization allMethodSelectors
 				do: [:method |
 					| source |
-					source := (class compiledMethodAt: method) getSource.
-					(aCondition value: source string)
+					source := (class compiledMethodAt: method) getSource string.
+					(aCondition value: source)
 						ifFalse: [ self signalFailure: class name , '>>' , method asString ].].].
