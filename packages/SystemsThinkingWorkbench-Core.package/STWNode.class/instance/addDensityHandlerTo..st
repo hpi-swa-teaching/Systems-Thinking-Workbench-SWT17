@@ -13,4 +13,4 @@ addDensityHandlerTo: myHalo
 	handle balloonText: 'Click me to insert a new density.'.
 	submorph bottomLeft: handle bottomRight.
 	myHalo addMorph: handle.
-	^handle.					
+	^ handle

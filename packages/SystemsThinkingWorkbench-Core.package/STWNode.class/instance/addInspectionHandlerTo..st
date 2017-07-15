@@ -9,4 +9,4 @@ addInspectionHandlerTo: myHalo
 						containing: (MenuIcons smallFullscreenOnIcon asMorph).
 	handle balloonText: 'Click me to inspect the Node.'.
 	myHalo addMorph: handle.
-	^handle
+	^ handle

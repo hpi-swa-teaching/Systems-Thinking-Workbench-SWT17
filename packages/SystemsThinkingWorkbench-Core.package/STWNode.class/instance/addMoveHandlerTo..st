@@ -9,4 +9,4 @@ addMoveHandlerTo: myHalo
 						containing: (MenuIcons smallChangesIcon asMorph).
 	handle balloonText: 'Click me to move the Node around.'.
 	myHalo addMorph: handle.
-	^handle
+	^ handle

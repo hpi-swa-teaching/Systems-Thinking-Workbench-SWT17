@@ -14,4 +14,4 @@ addCapacityHandlerTo: myHalo
 	submorph bottomLeft: handle bottomRight.
 	
 	myHalo addMorph: handle.
-	^handle.					
+	^ handle			
