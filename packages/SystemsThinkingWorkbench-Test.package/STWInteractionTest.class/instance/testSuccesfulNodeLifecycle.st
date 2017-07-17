@@ -2,7 +2,7 @@ testing
 testSuccesfulNodeLifecycle
 	"Checks if a node can be placed in the playfield by clicking."
 
-	| playfield |
+	| simulation |
 	
-	playfield := STWSimulation new.
-	self assert: [(playfield addNodeAt: 100@100) center = (100@100)].
+	simulation := STWSimulation new.
+	self assert: 100@100 equals: (simulation addNodeAt: 100@100) center.
