@@ -8,3 +8,4 @@ resetSimulation
 	self stopSimulation.
 	self playButton label: 'Start'.
 	self simulationTime: 0.
+	self lastStepTime: nil.

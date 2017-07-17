@@ -7,4 +7,5 @@ extent: aPoint
 	size < STWSimulation minimumNodeSize
 		ifFalse: [tempCenter := self center.
 			super extent: aPoint.
-			self center: tempCenter]
+			self center: tempCenter.
+			self radiusChanged: aPoint.]

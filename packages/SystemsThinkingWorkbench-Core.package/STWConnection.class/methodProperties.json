@@ -2,7 +2,8 @@
 	"class" : {
 		"from:to:color:width:" : "PW 6/28/2017 12:11" },
 	"instance" : {
-		"addHandlesTo:box:" : "FP 7/13/2017 01:38",
+		"addHandlesTo:box:" : "PW 7/13/2017 19:03",
+		"addParticle" : "FP 7/17/2017 15:39",
 		"arrowAngle" : "FP 6/21/2017 16:07",
 		"arrowLength" : "FP 6/21/2017 16:07",
 		"arrowPointAt:length:" : "FP 6/22/2017 09:33",
@@ -20,7 +21,7 @@
 		"from:to:" : "FP 6/21/2017 16:08",
 		"from:to:via:" : "FP 6/29/2017 14:35",
 		"haloClass" : "FP 7/11/2017 12:22",
-		"initialize" : "FP 6/29/2017 14:02",
+		"initialize" : "FP 7/17/2017 15:39",
 		"invalidate" : "FP 6/21/2017 16:08",
 		"leftArrowPoint" : "PW 7/14/2017 11:28",
 		"lineColor" : "FP 6/21/2017 16:09",
@@ -29,6 +30,9 @@
 		"lineSegmentsDo:" : "FP 6/21/2017 16:09",
 		"lineWidth" : "FP 6/21/2017 16:09",
 		"lineWidth:" : "FP 6/21/2017 16:09",
+		"particles" : "PW 7/13/2017 17:54",
+		"particles:" : "PW 7/13/2017 17:54",
+		"performAnimationStep:" : "PW 7/13/2017 18:31",
 		"performSimulationStep" : "nn 6/27/2017 15:50",
 		"pixelsPerSegment" : "FP 6/21/2017 16:09",
 		"resetSimulation" : "nn 6/27/2017 15:50",
@@ -39,5 +43,6 @@
 		"solveCubicFunctionParameterizedWithA:b:c:d:" : "PW 7/14/2017 11:28",
 		"startNode" : "FP 6/21/2017 16:09",
 		"startNode:" : "nn 6/14/2017 18:16",
-		"update:" : "nn 6/22/2017 14:52",
+		"update:" : "PW 7/13/2017 17:58",
+		"update:with:" : "PW 7/13/2017 17:59",
 		"updatePolygon" : "FP 6/21/2017 16:18" } }
