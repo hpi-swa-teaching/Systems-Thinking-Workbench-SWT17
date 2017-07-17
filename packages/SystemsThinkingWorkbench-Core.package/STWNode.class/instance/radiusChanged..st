@@ -1,5 +1,5 @@
 updating
-extentChanged: aPoint
+radiusChanged: aPoint
 	"Updates all important labels of the node when extent is changed."
 
 	| verticalOffset |
@@ -10,4 +10,3 @@ extentChanged: aPoint
 	self levelMorph ifNotNil: [self levelMorph offset: verticalOffset; updatePositionFromOwnerCenter].
 	self nameMorph ifNotNil: [self nameMorph offset: 0 - verticalOffset; updatePositionFromOwnerCenter].
 	self changed: #bounds.
-	super extentChanged: aPoint.
