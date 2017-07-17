@@ -1,4 +1,4 @@
 geometry
 leftArrowPoint
 
-	^ self arrowPointAt: self arrowAngle length: self arrowLength.
+	^ self arrowPointAt: self arrowAngle length: self arrowLength

@@ -1,8 +1,7 @@
 private
 addHandles
 
-	self 
-		start: OrderedCollection new;
+	self start: OrderedCollection new;
 		middle: OrderedCollection new;
 		end: OrderedCollection new;
 		

@@ -4,7 +4,7 @@ mouseMove: evt
 	| done |
 	
 	done := false.
-	self nodes , self connections
+	self nodes, self connections
 		do: [:n | n lineWidth: STWSimulation normalLineWidth.
 				(n containsPoint: evt cursorPoint)
 				ifTrue: [done

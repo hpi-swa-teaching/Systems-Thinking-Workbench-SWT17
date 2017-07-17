@@ -3,7 +3,9 @@ initialize
 
 	super initialize.
 
-	self intake: 1.
-	self output: 1.
-	self stopStepping.
-	self beSynchronous.
+	self intake: 1;
+		output: 1;
+		particles: Set new;
+		lastStepTime: nil;
+		stopStepping;
+		beSynchronous.
