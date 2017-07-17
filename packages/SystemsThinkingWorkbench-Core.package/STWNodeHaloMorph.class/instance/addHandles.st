@@ -6,8 +6,7 @@ addHandles
 	
 	box := Rectangle center: self center extent: (self height)@(self width).
 	
-	self 
-		removeAllMorphs;
+	self removeAllMorphs;
 		bounds: target renderedMorph worldBoundsForHalo;  "update my size"
 		layoutChanged;
 		changed.

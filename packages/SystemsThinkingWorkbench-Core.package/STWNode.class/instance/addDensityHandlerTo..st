@@ -1,7 +1,8 @@
 halos and balloon help
 addDensityHandlerTo: myHalo
 
-	|submorph handle|
+	| submorph handle |
+
 	submorph := STWHaloNumberMorph new contents:(self density asString truncateTo: 5).
 	submorph action: #density:.
 	
@@ -13,4 +14,4 @@ addDensityHandlerTo: myHalo
 	handle balloonText: 'Click me to insert a new density.'.
 	submorph bottomLeft: handle bottomRight.
 	myHalo addMorph: handle.
-	^ handle
+	^handle.					

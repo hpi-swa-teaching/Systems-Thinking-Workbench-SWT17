@@ -1,8 +1,10 @@
 as yet unclassified
 addParticle
 
-	| particle |
-
-	particle := (self startNode requestParticleCosting: self intake valued: self output) center: self position + self segment start.
-	self particles add: particle.
-	self addMorph: particle.
+	(self endNode canReceive: self intake)
+		ifTrue:
+			[(self startNode requestParticleCosting: self intake valued: self output)
+				ifNotNil: [:particle |
+				particle center: self position + self segment start.
+				self addMorph: particle.
+				self particles add: particle.]]

@@ -1,0 +1,4 @@
+constants
+minimumNodeSize
+
+	^ 42
