@@ -3,7 +3,7 @@
 		"from:to:color:width:" : "PW 6/28/2017 12:11" },
 	"instance" : {
 		"addHandlesTo:box:" : "PW 7/13/2017 19:03",
-		"addParticle" : "PW 7/13/2017 17:51",
+		"addParticle" : "FP 7/17/2017 15:39",
 		"arrowAngle" : "FP 6/21/2017 16:07",
 		"arrowLength" : "FP 6/21/2017 16:07",
 		"arrowPointAt:length:" : "FP 6/22/2017 09:33",
@@ -21,7 +21,7 @@
 		"from:to:" : "FP 6/21/2017 16:08",
 		"from:to:via:" : "FP 6/29/2017 14:35",
 		"haloClass" : "FP 7/11/2017 12:22",
-		"initialize" : "PW 7/13/2017 17:52",
+		"initialize" : "FP 7/17/2017 15:39",
 		"invalidate" : "FP 6/21/2017 16:08",
 		"leftArrowPoint" : "FP 6/21/2017 16:09",
 		"lineColor" : "FP 6/21/2017 16:09",
