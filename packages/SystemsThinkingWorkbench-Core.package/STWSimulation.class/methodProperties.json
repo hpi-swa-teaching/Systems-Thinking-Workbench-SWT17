@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"hoverLineWidth" : "FP 6/29/2017 14:02",
+		"minimumNodeSize" : "PW 7/14/2017 11:25",
 		"normalLineWidth" : "FP 6/29/2017 14:02" },
 	"instance" : {
 		"addConnection:" : "PW 6/21/2017 11:20",
@@ -17,10 +18,10 @@
 		"firstClicked:" : "PW 6/21/2017 11:21",
 		"handlesMouseDown:" : "PW 6/21/2017 11:21",
 		"handlesMouseMove:" : "PW 6/28/2017 11:34",
-		"initialize" : "PW 6/21/2017 11:21",
+		"initialize" : "PW 7/14/2017 11:20",
 		"isSimulationRunning" : "PW 6/21/2017 11:21",
 		"mouseDown:" : "PW 6/21/2017 11:29",
-		"mouseMove:" : "PW 6/29/2017 19:38",
+		"mouseMove:" : "MS 7/14/2017 14:13",
 		"nodes" : "PW 6/21/2017 11:21",
 		"nodes:" : "PW 6/21/2017 11:21",
 		"playButton" : "PW 6/21/2017 11:21",
@@ -34,7 +35,7 @@
 		"simulationTime" : "PW 6/21/2017 11:22",
 		"simulationTime:" : "PW 6/21/2017 11:22",
 		"startSimulation" : "FP 6/14/2017 15:00",
-		"step" : "PW 6/21/2017 11:22",
+		"step" : "PW 7/14/2017 11:20",
 		"stepSimulation" : "PW 6/21/2017 11:22",
 		"stopSimulation" : "nn 6/13/2017 19:19",
 		"toggleSimulation" : "PW 6/21/2017 11:22",

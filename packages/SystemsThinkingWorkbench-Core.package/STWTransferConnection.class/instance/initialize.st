@@ -3,8 +3,8 @@ initialize
 
 	super initialize.
 
-	self intake: 1.
-	self output: 1.
-	self particles: Set new.
-	self lastStepTime: nil.
-	self stopStepping.
+	self intake: 1;
+		output: 1;
+		particles: Set new;
+		lastStepTime: nil;
+		stopStepping.
