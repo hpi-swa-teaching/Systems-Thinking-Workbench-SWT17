@@ -9,4 +9,4 @@ acceptContents
 	[number := self contents asNumber] on: Error do: [isNumber := false].
 	isNumber
 		ifTrue: [halo target perform: action with: number asString.
-				halo perform: #delete.]
+				halo delete.]
