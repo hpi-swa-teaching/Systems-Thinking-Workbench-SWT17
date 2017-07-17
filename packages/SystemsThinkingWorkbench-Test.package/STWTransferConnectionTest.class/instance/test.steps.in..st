@@ -7,9 +7,10 @@ test: aConnection steps: steps in: aSimulation
 	level1 := aConnection startNode level.
 	level2 := aConnection endNode level.
 	
-	self assert: [aConnection endNode level = level2].
+	self assert: level2 equals: aConnection endNode level.
 	
-	time := DateAndTime millisecondClockValue.
-	aSimulation ifNotNil:[(steps + 1) timesRepeat: [aSimulation stepAt: time + 1001. time := time + 1001]].
-	self assert: aConnection startNode level = (level1 - ((1 + steps) * aConnection intake)).
-	self assert: aConnection endNode level = (level2 + (steps * aConnection output)).
+	aSimulation startSimulation.
+	time := aSimulation lastStepTime.
+	aSimulation ifNotNil:[(steps) timesRepeat: [aSimulation stepAt: time + 1000. time := time + 1000]].
+	self assert: (level1 - ((1 + steps) * aConnection intake)) equals: aConnection startNode level.
+	self assert: (level2 + (steps * aConnection output)) equals: aConnection endNode level.
