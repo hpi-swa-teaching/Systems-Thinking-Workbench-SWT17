@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDependentsManagement" : "nn 6/14/2017 23:24",
-		"testDuplicatePrevention" : "FP 6/22/2017 09:31",
-		"testSuccesfulPlacement" : "FP 6/21/2017 16:07",
-		"testSuccessfulDeletion" : "nn 6/14/2017 23:25",
-		"testSuccessfulMoving" : "FP 6/21/2017 15:26" } }
+		"testDependentsManagement" : "FP 7/17/2017 10:39",
+		"testDuplicatePrevention" : "FP 7/17/2017 10:41",
+		"testSuccesfulPlacement" : "FP 7/17/2017 10:46",
+		"testSuccessfulConnectionDeletion" : "FP 7/17/2017 10:38",
+		"testSuccessfulMoving" : "FP 7/17/2017 15:36",
+		"testSuccessfulNodeDeletion" : "FP 7/17/2017 10:38" } }

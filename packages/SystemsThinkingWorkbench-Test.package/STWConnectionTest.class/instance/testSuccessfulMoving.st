@@ -4,6 +4,9 @@ testSuccessfulMoving
 
 	| node1 node2 connection radius1 radius2 pos1 pos2 |
 	
+	"This should be worked on in connection with the bezier testing."
+	self flag: #needswork.
+	
 	node1 := (STWNode new) center: 50@0.
 	node2 := (STWNode new) center: 50@50.
 	connection := STWConnection new.
