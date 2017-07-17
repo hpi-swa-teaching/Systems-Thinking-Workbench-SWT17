@@ -20,5 +20,3 @@ testParticleReset
 	connection resetSimulation.
 	
 	self assert: connection particles size == 0.
-	
-	

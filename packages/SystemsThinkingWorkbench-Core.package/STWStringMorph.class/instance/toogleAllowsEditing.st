@@ -1,4 +1,4 @@
 accessing
 toogleAllowsEditing
 
-	editable := editable negated.
+	editable := editable not.

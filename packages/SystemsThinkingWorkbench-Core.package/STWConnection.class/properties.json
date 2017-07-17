@@ -10,7 +10,8 @@
 		"endNode",
 		"segment",
 		"lineWidth",
-		"lineColor" ],
+		"lineColor",
+		"particles" ],
 	"name" : "STWConnection",
 	"pools" : [
 		 ],

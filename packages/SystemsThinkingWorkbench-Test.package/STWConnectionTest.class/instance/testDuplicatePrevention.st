@@ -2,20 +2,16 @@ testing
 testDuplicatePrevention
 	"Tests if there can be only one connection per direction between two nodes."
 	
-	| node1 node2 simulation connection |
+	| node1 node2 simulation |
 	
 	simulation := STWSimulation new.
 	node1 := simulation addNodeAt: 50@0.
 	node2 := simulation addNodeAt: 50@50.
-	connection := STWConnection new.
 	
-	self assert: simulation connections size = 0.
-	
+	self assert: simulation connections isEmpty.
 	node1 createConnectionFrom: node2 ofType: STWTransferConnection.
-	
-	self assert: simulation connections size = 1.
+	self assert: 1 equals: simulation connections size.
 
 	"Try to create duplicate connection"
 	node1 createConnectionFrom: node2 ofType: STWTransferConnection.
-	
-	self assert: simulation connections size = 1.
+	self assert: 1 equals: simulation connections size.

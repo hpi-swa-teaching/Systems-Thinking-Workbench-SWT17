@@ -1,0 +1,4 @@
+accessing
+beAsynchronous
+
+	synchronous := false.

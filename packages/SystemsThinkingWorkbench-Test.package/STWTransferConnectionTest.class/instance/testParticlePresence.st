@@ -13,15 +13,11 @@ testParticlePresence
 	connection := STWTransferConnection new.
 	connection connect: node1 with: node2.
 	
-	self assert: connection particles size == 0.
+	self assert: connection particles size = 0.
 	
 	numSteps timesRepeat: [connection performSimulationStep].
 	
 	self assert: connection particles size == numSteps.
 	self assert: (connection particles allSatisfy: [ :p | p color == connection startNode fillingMorph color]).
-	
-	connection stepAt: connection lastStepTime + 1000.
-	
-	self assert: connection particles size == 0.
 	
 	
