@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEndHandlesTo:" : "PW 7/13/2017 10:58",
+		"addEndHandlesTo:" : "FP 7/27/2017 09:42",
 		"addHandlesTo:box:" : "FP 7/13/2017 01:56",
 		"addParticle" : "FP 7/27/2017 09:26",
-		"addStartHandlesTo:" : "PW 7/13/2017 10:58",
+		"addStartHandlesTo:" : "FP 7/27/2017 09:42",
 		"beAsynchronous" : "FP 7/27/2017 09:26",
 		"beSynchronous" : "FP 7/27/2017 09:26",
 		"initialize" : "PW 7/17/2017 17:16",
