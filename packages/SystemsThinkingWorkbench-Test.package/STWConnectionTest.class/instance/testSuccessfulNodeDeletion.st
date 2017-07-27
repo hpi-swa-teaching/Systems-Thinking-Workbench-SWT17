@@ -11,7 +11,7 @@ testSuccessfulNodeDeletion
 	self assert: node1 equals: connection startNode.
 	self assert: node2 equals: connection endNode.
 	node2 delete.
-	self assert: connection startNode = nil.
-	self assert: connection endNode = nil.
+	self assert: nil equals: connection startNode.
+	self assert: nil equals: connection endNode.
 	self assert: simulation connections isEmpty.
 	self assert: 1 equals: simulation nodes size.

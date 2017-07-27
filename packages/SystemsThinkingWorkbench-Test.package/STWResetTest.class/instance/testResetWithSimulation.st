@@ -18,8 +18,8 @@ testResetWithSimulation
 	simulation startSimulation.
 	
 	simulation stepSimulation.
-	self assert: [node1 level ~= node1 backupLevel].
+	self deny: node1 level = node1 backupLevel.
 	
 	simulation resetSimulation.
 	
-	self assert: [node1 level = 42].
+	self assert: 42 equals: node1 level.
