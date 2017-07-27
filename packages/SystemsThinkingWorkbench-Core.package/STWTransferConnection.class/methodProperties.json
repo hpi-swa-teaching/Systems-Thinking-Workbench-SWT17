@@ -4,10 +4,10 @@
 	"instance" : {
 		"addEndHandlesTo:" : "PW 7/13/2017 10:58",
 		"addHandlesTo:box:" : "FP 7/13/2017 01:56",
-		"addParticle" : "FP 7/14/2017 15:38",
+		"addParticle" : "FP 7/27/2017 09:26",
 		"addStartHandlesTo:" : "PW 7/13/2017 10:58",
-		"beAsynchronous" : "PW 7/13/2017 18:11",
-		"beSynchronous" : "PW 7/13/2017 18:11",
+		"beAsynchronous" : "FP 7/27/2017 09:26",
+		"beSynchronous" : "FP 7/27/2017 09:26",
 		"initialize" : "PW 7/17/2017 17:16",
 		"intake" : "PW 6/4/2017 14:12",
 		"intake:" : "PW 6/4/2017 14:12",
