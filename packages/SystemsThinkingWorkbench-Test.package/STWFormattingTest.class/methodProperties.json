@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"testAllMethodsFor:" : "PW 7/14/2017 11:56",
-		"testBinaryOperators" : "PW 7/14/2017 16:59",
-		"testBrackets" : "PW 7/14/2017 12:04",
-		"testCarriageReturn" : "FP 7/13/2017 18:00",
+		"testBinaryOperators" : "FP 7/27/2017 11:27",
+		"testBrackets" : "FP 7/27/2017 11:28",
+		"testCarriageReturn" : "FP 7/27/2017 11:08",
 		"testDotsInBlocks" : "PW 7/14/2017 19:39",
-		"testParentheses" : "PW 7/14/2017 12:08",
-		"testReturnStatements" : "PW 7/15/2017 19:15" } }
+		"testParentheses" : "FP 7/27/2017 11:04",
+		"testReturnStatements" : "FP 7/27/2017 11:05" } }

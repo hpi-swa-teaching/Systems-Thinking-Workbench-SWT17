@@ -1,9 +1,10 @@
 as yet unclassified
 testBinaryOperators
+	"Test if spacing rules for binary operators are followed ('@' -> no spaces, ',' -> space afterwards, all other -> spaces before and after)."
 
 	| operators |
 	
-	operators := '+-,*/' asByteArray.
+	operators := '+-*/'.
 
 	self testAllMethodsFor:
 		[:source |
@@ -11,16 +12,21 @@ testBinaryOperators
 		inComment := false.
 		inString := false.
 		result := OrderedCollection new.
-		(1 to: source asByteArray size)
+		(1 to: source size)
 			do: [:index |
-				(source asByteArray at: index) = 34 ifTrue: [inComment := inComment not].
-				(source asByteArray at: index) = 39 ifTrue: [inString := inString not].
-				operators 
-					do:
-						[:operator |
-						(((source asByteArray at: index) = operator) and: [inComment not] and: [inString not])
+				(source at: index) = $" ifTrue: [inComment := inComment not].
+				(source at: index) = $' ifTrue: [inString := inString not].
+				(inComment not and: [inString not]) ifTrue:
+						[(operators includes: (source at: index))
 							ifTrue:
-								[result add: (((source asByteArray at: index + 1) = 32) 
-										and: [(source asByteArray at: index - 1) = 32])]].
+								[result add: (((source at: index + 1) = Character space)
+										and: [(source at: index - 1) = Character space])]]
+							ifFalse:
+								[(source at: index) = $@ ifTrue:
+									[result add: (((source at: index + 1) ~= Character space)
+										and: [(source at: index - 1) ~= Character space])].
+								(source at: index) = $, ifTrue:
+									[result add: (((source at: index + 1) = Character space)
+										and: [(source at: index - 1) ~= Character space])].].
 				result add: true].
-		result allSatisfy: [:elem | elem = true]].
+		result allSatisfy: [:elem | elem]].
