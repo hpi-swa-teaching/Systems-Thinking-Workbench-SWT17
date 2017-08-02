@@ -1,5 +1,4 @@
 simulation
 stepSimulation
 
-	self connections
-		do: [:connection | connection performSimulationStep].
+	self connections do: [:connection | connection performSimulationStep].

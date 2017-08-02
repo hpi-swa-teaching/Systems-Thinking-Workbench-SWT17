@@ -1,12 +1,10 @@
-as yet unclassified
+editing
 acceptContents 
 
-	| halo isNumber number |
+	| halo |
 
 	halo := self owner owner.
-	isNumber := true.
-
-	[number := self contents asNumber] on: Error do: [isNumber := false].
-	isNumber
-		ifTrue: [halo target perform: action with: number asString.
-				halo delete.]
+	[halo target perform: action with: self contents asNumber.
+	halo delete.]
+		on: NumberParserError
+		do: [].

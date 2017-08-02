@@ -4,6 +4,7 @@ addNodeAt: aPosition
 	| node |
 	
 	node := STWNode new.
-	self addMorph: (node center: aPosition).
-	self addNode: node.
+	self 
+		addMorph: (node center: aPosition);
+		addNode: node.
 	^ node

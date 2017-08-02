@@ -7,12 +7,12 @@
 	"commentStamp" : "MS 8/2/2017 12:21",
 	"instvars" : [
 		"playButton",
-		"simulationRunning",
 		"simulationTime",
 		"resetButton",
 		"nodes",
 		"connections",
-		"lastStepTime" ],
+		"lastStepTime",
+		"running" ],
 	"name" : "STWSimulation",
 	"pools" : [
 		 ],

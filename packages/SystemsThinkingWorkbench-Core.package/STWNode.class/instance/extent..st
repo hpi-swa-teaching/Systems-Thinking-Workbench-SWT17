@@ -4,8 +4,9 @@ extent: aPoint
 	| tempCenter size |
 	
 	size := aPoint x min: aPoint y.
-	size < STWSimulation minimumNodeSize
-		ifFalse: [tempCenter := self center.
+	size < STWNode minimumSize 
+		ifFalse: 
+			[tempCenter := self center.
 			super extent: aPoint.
 			self center: tempCenter.
-			self radiusChanged: aPoint.]
+			self radiusChanged: size.].

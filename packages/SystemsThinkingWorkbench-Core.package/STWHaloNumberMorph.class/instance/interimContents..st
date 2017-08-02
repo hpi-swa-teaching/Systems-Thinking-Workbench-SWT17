@@ -1,4 +1,4 @@
-as yet unclassified
+editing
 interimContents: aString
 
 	| isNumber number |

@@ -1,4 +1,4 @@
 constants
-minimumNodeSize
+initialLevel
 
 	^ 42

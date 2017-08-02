@@ -1,6 +1,6 @@
 interaction
 mouseDown: evt
-	"Waits for Drag-Event, ignores all other click Events."
+	"Waits for drag event, ignores all other click events."
 
 	 evt hand
 		waitForClicksOrDrag: self

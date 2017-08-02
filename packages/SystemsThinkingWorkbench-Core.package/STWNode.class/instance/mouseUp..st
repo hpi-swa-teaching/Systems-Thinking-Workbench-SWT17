@@ -1,6 +1,5 @@
 interaction
 mouseUp: evt
-	"Creates connection when over a node"
+	"When on a node, creates connection on mouseUp."
 
-	self previewConnection ifNotNil: [
-		self finishPreviewConnection: evt].
+	self previewConnection ifNotNil: [self finishPreviewConnection: evt].
