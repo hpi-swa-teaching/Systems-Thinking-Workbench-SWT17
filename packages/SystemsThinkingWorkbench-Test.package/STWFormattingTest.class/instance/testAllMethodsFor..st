@@ -3,7 +3,8 @@ testAllMethodsFor: aCondition
 
 	(Smalltalk allClasses
 		select: [:class |
-			class category = 'SystemsThinkingWorkbench-Core'])
+			class category = 'SystemsThinkingWorkbench-Core'
+				or: [class category = 'SystemsThinkingWorkbench-Test']])
 		do: [:class |
 			class class organization allMethodSelectors
 				do: [:method |

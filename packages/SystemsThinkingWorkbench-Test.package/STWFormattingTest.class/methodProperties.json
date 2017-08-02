@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAllMethodsFor:" : "PW 7/14/2017 11:56",
+		"testAllMethodsFor:" : "PW 8/2/2017 11:26",
 		"testBinaryOperators" : "FP 7/27/2017 11:27",
 		"testBrackets" : "FP 7/27/2017 11:28",
 		"testCarriageReturn" : "FP 7/27/2017 11:08",
-		"testDotsInBlocks" : "FP 7/27/2017 11:53",
+		"testDotsInBlocks" : "PW 8/2/2017 11:25",
 		"testParentheses" : "FP 7/27/2017 11:04",
 		"testReturnStatements" : "FP 7/27/2017 11:05" } }
