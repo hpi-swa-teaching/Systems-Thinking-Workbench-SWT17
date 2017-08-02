@@ -9,7 +9,7 @@ addDensityHandlerTo: myHalo
 	handle := (myHalo createHandleFor: #launchMiniEditor:   
 						to: submorph
 						color: Color orange
-						containing: (MenuIcons fugueDocumentClockIcon asMorph))
+						containing: (STWNode loadIcon: 'density') asMorph)
 						addMorph: submorph.
 	handle balloonText: 'Click me to insert a new density.'.
 	submorph bottomLeft: handle bottomRight.

@@ -8,7 +8,7 @@ addCapacityHandlerTo: myHalo
 	handle := (myHalo createHandleFor: #launchMiniEditor:   
 						to: submorph
 						color: Color banana darker
-						containing: (MenuIcons objectCatalogIcon asMorph))
+						containing: (STWNode loadIcon: 'capacity') asMorph)
 						addMorph: submorph.
 	handle  balloonText: 'Click me to set a new Capacity'.
 	submorph bottomLeft: handle bottomRight.

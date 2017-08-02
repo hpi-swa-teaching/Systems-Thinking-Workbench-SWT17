@@ -5,7 +5,7 @@ addResizeHandlerTo: myHalo
 	handle := myHalo createHandleFor: #resizeMorph:  
 						to: self
 						color: Color orchid  lighter 
-						containing: (MenuIcons smallFontsIcon asMorph).
+						containing: (STWNode loadIcon: 'resize') asMorph.
 	handle balloonText: 'Click me to resize the Node.'.
 	myHalo addMorph: handle.
 	^ handle

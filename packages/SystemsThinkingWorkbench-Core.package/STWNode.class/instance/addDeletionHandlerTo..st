@@ -7,8 +7,7 @@ addDeletionHandlerTo: myHalo
 				createHandleFor: #delete  
 				to: self
 				color: Color bubblegum 
-				containing: (MenuIcons smallDeleteIcon asMorph).
-	
+				containing: ((ScriptingSystem formAtKey: #'Halo-Dismiss') scaledToSize: 22) asMorph.
 	handle balloonText: 'Click me to delete the Node.'.
 	myHalo addMorph: handle.
 	^ handle
