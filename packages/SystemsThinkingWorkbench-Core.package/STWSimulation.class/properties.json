@@ -4,16 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MS 8/2/2017 12:21",
 	"instvars" : [
-		"firstClicked",
 		"playButton",
 		"simulationRunning",
 		"simulationTime",
 		"resetButton",
 		"nodes",
 		"connections",
-		"draggedNode",
 		"lastStepTime" ],
 	"name" : "STWSimulation",
 	"pools" : [
