@@ -11,7 +11,10 @@
 		"segment",
 		"lineWidth",
 		"lineColor",
-		"particles" ],
+		"particles",
+		"output",
+		"intake",
+		"synchronous" ],
 	"name" : "STWConnection",
 	"pools" : [
 		 ],

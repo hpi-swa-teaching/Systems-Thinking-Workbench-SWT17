@@ -11,7 +11,7 @@ testResetWithSimulation
 	node1 level: 42.
 	node1 backupLevel: 42.
 	
-	connection1 := STWTransferConnection new.
+	connection1 := STWConnection new.
 	connection1 connect: node1 with: node2.
 	simulation addConnection: connection1.
 	
