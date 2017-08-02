@@ -9,4 +9,4 @@ testDivideByZero
 	node1 := playfield addNodeAt: 0@0.
 	node2 := playfield addNodeAt: 100@100.
 	
-	node2 createConnectionFrom: node2 ofType: STWConnection.
+	node2 createConnectionFrom: node2.
