@@ -13,7 +13,7 @@ testSuccessfulSimulation
 	node1 level: startlevel1.
 	node2 := simulation addNodeAt: 500@150.
 	node2 level: startlevel2.
-	connection := node2 createConnectionFrom: node1 ofType: STWTransferConnection.
+	connection := node2 createConnectionFrom: node1 ofType: STWConnection.
 	
 	self assert: startlevel1 equals: node1 level.
 	self assert: startlevel2 equals: node2 level.

@@ -1,5 +1,10 @@
 simulation
 addParticle
-	"Adds a new particle produced by its start node"
 
-	self subclassResponsibility.
+	(self endNode canReceive: self intake)
+		ifTrue:
+			[(self startNode requestParticleCosting: self intake valued: self output)
+				ifNotNil: [:particle |
+				particle center: self position + self segment start.
+				self addMorph: particle.
+				self particles add: particle.]]

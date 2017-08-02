@@ -1,3 +1,5 @@
 updating
 resetSimulation
-	"Should be implemented by connections which use animations. Called when the simulation is reset."
+
+	self particles do: [:particle | self removeMorph: particle].
+	self particles removeAll.
