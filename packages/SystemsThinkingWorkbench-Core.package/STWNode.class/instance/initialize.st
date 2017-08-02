@@ -8,7 +8,7 @@ initialize
 	super initialize.
 	self color: Color transparent.
     
-	verticalOffset := 0 @ (self height / 4).
+	verticalOffset := 0@(self height / 4).
 	nameMorph := (STWStringMorph new offset: 0 - verticalOffset).
 	levelMorph := (STWLevelMorph new offset: verticalOffset).
 	fillingMorph := (((CircleMorph new) color: Color random) center: self center) borderWidth: 0.
@@ -16,7 +16,7 @@ initialize
 	self addMorph: self fillingMorph;
 		addMorph: self levelMorph;
 		addMorph: self nameMorph.
-		
+	
 	levelMorph contents: '42'.
 	nameMorph contents: '???'.	
 	
@@ -27,10 +27,6 @@ initialize
 	
 	self lineWidth: STWSimulation normalLineWidth.
 
-	
-	
-
-		
 	nameMorph updatePositionFromOwnerCenter.
 	levelMorph updatePositionFromOwnerCenter.
 	self updateFilling.

@@ -5,6 +5,6 @@
 		"testDependentsManagement" : "FP 7/17/2017 10:39",
 		"testDuplicatePrevention" : "MS 8/2/2017 10:24",
 		"testSuccesfulPlacement" : "FP 7/17/2017 10:46",
-		"testSuccessfulConnectionDeletion" : "MS 8/2/2017 10:24",
+		"testSuccessfulConnectionDeletion" : "FP 7/27/2017 10:42",
 		"testSuccessfulMoving" : "FP 7/17/2017 15:36",
-		"testSuccessfulNodeDeletion" : "MS 8/2/2017 10:24" } }
+		"testSuccessfulNodeDeletion" : "FP 7/27/2017 10:43" } }

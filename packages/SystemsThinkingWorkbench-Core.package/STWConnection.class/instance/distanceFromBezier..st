@@ -18,6 +18,6 @@ distanceFromBezier: clickPoint
 	d := relativeClickPoint dotProduct: startTangent.
 	
 	result := self solveCubicFunctionParameterizedWithA: a b: b c: c d: d.
-	result ifNil: [ ^0 ].
+	result ifNil: [^ 0].
 	point := (self segment valueAt: result).
-	^point dist: clickPoint.
+	^ point dist: clickPoint

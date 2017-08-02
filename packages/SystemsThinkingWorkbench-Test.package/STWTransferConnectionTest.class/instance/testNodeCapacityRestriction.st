@@ -1,6 +1,6 @@
 testing
 testNodeCapacityRestriction
-	"Tests if a TransferConnection only takes x from its startNode if its endNode can hold y and its startNode can provide x."
+	"Tests if a TransferConnection only takes intake from its startNode if its endNode can hold output and its startNode can provide intake."
 
 	| node1 node2 connection startlevel1 startlevel2 simulation |
 
