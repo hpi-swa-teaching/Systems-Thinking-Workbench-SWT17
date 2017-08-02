@@ -3,7 +3,8 @@ createHandleFor: aBlock color: aColor containing: aMorph
 	
 	| handle |
 	handle := CircleMorph new.
-	handle height: self handleRadius * 2;
+	handle
+		height: self handleRadius * 2;
 		color: aColor;
 		on: #mouseDown send: #value to: aBlock.
 	

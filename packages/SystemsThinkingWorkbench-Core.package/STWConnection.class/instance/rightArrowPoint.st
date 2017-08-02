@@ -1,4 +1,4 @@
 geometry
 rightArrowPoint
 
-	^ self arrowPointAt: self arrowAngle negated length: self arrowLength
+	^ self arrowPointAt: STWConnection arrowLength negated length: STWConnection arrowLength

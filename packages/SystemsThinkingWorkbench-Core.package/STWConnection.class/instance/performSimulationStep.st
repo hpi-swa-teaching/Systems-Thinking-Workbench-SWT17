@@ -1,5 +1,4 @@
 updating
 performSimulationStep
 
-	self isSynchronous
-		ifTrue: [self addParticle].
+	self isSynchronous ifTrue: [self addParticle].

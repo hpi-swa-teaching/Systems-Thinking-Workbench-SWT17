@@ -13,9 +13,8 @@ placeHandles: aCollection at: aProgress
 	initialOffset := ((spaces * self handleRadius * 2) + (spaces * self handleSpacing * 2)) / 2.
 	offset := (self handleRadius + self handleSpacing + self handleRadius) negated.
 	
-	aCollection 
-		do: 	[:element | 
-			self addMorph: (element 
-								center: (origin + (normal * initialOffset)); 
-								yourself).
-			initialOffset := initialOffset + offset.].
+	aCollection do: 	[:element | 
+		self addMorph: (element 
+			center: (origin + (normal * initialOffset)); 
+			yourself).
+		initialOffset := initialOffset + offset.].

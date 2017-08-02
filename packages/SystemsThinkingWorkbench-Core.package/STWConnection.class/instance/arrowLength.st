@@ -1,4 +1,0 @@
-geometry
-arrowLength
-
-	^ 10

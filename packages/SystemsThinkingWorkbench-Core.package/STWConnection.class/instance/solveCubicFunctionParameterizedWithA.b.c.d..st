@@ -12,7 +12,7 @@ solveCubicFunctionParameterizedWithA: a b: b c: c d: d
 	x2 := ((q + s) nthRoot: 3) + ((q + s) nthRoot: 3) + p.
 	x3 := ((q - s) nthRoot: 3) + ((q - s) nthRoot: 3) + p.
 	
-	"THERE CAN ONLY BE ONE! Because the derivative of a quadratic is linear."
+	"THERE CAN ONLY BE ONE! Because the derivative of a quadratic function is linear."
 	(x1 between: 0 and: 1) ifTrue: [^x1].
 	(x2 between: 0 and: 1) ifTrue: [^x2].
 	(x3 between: 0 and: 1) ifTrue: [^x3].
