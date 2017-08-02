@@ -1,6 +1,6 @@
 testing
 testSuccessfulConnectionDeletion
-	"Tests if a node can be deleted."
+	"Tests if a connection can be deleted."
 
 	| node1 node2 connection simulation |
 	simulation := STWSimulation new.

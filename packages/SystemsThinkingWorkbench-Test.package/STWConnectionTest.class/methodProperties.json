@@ -4,7 +4,8 @@
 	"instance" : {
 		"testDependentsManagement" : "FP 7/17/2017 10:39",
 		"testDuplicatePrevention" : "MS 8/2/2017 10:24",
+		"testHalos" : "FP 8/2/2017 15:22",
 		"testSuccesfulPlacement" : "FP 7/17/2017 10:46",
-		"testSuccessfulConnectionDeletion" : "FP 7/27/2017 10:42",
+		"testSuccessfulConnectionDeletion" : "FP 8/2/2017 15:22",
 		"testSuccessfulMoving" : "FP 7/17/2017 15:36",
 		"testSuccessfulNodeDeletion" : "FP 7/27/2017 10:43" } }
