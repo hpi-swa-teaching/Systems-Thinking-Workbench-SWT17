@@ -1,16 +1,17 @@
 halos and balloon help
-addInputHandleTo: myHalo action: aSelector contents: aString color: aColor balloonText: aText icon: anIcon
+addInputHandleTo: myHalo action: aSelector contents: aString centeredAt: aPoint color: aColor balloonText: aText icon: anIcon
 	
 	| submorph handle |
 	
 	submorph := STWHaloNumberMorph new contents: aString.
 	submorph action: aSelector.
-	handle := (myHalo createHandleFor: #launchMiniEditor:
+	handle := ((myHalo createHandleFor: #launchMiniEditor:
 						to: submorph
 						color: aColor
 						containing: anIcon)
-						addMorph: submorph.
-	handle  balloonText: aText.
+						addMorph: submorph)
+							balloonText: aText;
+							center: aPoint.
 	submorph bottomLeft: handle bottomRight.
 	myHalo addMorph: handle.
 	^ handle

@@ -1,5 +1,5 @@
 halos and balloon help
-addCapacityHandleTo: myHalo
+addCapacityHandleTo: myHalo centeredAt: aPoint
 	
 	^ self
 		addInputHandleTo: myHalo
@@ -7,6 +7,7 @@ addCapacityHandleTo: myHalo
 		contents: (self capacity
 							ifNil: ['oo']
 							ifNotNil: [self capacity asString])
+		centeredAt: aPoint
 		color: Color banana darker
 		balloonText: 'Set capacity'
 		icon: MenuIcons objectCatalogIcon asMorph
