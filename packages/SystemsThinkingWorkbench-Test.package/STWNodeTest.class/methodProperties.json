@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCapacity" : "FP 7/27/2017 10:46",
+		"testCapacity" : "FP 8/2/2017 15:16",
+		"testHalos" : "FP 8/2/2017 15:19",
 		"testNodeShape" : "FP 7/27/2017 10:45",
 		"testSuccessfulInitialization" : "PW 7/13/2017 18:23" } }

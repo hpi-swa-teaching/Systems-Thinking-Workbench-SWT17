@@ -1,6 +1,6 @@
 testing
 testCapacity
-	"Test"
+	"Test whether the node handles its capacity correctly"
 
 	| node level capacity |
 	node := STWNode new.
