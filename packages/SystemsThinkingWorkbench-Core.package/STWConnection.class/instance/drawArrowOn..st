@@ -13,4 +13,4 @@ drawArrowOn: aCanvas
 			c line: endPoint rounded to: self leftArrowPoint
 				width: self lineWidth color: self lineColor.
 			c line: endPoint rounded to: self rightArrowPoint
-				width: self lineWidth color: self lineColor].
+				width: self lineWidth color: self lineColor.].

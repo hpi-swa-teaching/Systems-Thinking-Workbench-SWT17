@@ -7,43 +7,14 @@ addHandlesTo: myHalo box: aBox
 	
 	A Handle is a simple Morph, who gets added onto the Halo and triggers events"
 	
-	| handle handleOffset  aHalo handlePoint handleRadius |
+	| handle handleOffset  aHalo handlePoint handleRadius adderCollection |
 	
 	aHalo := myHalo.
 	handleOffset := 360 / self haloItemNumber.
 	handleRadius := 15.
+	adderCollection := #(#addResizeHandlerTo: #addDeletionHandlerTo: #addMoveHandlerTo: #addInspectionHandlerTo: #addNegativeHandlerTo: #addDensityHandlerTo: #addCapacityHandlerTo:).
 	
-	"RESIZE"
-	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: handleOffset).
-	handle := self addResizeHandlerTo: myHalo.
-	handle center: handlePoint.
-
-	"DELETION"
-	handlePoint := self center + (Point r: self radius +handleRadius +2 degrees: 2 * handleOffset).
-	handle := self addDeletionHandlerTo: myHalo.
-	handle center: handlePoint.
-
-	"MOVING"
-	handlePoint := self center + (Point r: self radius +handleRadius +2 degrees: 3 * handleOffset).
-		handle := self addMoveHandlerTo: myHalo.
-	handle center: handlePoint.
-		
-	"INSPECTION"
-	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: 4 * handleOffset).
-	handle := self addInspectionHandlerTo: myHalo.
-	handle center: handlePoint.
-	
-	"NEGATIVE"
-	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: 5 * handleOffset).
-	handle := self addNegativeHandlerTo: myHalo.
-	handle center: handlePoint.	
-					
-	"DENSITY"	
-	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: 6 * handleOffset).
-	handle := self addDensityHandlerTo: myHalo.
-	handle center: handlePoint.	
-
-	"CAPACITY"	
-	handlePoint :=self center + (Point r: self radius +handleRadius +2 degrees: 7 * handleOffset).
-	handle := self addCapacityHandlerTo: myHalo.
-	handle center: handlePoint.
+	1 to: self haloItemNumber do: [:i |
+		handlePoint :=self center + (Point r: self radius + handleRadius + 2 degrees: i * handleOffset).
+		handle := self perform: (adderCollection at: i) with: myHalo.
+		handle center: handlePoint.].

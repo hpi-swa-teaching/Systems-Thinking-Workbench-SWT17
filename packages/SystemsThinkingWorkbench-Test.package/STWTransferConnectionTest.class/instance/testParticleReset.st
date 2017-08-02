@@ -11,12 +11,10 @@ testParticleReset
 	connection := STWConnection new.
 	connection connect: node1 with: node2.
 	
-	self assert: connection particles size == 0.
+	self assert: connection particles isEmpty.
 	
 	numSteps timesRepeat: [connection performSimulationStep].
 	
-	self assert: connection particles size == numSteps.
-	
+	self assert: numSteps equals: connection particles size.
 	connection resetSimulation.
-	
-	self assert: connection particles size == 0.
+	self assert: connection particles isEmpty.

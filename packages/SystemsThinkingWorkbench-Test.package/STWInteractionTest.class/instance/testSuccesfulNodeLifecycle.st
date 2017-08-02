@@ -1,6 +1,6 @@
 testing
 testSuccesfulNodeLifecycle
-	"Checks if a node can be placed in the playfield by clicking."
+	"Checks if a node can be placed in the playfield."
 
 	| simulation |
 	

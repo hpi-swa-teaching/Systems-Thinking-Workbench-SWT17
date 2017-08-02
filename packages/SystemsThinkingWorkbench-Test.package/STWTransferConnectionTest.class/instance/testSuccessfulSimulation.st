@@ -8,6 +8,7 @@ testSuccessfulSimulation
   	startlevel2 := 30.
 	
 	simulation := STWSimulation new.
+  
 	node1 := simulation addNodeAt: 150@50.
 	node1 level: startlevel1.
 	node2 := simulation addNodeAt: 500@150.
