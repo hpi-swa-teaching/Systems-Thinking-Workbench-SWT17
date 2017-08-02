@@ -2,14 +2,13 @@
 	"class" : {
 		"from:to:color:width:" : "FP 7/27/2017 09:39" },
 	"instance" : {
-		"addHandlesTo:box:" : "FP 7/27/2017 09:37",
-		"addParticle" : "FP 7/17/2017 15:39",
+		"addEndHandlesTo:" : "MS 8/2/2017 10:19",
+		"addHandlesTo:box:" : "MS 8/2/2017 10:23",
+		"addParticle" : "PW 8/2/2017 11:50",
+		"addStartHandlesTo:" : "MS 8/2/2017 10:20",
 		"arrowAngle" : "FP 6/21/2017 16:07",
 		"arrowLength" : "FP 6/21/2017 16:07",
 		"arrowPointAt:length:" : "FP 7/27/2017 11:04",
-		"addEndHandlesTo:" : "MS 8/2/2017 10:19",
-		"addHandlesTo:box:" : "MS 8/2/2017 10:23",
-		"addStartHandlesTo:" : "MS 8/2/2017 10:20",
 		"beAsynchronous" : "MS 8/2/2017 10:20",
 		"beSynchronous" : "MS 8/2/2017 10:20",
 		"calculateViaPointFrom:to:" : "nn 6/22/2017 15:02",

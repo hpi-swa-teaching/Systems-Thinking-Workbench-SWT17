@@ -2,10 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAllMethodsFor:" : "PW 8/2/2017 11:26",
-		"testBinaryOperators" : "FP 7/27/2017 11:27",
-		"testBrackets" : "FP 7/27/2017 11:28",
+		"testAllMethodsFor:" : "PW 8/2/2017 13:29",
+		"testBrackets" : "PW 8/2/2017 12:02",
 		"testCarriageReturn" : "FP 7/27/2017 11:08",
-		"testDotsInBlocks" : "PW 8/2/2017 11:25",
-		"testParentheses" : "FP 7/27/2017 11:04",
-		"testReturnStatements" : "FP 7/27/2017 11:05" } }
+		"testDotsInBlocks" : "PW 8/2/2017 13:27",
+		"testParentheses" : "PW 8/2/2017 13:28",
+		"testReturnStatements" : "PW 8/2/2017 13:29" } }
