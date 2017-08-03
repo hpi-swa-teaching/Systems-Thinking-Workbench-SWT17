@@ -7,9 +7,8 @@ addHandlesTo: myHalo box: aBox
 	
 	A handle is a simple Morph, who gets added onto the Halo and triggers events."
 	
-	| aHalo handleRadius adderCollection handleOffset radialOffset handle |
+	| handleRadius adderCollection handleOffset radialOffset |
 	
-	aHalo := myHalo.
 	handleRadius := 15.
 	adderCollection := #(#addResizeHandlerTo:centeredAt: #addDeletionHandleTo:centeredAt: #addMoveHandleTo:centeredAt: #addInspectionHandleTo:centeredAt: #addNegativeHandleTo:centeredAt: #addDensityHandleTo:centeredAt: #addCapacityHandleTo:centeredAt:).
 	handleOffset := 360 / adderCollection size.
@@ -17,7 +16,7 @@ addHandlesTo: myHalo box: aBox
 	1 to: adderCollection size 
 		do: [:index |
 			radialOffset := Point r: self radius + handleRadius + STWSimulation normalLineWidth degrees: index * handleOffset.
-			handle := self
+			self
 				perform: (adderCollection at: index)
 				with: myHalo
 				with: self center + radialOffset.].
