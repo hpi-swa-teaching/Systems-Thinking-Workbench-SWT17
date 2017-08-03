@@ -4,7 +4,7 @@ addHandlesTo: aHalo box: aBox
 	| synchonicity |
 
 	aHalo addMiddleHandleFor: [self delete]
-		color: Color red
+		color: Color red muchLighter
 		containing: (ScriptingSystem formAtKey: #'Halo-Dismiss') asMorph.
 	
 	self isSynchronous ifTrue: [synchonicity := 's' asMorph] ifFalse: [synchonicity := 'a' asMorph].
