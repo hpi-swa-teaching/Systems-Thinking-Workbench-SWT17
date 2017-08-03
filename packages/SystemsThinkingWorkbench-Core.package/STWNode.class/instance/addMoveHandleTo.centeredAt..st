@@ -4,8 +4,8 @@ addMoveHandleTo: myHalo centeredAt: aPoint
 	myHalo addMorph: ((myHalo
 		createHandleFor: #startDragTarget:
 		to: myHalo
-		color: Color blue
-		containing: (STWNode loadIcon: 'move') asMorph)
+		color: Color brown
+		containing: (ScriptingSystem formAtKey: #'Halo-Drag') asMorph)
 			balloonText: 'Move';
 			center: aPoint;
 			yourself).

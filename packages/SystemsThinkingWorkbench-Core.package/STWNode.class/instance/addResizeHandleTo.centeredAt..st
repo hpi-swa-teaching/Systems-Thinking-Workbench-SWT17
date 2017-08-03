@@ -1,11 +1,11 @@
 halos and balloon help
-addResizeHandlerTo: myHalo centeredAt: aPoint
+addResizeHandleTo: myHalo centeredAt: aPoint
 
 	myHalo addMorph: ((myHalo
 		createHandleFor: #resizeMorph:
 		to: self
-		color: Color blue muchLighter
-		containing: (STWNode loadIcon: 'resize') asMorph)
+		color: Color yellow
+		containing: (ScriptingSystem formAtKey: #'Halo-Scale') asMorph)
 			balloonText: 'Resize';
 			center: aPoint;
 			yourself).

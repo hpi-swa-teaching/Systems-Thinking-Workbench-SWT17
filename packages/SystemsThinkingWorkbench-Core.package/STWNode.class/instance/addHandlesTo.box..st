@@ -10,7 +10,7 @@ addHandlesTo: myHalo box: aBox
 	| handleRadius adderCollection handleOffset radialOffset |
 	
 	handleRadius := 15.
-	adderCollection := #(#addResizeHandlerTo:centeredAt: #addDeletionHandleTo:centeredAt: #addMoveHandleTo:centeredAt: #addInspectionHandleTo:centeredAt: #addNegativeHandleTo:centeredAt: #addDensityHandleTo:centeredAt: #addCapacityHandleTo:centeredAt:).
+	adderCollection := #(#addResizeHandleTo:centeredAt: #addDeletionHandleTo:centeredAt: #addMoveHandleTo:centeredAt: #addInspectionHandleTo:centeredAt: #addNegativeHandleTo:centeredAt: #addDensityHandleTo:centeredAt: #addCapacityHandleTo:centeredAt:).
 	handleOffset := 360 / adderCollection size.
 	
 	1 to: adderCollection size 

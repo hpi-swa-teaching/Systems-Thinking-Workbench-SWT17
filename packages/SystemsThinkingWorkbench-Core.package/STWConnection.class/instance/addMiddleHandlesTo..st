@@ -8,7 +8,7 @@ addMiddleHandlesTo: aHalo
 		ifFalse: [synchonicity := 'a' asMorph].
 	aHalo
 		addMiddleHandleFor: [self delete]
-		color: Color red
+		color: Color red muchLighter
 		containing: (ScriptingSystem formAtKey: #'Halo-Dismiss') asMorph;
 		
 		addMiddleHandleFor:

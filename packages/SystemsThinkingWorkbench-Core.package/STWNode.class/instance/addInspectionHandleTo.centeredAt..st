@@ -4,8 +4,8 @@ addInspectionHandleTo: myHalo centeredAt: aPoint
 	myHalo addMorph: ((myHalo
 		createHandleFor: #inspect
 		to: self
-		color: Color gray
-		containing: MenuIcons smallFullscreenOnIcon asMorph)
+		color: Color blue muchLighter
+		containing: (ScriptingSystem formAtKey: #'Halo-Debug') asMorph)
 			balloonText: 'Inspect';
 			center: aPoint;
 			yourself).
