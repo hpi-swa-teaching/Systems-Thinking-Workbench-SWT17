@@ -19,7 +19,7 @@ addMiddleHandlesTo: aHalo
 				ifFalse:
 					[self beSynchronous.
 					synchonicity contents: 's'.]]
-		color: Color blueberry muchLighter
+		color: Color blue muchLighter
 		containing: synchonicity;
 		
 		addMiddleHandleFor: [self inspect]
