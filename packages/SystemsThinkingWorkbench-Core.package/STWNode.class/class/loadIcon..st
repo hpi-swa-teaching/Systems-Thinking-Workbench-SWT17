@@ -1,10 +1,8 @@
 constants
 loadIcon: anIconName
 	
-	|funtionName|
-	self flag: 'TODO'.
-	
-	"""does not work, gets fixed later"""
-	funtionName := (anIconName asString, 'IconContent') asSymbol.
-
-	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: (STWNode perform: funtionName) readStream)) scaledToSize: STWHaloMorph handleRadius asPoint
+	^ (Form fromBinaryStream: 
+		(Base64MimeConverter mimeDecodeToBytes: 
+			(STWNode perform: 
+				(anIconName asString, 'IconContent') asSymbol) readStream))
+		scaledToSize: STWHaloMorph handleRadius asPoint
