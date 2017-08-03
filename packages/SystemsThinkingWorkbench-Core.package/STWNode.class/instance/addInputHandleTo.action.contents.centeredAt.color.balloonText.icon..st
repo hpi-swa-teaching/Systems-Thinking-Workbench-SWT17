@@ -15,4 +15,3 @@ addInputHandleTo: myHalo action: aSelector contents: aString centeredAt: aPoint 
 							yourself.
 	submorph bottomLeft: handle bottomRight.
 	myHalo addMorph: handle.
-	^ handle
