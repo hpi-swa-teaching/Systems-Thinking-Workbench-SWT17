@@ -12,7 +12,7 @@ testNodeCapacityRestriction
 	node1 level: startlevel1.
 	node2 := simulation addNodeAt: 500@150.
 	node2 level: startlevel2.
-	connection := node2 createConnectionFrom: node1 ofType: STWConnection.
+	connection := node2 createConnectionFrom: node1.
 
   	connection intake: startlevel1 + 1.
   	connection output: 1.

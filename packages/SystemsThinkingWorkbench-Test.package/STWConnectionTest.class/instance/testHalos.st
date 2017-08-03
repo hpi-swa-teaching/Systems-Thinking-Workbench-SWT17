@@ -7,7 +7,7 @@ testHalos
 	simulation openInWorld.
 	node1 := simulation addNodeAt: 50@0.
 	node2 := simulation addNodeAt: 50@50.
-	connection := node2 createConnectionFrom: node1 ofType: STWConnection.
+	connection := node2 createConnectionFrom: node1.
 	connection addHalo.
 	connection delete.
 	simulation delete.

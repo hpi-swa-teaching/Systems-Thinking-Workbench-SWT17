@@ -1,8 +1,11 @@
 initialization
 initialize
-
+	
+	| size |
+	
+	size := STWParticle size.
 	super initialize.
 	self progress: 0;
-		velocity: 1;
-		setVertices: {0@0. 10@0. 10@10. 0@10};
+		velocity: STWParticle velocity;
+		setVertices: {0@0. size@0. size@size. 0@size};
 		borderWidth: 0.

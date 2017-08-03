@@ -1,0 +1,4 @@
+constants
+velocity
+	
+	^ 1

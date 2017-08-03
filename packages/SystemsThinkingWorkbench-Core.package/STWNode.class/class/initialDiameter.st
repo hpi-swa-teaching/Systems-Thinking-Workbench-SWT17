@@ -1,0 +1,4 @@
+constants
+initialDiameter
+
+	^ 80

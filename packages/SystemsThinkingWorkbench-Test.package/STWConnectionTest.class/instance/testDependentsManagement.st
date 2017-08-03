@@ -7,8 +7,8 @@ testDependentsManagement
 	simulation := STWSimulation new.
 	node1 := simulation addNodeAt: 50@0.
 	node2 :=  simulation addNodeAt: 50@50.
-	connection1 := node2 createConnectionFrom: node1 ofType: STWConnection.
-	connection2 := node1 createConnectionFrom: node2 ofType: STWConnection.
+	connection1 := node2 createConnectionFrom: node1.
+	connection2 := node1 createConnectionFrom: node2.
 	
 	self assert: (node1 dependents includes: connection1).
 	self assert: (node1 dependents includes: connection2).

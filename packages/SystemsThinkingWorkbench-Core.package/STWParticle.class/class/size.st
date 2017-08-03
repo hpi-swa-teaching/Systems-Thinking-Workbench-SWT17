@@ -1,0 +1,5 @@
+constants
+size
+	
+	^ 10
+
