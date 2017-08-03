@@ -12,7 +12,7 @@ addHandlesTo: aHalo box: aBox
 		addMiddleHandleFor: [self isSynchronous
 			ifTrue: [self beAsynchronous. synchonicity contents: 'a'.]
 			ifFalse: [self beSynchronous. synchonicity contents: 's'.]]
-		color: Color blueberry muchLighter
+		color: Color blue muchLighter
 		containing: synchonicity.
 		
 	aHalo addMiddleHandleFor: [self inspect]
