@@ -1,12 +1,12 @@
 halos and balloon help
-addCapacityHandleTo: myHalo
+addCapacityHandleTo: myHalo centeredAt: aPoint
 	
-	^ self
-		addInputHandleTo: myHalo
+	self	addInputHandleTo: myHalo
 		action: #capacity:
 		contents: (self capacity
 							ifNil: ['oo']
 							ifNotNil: [self capacity asString])
+		centeredAt: aPoint
 		color: Color yellow darker
 		balloonText: 'Set capacity'
-		icon: MenuIcons objectCatalogIcon asMorph
+		icon: MenuIcons objectCatalogIcon asMorph.
