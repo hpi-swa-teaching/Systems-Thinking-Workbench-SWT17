@@ -8,4 +8,5 @@ addNegativeHandleTo: myHalo centeredAt: aPoint
 		containing: MenuIcons squeakIcon asMorph)
 			on: #mouseUp send: #delete to: myHalo;
 			balloonText: 'Toggle negativity';
-			center: aPoint).
+			center: aPoint;
+			yourself).

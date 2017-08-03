@@ -7,4 +7,5 @@ addInspectionHandleTo: myHalo centeredAt: aPoint
 		color: Color gray
 		containing: MenuIcons smallFullscreenOnIcon asMorph)
 			balloonText: 'Inspect';
-			center: aPoint).
+			center: aPoint;
+			yourself).

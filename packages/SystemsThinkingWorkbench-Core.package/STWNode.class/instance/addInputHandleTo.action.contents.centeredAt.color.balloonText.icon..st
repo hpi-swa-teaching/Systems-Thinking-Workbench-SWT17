@@ -11,7 +11,8 @@ addInputHandleTo: myHalo action: aSelector contents: aString centeredAt: aPoint 
 						containing: anIcon)
 						addMorph: submorph)
 							balloonText: aText;
-							center: aPoint.
+							center: aPoint;
+							yourself.
 	submorph bottomLeft: handle bottomRight.
 	myHalo addMorph: handle.
 	^ handle

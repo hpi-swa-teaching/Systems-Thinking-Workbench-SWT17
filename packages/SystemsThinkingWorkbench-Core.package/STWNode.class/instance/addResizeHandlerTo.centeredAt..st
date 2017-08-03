@@ -7,4 +7,5 @@ addResizeHandlerTo: myHalo centeredAt: aPoint
 		color: Color blue muchLighter
 		containing: MenuIcons smallFontsIcon asMorph)
 			balloonText: 'Resize';
-			center: aPoint).
+			center: aPoint;
+			yourself).

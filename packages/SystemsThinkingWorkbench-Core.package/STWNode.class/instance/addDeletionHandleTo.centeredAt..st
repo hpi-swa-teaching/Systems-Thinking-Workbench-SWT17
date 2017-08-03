@@ -7,4 +7,5 @@ addDeletionHandleTo: myHalo centeredAt: aPoint
 		color: Color red muchLighter
 		containing: MenuIcons smallDeleteIcon asMorph)
 			balloonText: 'Delete';
-			center: aPoint).
+			center: aPoint;
+			yourself).

@@ -7,4 +7,5 @@ addMoveHandleTo: myHalo centeredAt: aPoint
 		color: Color blue
 		containing: MenuIcons smallChangesIcon asMorph)
 			balloonText: 'Move';
-			center: aPoint).
+			center: aPoint;
+			yourself).
