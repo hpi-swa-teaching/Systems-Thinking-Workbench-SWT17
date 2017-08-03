@@ -5,7 +5,8 @@ addEndHandlesTo: aHalo
 	
 	levelDisplay := STWStringMorph new
 		contents: self output asString;
-		preventEditing.
+		preventEditing;
+		yourself.
 	
 	aHalo
 		addEndHandleFor:

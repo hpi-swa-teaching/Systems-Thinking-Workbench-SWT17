@@ -1,4 +1,4 @@
-instance creation
+constants
 arrowAngle
 	
 	^ 135

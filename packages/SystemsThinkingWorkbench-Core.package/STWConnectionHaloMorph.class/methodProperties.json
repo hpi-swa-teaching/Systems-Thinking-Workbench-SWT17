@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEndHandleFor:color:containing:" : "PW 8/2/2017 20:07",
+		"addEndHandleFor:color:containing:" : "PW 8/3/2017 09:57",
 		"addHandles" : "PW 8/2/2017 20:08",
-		"addMiddleHandleFor:color:containing:" : "PW 8/2/2017 20:08",
-		"addStartHandleFor:color:containing:" : "PW 8/2/2017 20:08",
+		"addMiddleHandleFor:color:containing:" : "PW 8/3/2017 09:58",
+		"addStartHandleFor:color:containing:" : "PW 8/3/2017 09:58",
 		"end" : "FP 7/13/2017 01:57",
 		"end:" : "FP 7/13/2017 01:57",
 		"handleRadius" : "FP 7/13/2017 01:57",
@@ -13,6 +13,6 @@
 		"initialize" : "FP 7/13/2017 00:02",
 		"middle" : "FP 7/13/2017 01:57",
 		"middle:" : "FP 7/13/2017 01:57",
-		"placeHandles:at:" : "PW 8/2/2017 20:09",
+		"placeHandles:at:" : "PW 8/3/2017 10:00",
 		"start" : "FP 7/13/2017 01:59",
 		"start:" : "FP 7/13/2017 01:59" } }

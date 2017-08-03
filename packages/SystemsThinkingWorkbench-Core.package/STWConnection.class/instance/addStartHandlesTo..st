@@ -5,7 +5,8 @@ addStartHandlesTo: aHalo
 	
 	levelDisplay := STWStringMorph new
 		contents: self intake asString;
-		preventEditing.
+		preventEditing;
+		yourself.
 	
 	aHalo
 		addStartHandleFor:
