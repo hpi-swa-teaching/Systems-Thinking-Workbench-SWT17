@@ -1,7 +1,7 @@
 halos and balloon help
 addMiddleHandlesTo: aHalo
 
-	|synchonicity|
+	| synchonicity |
 
 	aHalo
 		addMiddleHandleFor: [self delete]

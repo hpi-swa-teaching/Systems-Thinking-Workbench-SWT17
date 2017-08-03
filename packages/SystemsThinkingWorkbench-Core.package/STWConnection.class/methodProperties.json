@@ -8,7 +8,7 @@
 	"instance" : {
 		"addEndHandlesTo:" : "PW 8/3/2017 09:48",
 		"addHandlesTo:box:" : "W.F. 8/2/2017 15:48",
-		"addMiddleHandlesTo:" : "PW 8/2/2017 19:57",
+		"addMiddleHandlesTo:" : "PW 8/3/2017 10:04",
 		"addParticle" : "PW 8/2/2017 19:57",
 		"addStartHandlesTo:" : "PW 8/3/2017 09:49",
 		"arrowPointAt:length:" : "PW 8/2/2017 20:00",
@@ -19,7 +19,7 @@
 		"connect:with:" : "FP 6/21/2017 16:07",
 		"containsPoint:" : "PW 8/2/2017 20:15",
 		"delete" : "PW 8/3/2017 09:47",
-		"distanceFromBezier:" : "FP 7/27/2017 09:44",
+		"distanceFromBezier:" : "PW 8/3/2017 10:04",
 		"drawArrowOn:" : "PW 8/3/2017 09:52",
 		"drawCurveOn:" : "PW 8/3/2017 09:52",
 		"drawOn:" : "PW 8/3/2017 09:53",
@@ -36,7 +36,7 @@
 		"leftArrowPoint" : "PW 8/2/2017 20:13",
 		"lineColor" : "FP 6/21/2017 16:09",
 		"lineColor:" : "FP 6/21/2017 16:09",
-		"lineFrom:to:onCircle:radius:" : "PW 8/2/2017 20:04",
+		"lineFrom:to:onCircle:radius:" : "PW 8/3/2017 10:05",
 		"lineSegmentsDo:" : "PW 8/3/2017 09:54",
 		"lineWidth" : "FP 6/21/2017 16:09",
 		"lineWidth:" : "FP 6/21/2017 16:09",
@@ -55,4 +55,4 @@
 		"startNode:" : "nn 6/14/2017 18:16",
 		"update:" : "PW 8/3/2017 09:55",
 		"update:with:" : "PW 8/3/2017 09:55",
-		"updatePolygon" : "PW 8/2/2017 20:07" } }
+		"updatePolygon" : "PW 8/3/2017 10:05" } }

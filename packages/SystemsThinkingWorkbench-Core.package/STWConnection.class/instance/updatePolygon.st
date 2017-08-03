@@ -6,9 +6,7 @@ updatePolygon
 	
 	startPoint := self startNode center.
 	endPoint := self endNode center.
-	
 	via := self calculateViaPointFrom: startPoint to: endPoint.
-	
 	startPoint := self
 		lineFrom: startPoint
 		to: via

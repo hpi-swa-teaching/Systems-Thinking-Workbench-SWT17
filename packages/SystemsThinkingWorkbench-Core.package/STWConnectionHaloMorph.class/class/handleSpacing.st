@@ -1,4 +1,4 @@
-private
+constants
 handleSpacing
 
 	^ 3

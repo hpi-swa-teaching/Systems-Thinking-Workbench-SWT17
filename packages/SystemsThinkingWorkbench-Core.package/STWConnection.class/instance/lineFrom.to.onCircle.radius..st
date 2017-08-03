@@ -6,6 +6,5 @@ lineFrom: start to: end onCircle: origin radius: radius
 	"Prevent zero divide"
 	start = end
 		ifTrue: [^ origin].
-	
 	normVector := (end - start) normalized.
 	^ origin + (normVector * radius)

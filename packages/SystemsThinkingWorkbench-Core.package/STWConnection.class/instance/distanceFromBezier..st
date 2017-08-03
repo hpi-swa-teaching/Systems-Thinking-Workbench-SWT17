@@ -6,7 +6,6 @@ distanceFromBezier: clickPoint
 	startPoint := self segment start.
 	viaPoint := self segment via.
 	endPoint := self segment end.
-	
 	startTangent := viaPoint - startPoint.
 	relativeEndTangent := (endPoint - viaPoint) - startTangent.
 	relativeClickPoint := startPoint - clickPoint.

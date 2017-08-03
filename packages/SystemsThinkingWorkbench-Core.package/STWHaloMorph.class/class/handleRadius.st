@@ -1,4 +1,4 @@
-private
+constants
 handleRadius
 
 	^ 15

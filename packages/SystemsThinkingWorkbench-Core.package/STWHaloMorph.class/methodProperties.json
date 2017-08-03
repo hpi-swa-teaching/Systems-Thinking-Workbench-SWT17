@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"handleRadius" : "PW 8/3/2017 10:06" },
 	"instance" : {
-		"createHandleFor:color:containing:" : "PW 8/2/2017 20:07",
+		"createHandleFor:color:containing:" : "PW 8/3/2017 10:07",
 		"drawOn:" : "MS 7/13/2017 14:31" } }
