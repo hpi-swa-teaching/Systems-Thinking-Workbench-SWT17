@@ -5,7 +5,7 @@ createHandleFor: anAction to: aReceiver color: aColor containing: aMorph
 	
 	handle := CircleMorph new.
 	handle
-		height: STWHaloMorph handleRadius * 2;
+		extent: STWHaloMorph handleRadius * 2 asPoint;
 		color: aColor;
 		on: #mouseDown send: anAction to: aReceiver.
 	aMorph ifNotNil: 

@@ -5,7 +5,7 @@ addNegativeHandleTo: myHalo centeredAt: aPoint
 		createHandleFor: #toggleNegativePermission
 		to: self
 		color: (self isNegativePermitted ifFalse: [Color green] ifTrue: [Color red])
-		containing: (STWNode loadIcon: 'negative') asMorph)
+		containing: (STWNode loadIcon: #negative) asMorph)
 			on: #mouseUp send: #delete to: myHalo;
 			balloonText: 'Toggle negativity';
 			center: aPoint;

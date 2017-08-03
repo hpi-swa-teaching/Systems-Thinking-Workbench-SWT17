@@ -7,4 +7,4 @@ addDensityHandleTo: myHalo centeredAt: aPoint
 		centeredAt: aPoint
 		color: Color orange
 		balloonText: 'Set density'
-		icon: (STWNode loadIcon: 'density') asMorph.
+		icon: (STWNode loadIcon: #density) asMorph.

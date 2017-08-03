@@ -3,6 +3,5 @@ loadIcon: anIconName
 	
 	^ (Form fromBinaryStream: 
 		(Base64MimeConverter mimeDecodeToBytes: 
-			(STWNode perform: 
-				(anIconName asString, 'IconContent') asSymbol) readStream))
+			(STWNode perform: (anIconName, #IconContent) asSymbol) readStream))
 		scaledToSize: STWHaloMorph handleRadius asPoint
