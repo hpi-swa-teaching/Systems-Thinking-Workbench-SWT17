@@ -5,6 +5,6 @@ addDeletionHandleTo: myHalo
 		addSimpleHandleTo: myHalo
 		action: #delete
 		target: self
-		color: Color bubblegum
+		color: Color red
 		balloonText: 'Delete'
 		icon: MenuIcons smallDeleteIcon asMorph

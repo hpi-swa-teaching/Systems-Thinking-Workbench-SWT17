@@ -7,7 +7,7 @@
 		"minimumSize" : "nn 8/2/2017 16:29" },
 	"instance" : {
 		"addCapacityHandleTo:" : "nn 8/2/2017 15:39",
-		"addDeletionHandleTo:" : "nn 8/2/2017 15:35",
+		"addDeletionHandleTo:" : "PW 8/3/2017 10:32",
 		"addDensityHandleTo:" : "nn 8/2/2017 15:39",
 		"addHandlesTo:box:" : "nn 8/2/2017 17:14",
 		"addInputHandleTo:action:contents:color:balloonText:icon:" : "nn 8/2/2017 15:02",
