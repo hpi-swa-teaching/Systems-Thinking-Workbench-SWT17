@@ -6,5 +6,5 @@ finishPreviewConnection: evt
 	self owner nodes 
 		do: [:node | 
 			(node containsPoint: evt cursorPoint)
-				ifTrue: [node createConnectionFrom: self ofType: STWConnection]]
+				ifTrue: [node createConnectionFrom: self]]
 		without: self.

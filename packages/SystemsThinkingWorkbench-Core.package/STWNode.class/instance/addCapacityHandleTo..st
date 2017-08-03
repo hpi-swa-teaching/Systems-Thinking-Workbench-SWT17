@@ -7,6 +7,6 @@ addCapacityHandleTo: myHalo
 		contents: (self capacity
 							ifNil: ['oo']
 							ifNotNil: [self capacity asString])
-		color: Color banana darker
+		color: Color yellow darker
 		balloonText: 'Set capacity'
 		icon: MenuIcons objectCatalogIcon asMorph
