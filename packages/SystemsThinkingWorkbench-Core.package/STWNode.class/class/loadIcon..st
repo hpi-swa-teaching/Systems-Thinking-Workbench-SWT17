@@ -7,4 +7,4 @@ loadIcon: anIconName
 	"""does not work, gets fixed later"""
 	funtionName := (anIconName asString, 'IconContent') asSymbol.
 
-	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: (STWNode perform: funtionName) readStream)) scaledToSize: 18
+	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: (STWNode perform: funtionName) readStream)) scaledToSize: STWHaloMorph handleRadius asPoint
