@@ -7,20 +7,17 @@ addEndHandlesTo: aHalo
 		contents: self output asString;
 		preventEditing;
 		yourself.
-	
 	aHalo
 		addEndHandleFor:
 			[self output: self output + 1.
 			levelDisplay contents: self output asString.] 
 		color: Color green muchLighter
-		containing: '+' asMorph.
-	
-	aHalo
+		containing: '+' asMorph;
+		
 		addEndHandleFor: []
 		color: Color gray muchLighter
-		containing: levelDisplay.
-	
-	aHalo
+		containing: levelDisplay;
+		
 		addEndHandleFor:
 			[self output: self output - 1.
 			levelDisplay contents: self output asString.] 

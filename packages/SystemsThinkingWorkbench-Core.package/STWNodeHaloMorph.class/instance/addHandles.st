@@ -1,11 +1,9 @@
 construction
 addHandles
-	"This is an example for handles."
 
 	self
 		removeAllMorphs;
-		bounds: target renderedMorph worldBoundsForHalo;  "update my size"
+		bounds: self target renderedMorph worldBoundsForHalo;
 		layoutChanged;
 		changed.
-	target addHandlesTo: self box: (Rectangle center: self center extent: (self height)@(self width)).
-	growingOrRotating := false.
+	self target addHandlesTo: self box: (self center rect: self height@self width).

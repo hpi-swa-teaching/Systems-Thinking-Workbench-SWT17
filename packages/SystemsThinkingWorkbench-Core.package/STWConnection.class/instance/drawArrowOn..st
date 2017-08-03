@@ -13,7 +13,7 @@ drawArrowOn: aCanvas
 				to: endPoint rounded
 				width: self lineWidth
 				color: self lineColor.
-			"These draw the left and right line of the arrow head."
+				"These draw the left and right line of the arrow head."
 			canvas
 				line: endPoint rounded
 				to: self leftArrowPoint

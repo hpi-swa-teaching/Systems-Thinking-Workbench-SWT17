@@ -7,4 +7,4 @@ addParticle
 				ifNotNil: [:particle |
 					particle center: self position + self segment start.
 					self addMorph: particle.
-					self particles add: particle.]]
+					self particles add: particle.]].

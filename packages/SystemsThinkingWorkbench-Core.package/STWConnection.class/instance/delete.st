@@ -5,5 +5,4 @@ delete
 	self
 		startNode: nil;
 		endNode: nil.
-		
 	super delete.
