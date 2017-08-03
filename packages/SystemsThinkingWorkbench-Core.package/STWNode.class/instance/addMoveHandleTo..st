@@ -5,6 +5,6 @@ addMoveHandleTo: myHalo
 		addSimpleHandleTo: myHalo
 		action: #startDragTarget:
 		target: myHalo
-		color: Color blueberry
+		color: Color blue
 		balloonText: 'Move'
 		icon: MenuIcons smallChangesIcon asMorph

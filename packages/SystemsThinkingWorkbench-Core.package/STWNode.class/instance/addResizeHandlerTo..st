@@ -5,6 +5,6 @@ addResizeHandlerTo: myHalo
 		addSimpleHandleTo: myHalo
 		action: #resizeMorph:
 		target: self
-		color: Color orchid lighter
+		color: Color blue muchLighter
 		balloonText: 'Resize'
 		icon: MenuIcons smallFontsIcon asMorph
