@@ -10,7 +10,7 @@ testSuccesfulPlacement
 	
 	"Checks if the connection only goes from corner to corner"
 	radius := node1 radius.
-	connection := node2 createConnectionFrom: node1 ofType: STWConnection.
+	connection := node2 createConnectionFrom: node1.
 	
 	self flag: #todo.
 	"TODO: Finish bezier test coverage"

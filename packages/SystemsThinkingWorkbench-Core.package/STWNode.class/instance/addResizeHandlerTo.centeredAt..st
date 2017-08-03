@@ -4,7 +4,7 @@ addResizeHandlerTo: myHalo centeredAt: aPoint
 	myHalo addMorph: ((myHalo
 		createHandleFor: #resizeMorph:
 		to: self
-		color: Color orchid lighter
+		color: Color blue muchLighter
 		containing: MenuIcons smallFontsIcon asMorph)
 			balloonText: 'Resize';
 			center: aPoint).

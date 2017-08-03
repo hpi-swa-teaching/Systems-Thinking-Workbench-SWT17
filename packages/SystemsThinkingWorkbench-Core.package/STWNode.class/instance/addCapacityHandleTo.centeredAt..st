@@ -9,5 +9,6 @@ addCapacityHandleTo: myHalo centeredAt: aPoint
 							ifNotNil: [self capacity asString])
 		centeredAt: aPoint
 		color: Color banana darker
+		color: Color yellow darker
 		balloonText: 'Set capacity'
 		icon: MenuIcons objectCatalogIcon asMorph
