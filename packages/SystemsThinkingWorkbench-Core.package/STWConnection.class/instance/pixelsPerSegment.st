@@ -1,4 +1,0 @@
-geometry
-pixelsPerSegment
-
-	^ 10

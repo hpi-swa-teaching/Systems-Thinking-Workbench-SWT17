@@ -1,0 +1,1 @@
+A STWPreviewConnection is a temporary Connection for the drag and drop implementation. It does not implement any functionality.

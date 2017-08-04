@@ -1,0 +1,4 @@
+constants
+selectionDistance
+	
+	^ 10

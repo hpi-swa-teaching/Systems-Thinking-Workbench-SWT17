@@ -1,11 +1,9 @@
 interaction
 mouseMove: evt
 
-	| done |
-	
-	done := false.
 	self nodes, self connections
-		do: [:n | n lineWidth: STWSimulation normalLineWidth.
-				(n containsPoint: evt cursorPoint)
-				ifTrue: [done
-						ifFalse: [n lineWidth: STWSimulation hoverLineWidth. done := true]]].
+		do: [:object | object lineWidth: STWSimulation normalLineWidth];
+		
+		detect: [:object | object containsPoint: evt cursorPoint]
+		ifFound: [:object | object lineWidth: STWSimulation hoverLineWidth]
+		ifNone: [].

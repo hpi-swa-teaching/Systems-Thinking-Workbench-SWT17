@@ -1,5 +1,9 @@
 updating
 onParticleArrive: aParticle
-
-	self level: self level + aParticle transferValue.
+	
+	| newLevel |
+	
+	newLevel := self level + aParticle transferValue.
+	self capacity ifNotNil: [newLevel := newLevel clampHigh: self capacity].
+	self level: newLevel.
 	self changed: #input with: self.

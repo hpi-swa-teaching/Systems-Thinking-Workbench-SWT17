@@ -3,6 +3,8 @@ finishPreviewConnection: evt
 
 	self previewConnection delete.
 	self previewConnection: nil.
-	self owner nodes do: [:n | (n containsPoint: evt cursorPoint) 
-			ifTrue: [n createConnectionFrom: self ofType: STWTransferConnection] ] 
+	self owner nodes 
+		do: [:node | 
+			(node containsPoint: evt cursorPoint)
+				ifTrue: [node createConnectionFrom: self]]
 		without: self.

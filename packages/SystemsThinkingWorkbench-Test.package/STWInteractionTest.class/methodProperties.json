@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"packageNamesUnderTest" : "FP 8/4/2017 17:41" },
 	"instance" : {
-		"testDivideByZero" : "MS 6/27/2017 10:20",
-		"testSuccesfulNodeLifecycle" : "FP 7/17/2017 15:43" } }
+		"testDivideByZero" : "PW 8/4/2017 12:21",
+		"testDoubleClick" : "FP 8/4/2017 23:11",
+		"testDragConnection" : "FP 8/4/2017 18:38",
+		"testMouseMove" : "FP 8/4/2017 18:21",
+		"testSuccesfulNodeLifecycle" : "FP 7/27/2017 10:46" } }

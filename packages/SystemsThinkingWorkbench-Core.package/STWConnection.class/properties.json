@@ -4,14 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MS 8/2/2017 11:54",
 	"instvars" : [
 		"startNode",
 		"endNode",
 		"segment",
 		"lineWidth",
 		"lineColor",
-		"particles" ],
+		"particles",
+		"output",
+		"intake",
+		"synchronous" ],
 	"name" : "STWConnection",
 	"pools" : [
 		 ],

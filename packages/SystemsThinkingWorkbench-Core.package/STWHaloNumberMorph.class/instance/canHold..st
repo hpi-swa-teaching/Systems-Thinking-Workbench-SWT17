@@ -1,4 +1,4 @@
-as yet unclassified
+editing
 canHold: aNumber
 
 	^ aNumber > 0

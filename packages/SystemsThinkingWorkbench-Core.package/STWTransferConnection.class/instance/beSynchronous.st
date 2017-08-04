@@ -1,4 +1,0 @@
-accessing
-beSynchronous
-
-	synchronous := true.

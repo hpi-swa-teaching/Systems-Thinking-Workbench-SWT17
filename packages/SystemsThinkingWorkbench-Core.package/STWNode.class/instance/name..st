@@ -1,4 +1,6 @@
 accessing
 name: aString
 
-	self nameMorph contents: aString; updatePositionFromOwnerCenter.
+	self nameMorph 
+		contents: aString; 
+		updatePositionFromOwnerCenter.

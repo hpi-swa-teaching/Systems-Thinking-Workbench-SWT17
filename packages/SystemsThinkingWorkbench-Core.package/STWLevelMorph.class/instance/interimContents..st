@@ -1,10 +1,9 @@
 editing
 interimContents: aString
-	
-	| isNumber number |
 
-	isNumber := true.
-	[number := aString asNumber] on: Error do: [isNumber := false].
-	(isNumber and: [aString notEmpty] and: [self canHold: number])
-			ifTrue: [super interimContents: number asString.
-				self owner ifNotNilDo: [:a | a backupLevel: aString]]
+	[(aString notEmpty and: [self canHold: aString asNumber])
+		ifTrue:
+			[super interimContents: aString asNumber asString.
+			self owner ifNotNil: [:owner | owner backupLevel: aString asNumber].]]
+		on: NumberParserError
+		do: [].

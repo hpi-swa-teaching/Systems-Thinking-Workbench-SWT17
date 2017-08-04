@@ -1,4 +1,0 @@
-geometry
-arrowAngle
-
-	^ 135

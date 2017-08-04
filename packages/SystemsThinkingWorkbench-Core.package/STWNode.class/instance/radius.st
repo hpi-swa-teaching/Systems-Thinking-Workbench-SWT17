@@ -1,5 +1,4 @@
 accessing
 radius
 
-	^ (self extent x / 2) asFloat.
-  
+	^ (self extent x / 2) asFloat
