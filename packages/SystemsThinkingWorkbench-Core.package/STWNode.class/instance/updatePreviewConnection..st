@@ -9,13 +9,11 @@ updatePreviewConnection: aPosition
 	connection := self previewConnection.
 	via := connection calculateViaPointFrom: startPoint to: endPoint.
 	startPoint := connection
-		lineFrom: startPoint
-		to: via
+		lineTo: via
 		onCircle: startPoint
 		radius: self radius.
 	endPoint := connection
-		lineFrom: endPoint
-		to: via
+		lineTo: via
 		onCircle: endPoint
 		radius: 0.
 	connection from: startPoint to: endPoint.

@@ -1,6 +1,6 @@
 simulation
 resetSimulation
-	"Signals all nodes to reset their level."
+	"Signals all nodes and connections to reset."
 	
 	self nodes do: [:aNode | aNode resetLevel].
 	self connections do: [:aConnection | aConnection resetSimulation].
