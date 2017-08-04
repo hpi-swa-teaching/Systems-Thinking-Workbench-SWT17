@@ -1,6 +1,10 @@
 {
 	"class" : {
-		"cursorAt:" : "PW 8/4/2017 12:47" },
+		"hand" : "FP 8/4/2017 18:24",
+		"handOnWait:" : "FP 8/4/2017 18:25",
+		"mouseAt:" : "FP 8/4/2017 18:25",
+		"mouseAt:withHand:" : "FP 8/4/2017 18:26",
+		"withMethods:" : "FP 8/4/2017 18:15" },
 	"instance" : {
 		"doesNotUnderstand:" : "FP 8/4/2017 17:58",
 		"initialize" : "FP 8/4/2017 11:20",

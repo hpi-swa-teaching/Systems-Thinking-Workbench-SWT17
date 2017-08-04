@@ -9,17 +9,17 @@ testMouseMove
 	node2 := simulation addNodeAt: 500@100.
 	connection := node2 createConnectionFrom: node1.
 	
-  	simulation mouseMove: (STWMock cursorAt: 0@0).
+  	simulation mouseMove: (STWMock mouseAt: 0@0).
 	self assert: STWSimulation normalLineWidth equals: node1 borderWidth.
 	self assert: STWSimulation normalLineWidth equals: node2 borderWidth.
 	self assert: STWSimulation normalLineWidth equals: connection lineWidth.
 	
-	simulation mouseMove: (STWMock cursorAt: node1 center).
+	simulation mouseMove: (STWMock mouseAt: node1 center).
 	self assert: STWSimulation hoverLineWidth equals: node1 borderWidth.
 	self assert: STWSimulation normalLineWidth equals: node2 borderWidth.
 	self assert: STWSimulation normalLineWidth equals: connection lineWidth.
 	
-	simulation mouseMove: (STWMock cursorAt: (connection position + (connection segment valueAt: 0.5))).
+	simulation mouseMove: (STWMock mouseAt: (connection position + (connection segment valueAt: 0.5))).
 	self assert: STWSimulation normalLineWidth equals: node1 borderWidth.
 	self assert: STWSimulation normalLineWidth equals: node2 borderWidth.
 	self assert: STWSimulation hoverLineWidth equals: connection lineWidth.

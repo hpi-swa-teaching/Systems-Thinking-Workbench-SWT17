@@ -9,7 +9,7 @@ testClickHalo
 	node1 := simulation addNodeAt: 50@0.
 	node2 := simulation addNodeAt: 50@50.
 	connection := node2 createConnectionFrom: node1.
-	connection click: (STWMock cursorAt: connection segment start).
+	connection click: (STWMock mouseAt: connection segment start).
 	self assert: connection halo notNil.
 	connection delete.
 	simulation delete.
