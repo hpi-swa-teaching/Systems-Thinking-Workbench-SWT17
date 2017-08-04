@@ -1,0 +1,14 @@
+{
+	"category" : "SystemsThinkingWorkbench-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methods" ],
+	"name" : "STWMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
