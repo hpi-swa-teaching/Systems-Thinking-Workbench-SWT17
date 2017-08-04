@@ -1,7 +1,6 @@
-as yet unclassified
+testing
 testParentheses
 	"Test if no opening parenthesis is followed by a space and no closing parenthesis is preceeded by a space."
-	
 	self testAllMethodsFor:
 		[:source |
 		| result |

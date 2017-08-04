@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDotsInBlocks
 	"Test if all blocks follow our guideline of not having a dot when including only a single statement."
 
