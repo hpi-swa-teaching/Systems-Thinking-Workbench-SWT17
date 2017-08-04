@@ -6,7 +6,7 @@ testDoubleClick
 	
 	simulation := STWSimulation new.
 	position := 100@100.
-	"Create a mock event and hand which handle dragging"
+	"Create a mock event and hand which handle double clicking"
 	waited := false.
 	hand := STWMock handOnWait: [:morph :evt |
 		self assert: simulation == morph.
