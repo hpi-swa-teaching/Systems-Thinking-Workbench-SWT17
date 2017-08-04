@@ -5,7 +5,7 @@ addDeletionHandleTo: myHalo centeredAt: aPoint
 		createHandleFor: #delete
 		to: self
 		color: Color red muchLighter
-		containing: MenuIcons smallDeleteIcon asMorph)
+		containing: (ScriptingSystem formAtKey: #'Halo-Dismiss') asMorph)
 			balloonText: 'Delete';
 			center: aPoint;
 			yourself).

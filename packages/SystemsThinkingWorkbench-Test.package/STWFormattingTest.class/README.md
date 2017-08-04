@@ -1,0 +1,1 @@
+Tests covering testable code guidelines. This will not give any reasonable results on TestCoverage and will take forever when doing so.

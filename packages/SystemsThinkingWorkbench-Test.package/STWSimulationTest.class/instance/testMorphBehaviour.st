@@ -1,9 +1,9 @@
 testing
 testMorphBehaviour
-	"Tests if a playfield can be initialized, opened within the active world and removed."
+	"Tests if a simulation can be initialized, opened within the active world and removed."
 	
-	| playfield |
+	| simulation |
 	
-	playfield := STWSimulation new.
-	playfield openInWorld.
-	playfield delete.
+	simulation := STWSimulation new.
+	simulation openInWorld.
+	simulation delete.

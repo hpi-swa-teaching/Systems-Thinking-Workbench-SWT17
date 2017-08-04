@@ -1,0 +1,4 @@
+constants
+arrowAngle
+	
+	^ 135

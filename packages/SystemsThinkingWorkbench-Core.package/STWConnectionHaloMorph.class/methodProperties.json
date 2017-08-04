@@ -1,18 +1,16 @@
 {
 	"class" : {
-		 },
+		"handleSpacing" : "PW 8/3/2017 10:10" },
 	"instance" : {
-		"addEndHandleFor:color:containing:" : "nn 7/13/2017 16:35",
-		"addHandles" : "FP 7/27/2017 09:33",
-		"addMiddleHandleFor:color:containing:" : "nn 7/13/2017 16:35",
-		"addStartHandleFor:color:containing:" : "nn 7/13/2017 16:36",
+		"addEndHandleFor:color:containing:" : "PW 8/3/2017 09:57",
+		"addHandles" : "PW 8/2/2017 20:08",
+		"addMiddleHandleFor:color:containing:" : "PW 8/3/2017 09:58",
+		"addStartHandleFor:color:containing:" : "PW 8/3/2017 09:58",
 		"end" : "FP 7/13/2017 01:57",
 		"end:" : "FP 7/13/2017 01:57",
-		"handleRadius" : "FP 7/13/2017 01:57",
-		"handleSpacing" : "FP 7/13/2017 01:57",
 		"initialize" : "FP 7/13/2017 00:02",
 		"middle" : "FP 7/13/2017 01:57",
 		"middle:" : "FP 7/13/2017 01:57",
-		"placeHandles:at:" : "nn 7/13/2017 17:04",
+		"placeHandles:at:" : "PW 8/3/2017 10:11",
 		"start" : "FP 7/13/2017 01:59",
 		"start:" : "FP 7/13/2017 01:59" } }

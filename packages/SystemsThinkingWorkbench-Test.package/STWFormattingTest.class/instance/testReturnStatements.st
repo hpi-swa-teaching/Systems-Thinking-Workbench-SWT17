@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testReturnStatements
 	"Tests if all return statements are not followed by a dot."
 

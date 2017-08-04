@@ -6,16 +6,12 @@ placeHandles: aCollection at: aProgress
 	| initialOffset offset origin normal spaces |
 	
 	spaces := aCollection size - 1.
-	
 	normal := (self target segment tangentAt: aProgress) rightRotated normalized.
 	origin := self target position + (self target segment valueAt: aProgress).
-	
-	initialOffset := ((spaces * self handleRadius * 2) + (spaces * self handleSpacing * 2)) / 2.
-	offset := (self handleRadius + self handleSpacing + self handleRadius) negated.
-	
-	aCollection 
-		do: 	[:element | 
-			self addMorph: (element 
-								center: (origin + (normal * initialOffset)); 
-								yourself).
-			initialOffset := initialOffset + offset.].
+	initialOffset := (spaces * STWHaloMorph handleRadius * 2 + (spaces * STWConnectionHaloMorph handleSpacing * 2)) / 2.
+	offset := (STWHaloMorph handleRadius + STWConnectionHaloMorph handleSpacing + STWHaloMorph handleRadius) negated.
+	aCollection do: [:element | 
+		self addMorph: (element 
+			center: (origin + (normal * initialOffset)); 
+			yourself).
+		initialOffset := initialOffset + offset.].

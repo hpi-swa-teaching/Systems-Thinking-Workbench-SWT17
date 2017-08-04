@@ -3,14 +3,24 @@ addStartHandlesTo: aHalo
 
 	| levelDisplay |
 	
-	levelDisplay := (STWStringMorph new contents: self intake asString) preventEditing.
+	levelDisplay := STWStringMorph new
+		contents: self intake asString;
+		preventEditing;
+		yourself.
 	
-	aHalo addStartHandleFor: [self intake: self intake + 1. levelDisplay contents: self intake asString.] 
+	aHalo
+		addStartHandleFor:
+			[self intake: self intake + 1.
+			levelDisplay contents: self intake asString.]
 		color: Color green muchLighter
-		containing: '+' asMorph.
+		containing: '+' asMorph;
 		
-	aHalo addStartHandleFor: [] color: Color gray muchLighter containing: levelDisplay.
-	
-	aHalo addStartHandleFor: [self intake: self intake - 1. levelDisplay contents: self intake asString.] 
+		addStartHandleFor: []
+		color: Color gray muchLighter
+		containing: levelDisplay;
+		
+		addStartHandleFor:
+			[self intake: self intake - 1.
+			levelDisplay contents: self intake asString.]
 		color: Color red muchLighter
 		containing: '-' asMorph.

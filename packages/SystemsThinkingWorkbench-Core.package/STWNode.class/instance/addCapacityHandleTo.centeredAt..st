@@ -9,4 +9,4 @@ addCapacityHandleTo: myHalo centeredAt: aPoint
 		centeredAt: aPoint
 		color: Color yellow darker
 		balloonText: 'Set capacity'
-		icon: MenuIcons objectCatalogIcon asMorph.
+		icon: (STWNode loadIcon: #capacity) asMorph.

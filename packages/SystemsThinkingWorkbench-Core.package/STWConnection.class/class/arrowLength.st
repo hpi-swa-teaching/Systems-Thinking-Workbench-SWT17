@@ -1,0 +1,4 @@
+constants
+arrowLength
+	
+	^ 10

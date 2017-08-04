@@ -1,5 +1,6 @@
 updating
 resetSimulation
 
-	self particles do: [:particle | self removeMorph: particle].
-	self particles removeAll.
+	self particles
+		do: [:particle | self removeMorph: particle];
+		removeAll.

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testBrackets
 	"Test if no opening bracket is followed by a space and no closing bracket is preceeded by a space."
 

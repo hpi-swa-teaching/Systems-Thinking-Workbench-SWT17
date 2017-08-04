@@ -7,7 +7,6 @@ resizeMorph: evt
 	circlePoint := (2 sqrt * radius / 2) asPoint.
 	squarePoint := radius asPoint.
 	offset := circlePoint - squarePoint.
-
 	handle := HandleMorph new 
 		forEachPointDo: [:newPoint | 
 			self extent: (self griddedPoint: newPoint - offset) - self bounds topLeft]; 

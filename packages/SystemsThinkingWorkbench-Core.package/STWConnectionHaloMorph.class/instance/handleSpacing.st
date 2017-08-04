@@ -1,4 +1,0 @@
-private
-handleSpacing
-
-	^ 3

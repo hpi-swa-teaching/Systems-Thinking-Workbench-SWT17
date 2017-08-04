@@ -1,15 +1,14 @@
 testing
 testSuccessfulInitialization
+	"Tests if default values after initialization are set correctly."
 
 	| node |
 
 	node := STWNode new.
-	
-	self assert: node level = 42.
-	self assert: node extent = (80@80).
-	self assert: node name = '???'.
-	self assert: node density = 0.01.
-	
-	self assert: node center = (node levelMorph center - (0 @ (node height / 4))).
-	self assert: node center = (node nameMorph center + (0 @ (node height / 4))).
-	self assert: node center = node fillingMorph center.
+	self assert: STWNode initialLevel equals: node level.
+	self assert: STWNode initialDiameter asPoint equals: node extent.
+	self assert: STWNode initialName equals: node name.
+	self assert: STWNode initialDensity equals: node density.
+	self assert: node center equals: (node levelMorph center - (0 @ (node height / 4))).
+	self assert: node center equals: (node nameMorph center + (0 @ (node height / 4))).
+	self assert: node center equals: node fillingMorph center.

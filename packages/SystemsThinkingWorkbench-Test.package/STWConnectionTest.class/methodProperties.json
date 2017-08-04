@@ -1,11 +1,17 @@
 {
 	"class" : {
-		 },
+		"packageNamesUnderTest" : "FP 8/4/2017 17:40" },
 	"instance" : {
+		"test:steps:in:" : "PW 8/4/2017 12:37",
+		"testClickHalo" : "FP 8/4/2017 18:21",
 		"testDependentsManagement" : "PW 8/2/2017 20:26",
-		"testDuplicatePrevention" : "PW 8/2/2017 20:26",
-		"testHalos" : "PW 8/2/2017 20:26",
-		"testSuccesfulPlacement" : "PW 8/2/2017 20:26",
+		"testDuplicatePrevention" : "PW 8/4/2017 12:34",
+		"testHalos" : "PW 8/4/2017 12:19",
+		"testNodeCapacityRestriction" : "PW 8/4/2017 12:36",
+		"testParticlePresence" : "PW 8/4/2017 12:36",
+		"testParticleReset" : "PW 8/4/2017 12:36",
+		"testSuccesfulPlacement" : "PW 8/4/2017 12:36",
 		"testSuccessfulConnectionDeletion" : "PW 8/2/2017 20:26",
-		"testSuccessfulMoving" : "FP 7/17/2017 15:36",
-		"testSuccessfulNodeDeletion" : "PW 8/2/2017 20:27" } }
+		"testSuccessfulMoving" : "PW 8/4/2017 12:17",
+		"testSuccessfulNodeDeletion" : "PW 8/4/2017 12:18",
+		"testSuccessfulSimulation" : "PW 8/4/2017 12:38" } }

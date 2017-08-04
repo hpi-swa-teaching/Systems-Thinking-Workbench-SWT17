@@ -1,0 +1,4 @@
+constants
+pixelsPerSegment
+
+	^ 10

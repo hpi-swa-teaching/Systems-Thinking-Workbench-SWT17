@@ -11,7 +11,6 @@ testDuplicatePrevention
 	self assert: simulation connections isEmpty.
 	node1 createConnectionFrom: node2.
 	self assert: 1 equals: simulation connections size.
-
 	"Try to create duplicate connection"
 	node1 createConnectionFrom: node2.
 	self assert: 1 equals: simulation connections size.
