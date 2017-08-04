@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testClickHalo" : "FP 8/4/2017 11:27",
+		"testClickHalo" : "PW 8/4/2017 12:19",
 		"testDependentsManagement" : "PW 8/2/2017 20:26",
 		"testDuplicatePrevention" : "PW 8/2/2017 20:26",
-		"testHalos" : "FP 8/4/2017 11:10",
+		"testHalos" : "PW 8/4/2017 12:19",
 		"testSuccesfulPlacement" : "PW 8/2/2017 20:26",
 		"testSuccessfulConnectionDeletion" : "PW 8/2/2017 20:26",
-		"testSuccessfulMoving" : "FP 7/17/2017 15:36",
-		"testSuccessfulNodeDeletion" : "PW 8/2/2017 20:27" } }
+		"testSuccessfulMoving" : "PW 8/4/2017 12:17",
+		"testSuccessfulNodeDeletion" : "PW 8/4/2017 12:18" } }

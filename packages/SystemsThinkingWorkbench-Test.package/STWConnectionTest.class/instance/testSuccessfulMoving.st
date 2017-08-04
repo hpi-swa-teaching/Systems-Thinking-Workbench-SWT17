@@ -12,14 +12,11 @@ testSuccessfulMoving
 	connection := STWConnection new.
 	radius1 := node1 radius.
 	radius2 := node2 radius.
-	
 	connection connect: node1 with: node2.
-	
 	pos1 := connection segment start.
 	pos2 := connection segment end.
-	
 	node1 center: 50@100.
 	node2 center: 50@200.
 	
-	self assert: pos1 ~= connection segment start.
-	self assert: pos2 ~= connection segment end.
+	self deny: pos1 = connection segment start.
+	self deny: pos2 = connection segment end.

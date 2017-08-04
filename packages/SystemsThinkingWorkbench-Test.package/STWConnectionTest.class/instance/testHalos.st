@@ -1,8 +1,9 @@
 testing
 testHalos
-	"Test whether connection halos work correctly"
+	"Tests whether connection halos work without errors."
 
 	| node1 node2 connection simulation |
+	
 	simulation := STWSimulation new.
 	simulation openInWorld.
 	node1 := simulation addNodeAt: 50@0.

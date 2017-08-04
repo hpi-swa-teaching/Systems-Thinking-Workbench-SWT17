@@ -1,6 +1,6 @@
 testing
 testHalos
-	"Test whether node halos work correctly"
+	"Test whether node halos work without errors."
 
 	| simulation node |
 

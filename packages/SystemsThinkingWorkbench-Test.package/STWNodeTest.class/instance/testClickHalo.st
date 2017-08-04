@@ -1,6 +1,6 @@
 testing
 testClickHalo
-	"Test whether node halos are added on click"
+	"Test whether node halos are added on click."
 
 	| simulation node |
 
