@@ -2,5 +2,5 @@ mock objects
 withMethods: aCollection
 
 	^ STWMock new
-		methods: (aCollection asDictionary);
+		methods: (aCollection as: Dictionary);
 		yourself
