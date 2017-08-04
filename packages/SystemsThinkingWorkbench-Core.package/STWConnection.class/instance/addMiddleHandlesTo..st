@@ -1,11 +1,11 @@
 halos and balloon help
 addMiddleHandlesTo: aHalo
 
-	| synchonicity |
+	| synchronicity |
 	
 	self isSynchronous 
-		ifTrue: [synchonicity := 's' asMorph] 
-		ifFalse: [synchonicity := 'a' asMorph].
+		ifTrue: [synchronicity := 's' asMorph] 
+		ifFalse: [synchronicity := 'a' asMorph].
 	aHalo
 		addMiddleHandleFor: [self delete]
 		color: Color red muchLighter
@@ -15,12 +15,12 @@ addMiddleHandlesTo: aHalo
 			[self isSynchronous
 				ifTrue:
 					[self beAsynchronous.
-					synchonicity contents: 'a'.]
+					synchronicity contents: 'a'.]
 				ifFalse:
 					[self beSynchronous.
-					synchonicity contents: 's'.]]
+					synchronicity contents: 's'.]]
 		color: Color blue muchLighter
-		containing: synchonicity;
+		containing: synchronicity;
 		
 		addMiddleHandleFor: [self inspect]
 		color: Color blue veryMuchLighter
