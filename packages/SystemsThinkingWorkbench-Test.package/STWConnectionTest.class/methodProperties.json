@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"test:steps:in:" : " 8/4/2017 12:31:58",
-		"testClickHalo" : "PW 8/4/2017 12:19",
+		"test:steps:in:" : "PW 8/4/2017 12:37",
+		"testClickHalo" : "PW 8/4/2017 12:48",
 		"testDependentsManagement" : "PW 8/2/2017 20:26",
-		"testDuplicatePrevention" : "PW 8/2/2017 20:26",
+		"testDuplicatePrevention" : "PW 8/4/2017 12:34",
 		"testHalos" : "PW 8/4/2017 12:19",
-		"testNodeCapacityRestriction" : " 8/4/2017 12:31:58",
-		"testParticlePresence" : " 8/4/2017 12:31:58",
-		"testParticleReset" : " 8/4/2017 12:31:58",
-		"testSuccesfulPlacement" : "PW 8/2/2017 20:26",
+		"testNodeCapacityRestriction" : "PW 8/4/2017 12:36",
+		"testParticlePresence" : "PW 8/4/2017 12:36",
+		"testParticleReset" : "PW 8/4/2017 12:36",
+		"testSuccesfulPlacement" : "PW 8/4/2017 12:36",
 		"testSuccessfulConnectionDeletion" : "PW 8/2/2017 20:26",
 		"testSuccessfulMoving" : "PW 8/4/2017 12:17",
 		"testSuccessfulNodeDeletion" : "PW 8/4/2017 12:18",
-		"testSuccessfulSimulation" : " 8/4/2017 12:31:58" } }
+		"testSuccessfulSimulation" : "PW 8/4/2017 12:38" } }

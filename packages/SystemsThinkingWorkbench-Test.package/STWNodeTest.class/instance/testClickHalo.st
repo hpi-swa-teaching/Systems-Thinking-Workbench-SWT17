@@ -7,7 +7,7 @@ testClickHalo
 	simulation := STWSimulation new.
 	simulation openInWorld.
 	node := simulation addNodeAt: 10@10.
-	node click: (STWMock clickAt: node center).
+	node click: (STWMock cursorAt: node center).
 	self assert: node halo notNil.
 	node delete.
 	simulation delete.
