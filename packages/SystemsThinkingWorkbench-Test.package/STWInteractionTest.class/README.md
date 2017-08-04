@@ -1,0 +1,1 @@
+Tests covering the behavior of the Simulation, Connections and Nodes when combined.

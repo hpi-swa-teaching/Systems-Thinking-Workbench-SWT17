@@ -1,0 +1,1 @@
+Tests covering the behavior of the STWConnection.
